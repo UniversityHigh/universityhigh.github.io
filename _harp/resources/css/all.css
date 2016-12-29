@@ -1,0 +1,66 @@
+/* CSS added here will apply to every single page
+	Right now it's just the CSS for the main page b/c I'm lazy */
+
+.navbar-header {
+	padding-left: 10px;  For the hamburger button in mobile 
+}
+
+body {
+	padding-top: 50px;
+}
+
+.jumbotron {
+	background-image: url("../imgs/home.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%; /* Other potential options could be cover or contain - https://www.sitepoint.com/css3-background-size-property/ */
+	background-color: rgba(0, 0 ,0, 0.5);  
+  background-blend-mode: multiply; /* PHOTOSHOP LAYER STYLES IN CSS3 HELL YA */
+  margin-bottom: 0;
+}
+
+.text-white {
+	color: white !important;
+}
+
+.text-stroke {
+	/* Some weird hack to add text stroke w/o proprietary tags. I have no idea how this works, just took it from https://css-tricks.com/adding-stroke-to-web-text/ */
+	 text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   	-1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.make-longer-pls {
+	padding-bottom: 9em;
+}
+
+.banner-strip {
+	background-color: red;
+	width: 100%;
+	padding: 0.2em;
+	font-family: inherit;
+	font-weight: 100;
+}
+
+.banner-strip p {
+	padding-top: 8px;
+	font-size: 18px;
+}
+
+.banner-strip a {
+	color: red;
+}
+
+.showcase {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.showcase h3 {
+	margin-bottom: 30px;
+}
+
+.showcase span.glyphicon {
+	font-size: 100px;
+}

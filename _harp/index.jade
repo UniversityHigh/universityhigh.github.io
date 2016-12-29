@@ -1,0 +1,32 @@
+extends _templates/base.jade
+
+block head
+	title UHSSE
+
+block body
+	.jumbotron
+		.container
+			span.text-stroke.text-right
+				h1.lead.text-white University High School of Science and Engineering
+				p.text-white Early college high school located on the campus of University of Hartford
+			.make-longer-pls
+	.banner-strip
+		p.text-white.text-center 
+			| 351 Mark Twain Drive, Hartford CT 06112 
+			a.btn.btn-default(href = "http://google.com") #[span.glyphicon.glyphicon-road] Get Directions
+	.showcase.container-fluid
+		.col-sm-4
+			span.glyphicon.glyphicon-apple
+			h3 Academics
+			p UHSSE offers competitive academic programs comprised of students from a wide range of cities and towns.
+		.col-sm-4
+			span.glyphicon.glyphicon-education
+				
+			h3 Early College Preparation
+			p Parterships with the University of Hartford and University of Connecticut allows students to experience college level coursework.
+		.col-sm-4
+			span.glyphicon.glyphicon-fire
+			h3 Athletics
+			p Students can participate in athletics on the Varsity, Junior Varsity, or Intramural level.
+	.make-longer-pls
+	p.text-center © devBod, Inc. 2016
