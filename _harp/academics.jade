@@ -4,7 +4,7 @@ include _templates/header.jade
 mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, isAP)
 	- isHonors = isHonors || true
 	- isECE = isECE || false
-	- isAO = isAP || false
+	- isAP = isAP || false
 	.col-md-4
 		.panel.panel-default
 			.panel-heading
@@ -48,4 +48,3 @@ block body
 				each course in department.courses
 					+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.desc, course.isHonors, course.isECE, course.isAP)
 			br
-
