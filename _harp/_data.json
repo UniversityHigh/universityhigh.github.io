@@ -33,9 +33,11 @@
 	},
 	"about": {
 		"contacts": [
-			["Allard, Philip", "English Teacher", "allap001@hartfordschools.org"],
-			["Bacon, Taylor", "Math Teacher", "taylor.bacon@hartfordschools.org"],
-			["Baseler, Caryn", "Magnet Instructional Coach", "basec001@hartfordschools.org"]
+			{
+				"name": "Allard, Philip",
+				"position": "English Teacher",
+				"email": "allap001@hartfordschools.org"
+			}
 		]
 	}
 }
