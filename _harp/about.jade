@@ -8,13 +8,13 @@ mixin contacts()
 				td= data
 
 block head
-	title About Us | UHSSE
+	title About | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/about.css")
 
 block body
 	+header("/assets/img/about.jpg", "A school where smart is cool", "We seek to bring out the best in each of our students")
 	//- TODO: switch to constructing these sections through JSON.
-	.container-fluid
+	.container
 		h2 Contacts
 			p.lead Get in touch with our staff
 
@@ -26,4 +26,3 @@ block body
 				th Email
 			tbody
 				+contacts()
-
