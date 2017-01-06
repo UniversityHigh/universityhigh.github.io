@@ -3,8 +3,8 @@
 	background-repeat: no-repeat;
 	background-size: 100% 100%; /* Other potential options could be cover or contain - https://www.sitepoint.com/css3-background-size-property/ */
 	background-color: rgba(0, 0 ,0, 0.5);  
-  background-blend-mode: multiply; /* PHOTOSHOP LAYER STYLES IN CSS3 HELL YA */
-  margin-bottom: 0;
+	background-blend-mode: multiply; /* PHOTOSHOP LAYER STYLES IN CSS3 HELL YA */
+	margin-bottom: 0;
 }
 
 .jumbotron h1 {
@@ -14,14 +14,14 @@
 .banner-strip {
 	background-color: red;
 	width: 100%;
-	padding: 0.1em;
+	padding: .6em;
 	font-family: inherit;
 	font-weight: 100;
 }
 
 .banner-strip p {
-	padding-top: 8px;
 	font-size: 18px;
+	margin: 0em;
 }
 
 .banner-strip a {
