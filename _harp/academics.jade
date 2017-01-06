@@ -36,7 +36,8 @@ block head
 
 block body
 	.container-fluid
-		h1.title.text-center Departments
+		h2.title.text-center Departments
+		hr
 		each department, name in departments
 			h3.title #{name} #[small Led by #[b #{department.lead}]]
 			p= department.desc

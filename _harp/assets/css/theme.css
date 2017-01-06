@@ -1,9 +1,4 @@
 /* CSS added here will apply to every single page */
-
-html body, .navbar {
-	background-color: #f5f5f5; /* Easier on the eyes than pure white. */
-}
-
 .navbar-header {
 	padding-left: 10px;  /* For the hamburger button in mobile */
 }
