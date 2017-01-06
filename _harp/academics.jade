@@ -1,4 +1,5 @@
 extends _templates/base.jade
+include _templates/header.jade
 
 mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, isAP)
 	- isHonors = isHonors || true
@@ -30,15 +31,18 @@ mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, i
 
 
 block head
-	title Academics | UHSSE
-	link(rel = "stylesheet", href = "/resources/css/academics.css")
+	title Academics | UHSS
+	link(rel = "stylesheet", href = "/assets/css/academics.css")
 
 
 block body
+	+header("/assets/img/academics.jpg", "Placeholder title", "Placeholder phrase")
 	.container-fluid
-		h1.title.text-center Departments
+		h2.title Departments
+			p.lead What we have to offer
+		hr
 		each department, name in departments
-			h3.title #{name} #[small Led by #[b #{department.lead}]]
+			h4.title #{name} #[small Led by #[b #{department.lead}]]
 			p= department.desc
 			.row
 				each course in department.courses
