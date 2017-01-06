@@ -261,6 +261,44 @@
 				"position": "Science/Engineering Teacher",
 				"email": "swilcoxen@hartfordschools.org"
 			}
+		],
+		"supportContacts": [
+			{
+				"name": "Kara Manocchio",
+				"position": "Attendance",
+				"email": "manok001@hartfordschools.org",
+				"phone": "860-695-9020"
+			},
+			{
+				"name": "Haydee Deleon-Vasquez",
+				"position": "Food",
+				"email": "anglc001@hartfordschools.org",
+				"phone": "860-695-9057"
+			},
+			{
+				"name": "Francia Prescott",
+				"position": "Career",
+				"email": "presf001@hartfordschools.org",
+				"phone": "860-695-9025"
+			},
+			{
+				"name": "Delores Kellerman",
+				"position": "Health",
+				"email": "dkellerman@hartfordschools.org",
+				"phone": "860-695-9022"
+			},
+			{
+				"name": "Nancy Oporto-Brown",
+				"position": "Social Work",
+				"email": "noporto@hartfordschools.org",
+				"phone": "860-695-9023"
+			},
+			{
+				"name": "Rob Bosco",
+				"position": "Special Education",
+				"email": "boscr001@hartfordschools.org",
+				"phone": "860-695-9030"
+			}
 		]
 	}
 }

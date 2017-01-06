@@ -9,10 +9,11 @@ block body
 	+header("/assets/img/about.jpg", title, phrase)
 	
 	+section("About Us", "What we're all about")
-		p
-			| University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven.
+		p University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven.
 
-	+section("Contacts", "Get in touch with our staff")
+	+section("Contacts", "Get in touch")
+		h6 
+			strong UHSSE Staff
 		.table-scroll
 			table.table.table-striped.table-hover.table-condensed.table-responsive
 				thead
@@ -26,6 +27,26 @@ block body
 							td= contact.position
 							td
 								a(href="mailto://" + contact.email)= contact.email
+		br
+		br
+		h6 
+			strong Support Services
+		.table-scroll
+			table.table.table-striped.table-hover.table-condensed.table-responsive
+				thead
+					th Name
+					th Service
+					th Email
+					th Phone
+				tbody
+					each service in supportContacts
+						tr
+							td= service.name
+							td= service.position
+							td
+								a(href="mailto://" + service.email)= service.email
+							td= service.phone
+
 
 	+section("Directions", "Not in Kansas anymore")
 		.embed-responsive.embed-responsive-16by9
