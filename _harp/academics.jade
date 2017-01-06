@@ -1,5 +1,6 @@
 extends _templates/base.jade
 include _templates/header.jade
+include _templates/section.jade
 
 mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, isAP)
 	- isHonors = isHonors || true
@@ -37,10 +38,8 @@ block head
 
 block body
 	+header("/assets/img/academics.jpg", "Placeholder title", "Placeholder phrase")
-	.container
-		h2.title Departments
-			p.lead What we have to offer
-		hr
+	
+	+section("Departments", "What we have to offer")
 		each department, name in departments
 			h4.title #{name} #[small Led by #[b #{department.lead}]]
 			p= department.desc

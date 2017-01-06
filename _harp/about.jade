@@ -1,5 +1,6 @@
 extends _templates/base.jade
 include _templates/header.jade
+include _templates/section.jade
 
 mixin contacts()
 	each contact in contacts
@@ -13,12 +14,8 @@ block head
 
 block body
 	+header("/assets/img/about.jpg", "A school where smart is cool", "We seek to bring out the best in each of our students")
-	//- TODO: switch to constructing these sections through JSON.
-	.container
-		h2 Contacts
-			p.lead Get in touch with our staff
-
-		hr
+	
+	+section("Contacts", "Get in touch with our staff")
 		table.table.table-striped.table-hover
 			thead
 				th Name
