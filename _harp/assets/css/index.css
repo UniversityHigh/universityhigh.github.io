@@ -1,9 +1,10 @@
 .jumbotron {
-	background-image: url("../imgs/home.jpg");
+	background-image: url("../img/home.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%; /* Other potential options could be cover or contain - https://www.sitepoint.com/css3-background-size-property/ */
+	background-size: cover;
 	background-color: rgba(0, 0 ,0, 0.5);  
-	background-blend-mode: multiply; /* PHOTOSHOP LAYER STYLES IN CSS3 HELL YA */
+	background-blend-mode: multiply;
+	background-position: center;
 	margin-bottom: 0;
 }
 
