@@ -31,21 +31,20 @@ block body
 		br
 		h6 
 			strong Support Services
-		.table-scroll
-			table.table.table-striped.table-hover.table-condensed.table-responsive
-				thead
-					th Name
-					th Service
-					th Email
-					th Phone
-				tbody
-					each service in supportContacts
-						tr
-							td= service.name
-							td= service.position
-							td
-								a(href="mailto://" + service.email)= service.email
-							td= service.phone
+		table.table.table-striped.table-hover.table-condensed.table-responsive
+			thead
+				th Name
+				th Service
+				th Email
+				th Phone
+			tbody
+				each service in supportContacts
+					tr
+						td= service.name
+						td= service.position
+						td
+							a(href="mailto://" + service.email)= service.email
+						td= service.phone
 
 
 	+section("Directions", "Not in Kansas anymore")
