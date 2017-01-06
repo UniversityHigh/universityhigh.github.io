@@ -6,7 +6,7 @@ block head
 	script(src="assets/js/information.js" defer)
 
 block body
-	+header("/assets/img/about.jpg", "A school where smart is cool", "We seek to bring out the best in each of our students")
+	+header("/assets/img/about.jpg", title, phrase)
 	
 	+section("About Us", "What we're all about")
 		p
@@ -27,7 +27,7 @@ block body
 							td
 								a(href="mailto://" + contact.email)= contact.email
 
-	+section("Directions", "We're not in Kansas anymore")
+	+section("Directions", "Not in Kansas anymore")
 		.embed-responsive.embed-responsive-16by9
 			iframe.embed-responsive-item(frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAjz6JN_cohkcqWB4wKgDCQtZ3in_LOUoU&q=University+High+School+of+Science+%26+Engineering")
 

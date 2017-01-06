@@ -1,5 +1,11 @@
 {
+	"index": {
+		"title": "University High School of Science and Engineering",
+		"phrase": "Early college high school located on the campus of University of Hartford"
+	},
 	"academics": {
+		"title": "Education is everything",
+		"phrase": "We seek to bring out the best in each of our students",
 		"departments": {
 			"Mathematics": {
 				"lead": "Taylor Bacon",
@@ -32,6 +38,8 @@
 		}
 	},
 	"information": {
+		"title": "A school where smart is cool",
+		"phrase": "This is a learning environment like no other",
 		"contacts": [
 			{
 				"name": "Allard, Philip",
