@@ -1,16 +1,12 @@
 extends _templates/base.jade
+include _templates/header.jade
 
 block head
 	title UHSSE
 	link(rel = "stylesheet", href = "/assets/css/index.css")
 
 block body
-	.jumbotron
-		.container
-			span.text-stroke.text-right
-				h1.text-white University High School of Science and Engineering
-				p.text-white Early college high school located on the campus of University of Hartford
-			.make-longer-pls
+	+header("/assets/img/home.jpg", "University High School of Science and Engineering", "Early college high school located on the campus of University of Hartford")
 	.banner-strip
 		p.text-white.text-center
 			| 351 Mark Twain Drive, Hartford CT 06112 

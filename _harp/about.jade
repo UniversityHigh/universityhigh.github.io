@@ -1,4 +1,5 @@
 extends _templates/base.jade
+include _templates/header.jade
 
 mixin contacts()
 	each contact in contacts
@@ -8,19 +9,21 @@ mixin contacts()
 
 block head
 	title About Us | UHSSE
-	link(rel = "stylesheet", href = "/resources/css/about.css")
+	link(rel = "stylesheet", href = "/assets/css/about.css")
 
 block body
+	+header("/assets/img/about.jpg", "A school where smart is cool", "We seek to bring out the best in each of our students")
 	//- TODO: switch to constructing these sections through JSON.
 	.container-fluid
-		h1.text-center Contacts
+		h2 Contacts
+			p.lead Get in touch with our staff
+
 		hr
-		.container
-			table.table.table-striped.table-hover
-				thead
-					th Name
-					th Position
-					th Email
-				tbody
-					+contacts()
+		table.table.table-striped.table-hover
+			thead
+				th Name
+				th Position
+				th Email
+			tbody
+				+contacts()
 
