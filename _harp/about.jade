@@ -16,5 +16,7 @@ block body
 			tbody
 				each contact in contacts
 					tr
-						each data in contact
-							td= data
+						td= contact.name
+						td= contact.position
+						td
+							a(href="mailto://" + contact.email)= email
