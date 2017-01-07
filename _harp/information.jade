@@ -7,51 +7,56 @@ block head
 
 block body
 	+header("/assets/img/about.jpg", title, phrase)
-	
-	+section("About Us", "What we're all about")
-		p University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven.
+	.container
+		+section("About Us", "What we're all about")
+			p University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven.
 
-	+section("Contacts", "Get in touch")
-		h6 
-			strong UHSSE Staff
-		.table-scroll
+		hr
+
+		+section("Contacts", "Get in touch")
+			h6 
+				strong UHSSE Staff
+			.table-scroll
+				table.table.table-striped.table-hover.table-condensed.table-responsive
+					thead
+						th Name
+						th Position
+						th Email
+					tbody
+						each contact in contacts
+							tr
+								td= contact.name
+								td= contact.position
+								td
+									a(href="mailto://" + contact.email)= contact.email
+			br
+			br
+			h6 
+				strong Support Services
 			table.table.table-striped.table-hover.table-condensed.table-responsive
 				thead
 					th Name
-					th Position
+					th Service
 					th Email
+					th Phone
 				tbody
-					each contact in contacts
+					each service in supportContacts
 						tr
-							td= contact.name
-							td= contact.position
+							td= service.name
+							td= service.position
 							td
-								a(href="mailto://" + contact.email)= contact.email
-		br
-		br
-		h6 
-			strong Support Services
-		table.table.table-striped.table-hover.table-condensed.table-responsive
-			thead
-				th Name
-				th Service
-				th Email
-				th Phone
-			tbody
-				each service in supportContacts
-					tr
-						td= service.name
-						td= service.position
-						td
-							a(href="mailto://" + service.email)= service.email
-						td= service.phone
+								a(href="mailto://" + service.email)= service.email
+							td= service.phone
 
+		hr
 
-	+section("Directions", "Not in Kansas anymore")
-		.embed-responsive.embed-responsive-16by9
-			iframe.embed-responsive-item(frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAjz6JN_cohkcqWB4wKgDCQtZ3in_LOUoU&q=University+High+School+of+Science+%26+Engineering")
+		+section("Directions", "Not in Kansas anymore")
+			.embed-responsive.embed-responsive-16by9
+				iframe.embed-responsive-item(frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAjz6JN_cohkcqWB4wKgDCQtZ3in_LOUoU&q=University+High+School+of+Science+%26+Engineering")
 
-	+section("Lunch Menu", "For when you're feeling hungry")
-		.embed-responsive.embed-responsive-16by9
-			iframe#lunchMenu.embed-responsive.item(frameborder="0" src="")
+		hr
+
+		+section("Lunch Menu", "For when you're feeling hungry")
+			.embed-responsive.embed-responsive-16by9
+				iframe#lunchMenu.embed-responsive.item(frameborder="0" src="")
 		

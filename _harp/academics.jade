@@ -36,12 +36,13 @@ block head
 
 block body
 	+header("/assets/img/academics.jpg", title, phrase)
-
-	+section("Departments", "What we have to offer")
-		each department, name in departments
-			h4.title #{name} #[small Led by #[b #{department.lead}]]
-			p= department.desc
-			.row
-				each course in department.courses
-					+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.desc, course.isHonors, course.isECE, course.isAP)
-			br
+	
+	.container
+		+section("Departments", "What we have to offer")
+			each department, name in departments
+				h4.title #{name} #[small Led by #[b #{department.lead}]]
+				p= department.desc
+				.row
+					each course in department.courses
+						+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.desc, course.isHonors, course.isECE, course.isAP)
+				br
