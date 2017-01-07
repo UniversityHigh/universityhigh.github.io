@@ -4,7 +4,9 @@ mixin header(image, title, phrase, buttons)
 			span.text-stroke.text-right
 				h1.text-white= title
 				p.text-white= phrase
-			//- Add support for optional buttons.
+			if buttons
+				each button in buttons.reverse()
+					button.nav-btn.btn.btn-default= button
 
 mixin section(title, lead)
 	.section
