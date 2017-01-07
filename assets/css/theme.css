@@ -29,3 +29,8 @@ body {
 	margin-top: 5em;
 	margin-bottom: 5em;
 }
+
+.nav-btn {
+	float: right;
+	margin-right: .5em;
+}

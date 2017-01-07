@@ -6,6 +6,7 @@
 	"academics": {
 		"title": "Education is everything",
 		"phrase": "We seek to bring out the best in each of our students",
+		"buttons": ["Departments"],
 		"departments": {
 			"Mathematics": {
 				"lead": "Taylor Bacon",
@@ -80,6 +81,7 @@
 	"information": {
 		"title": "A school where smart is cool",
 		"phrase": "This is a learning environment like no other",
+		"buttons": ["About Us", "Contacts", "Directions", "Lunch Menu"],
 		"contacts": [
 			{
 				"name": "Allard, Philip",
