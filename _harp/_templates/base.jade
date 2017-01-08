@@ -1,12 +1,9 @@
-mixin header(image, title, phrase, buttons)
+mixin header(image, title, phrase)
 	.jumbotron.header(style="background-image: url(" + image + ");")
 		.container
 			span.text-stroke.text-right
 				h1.text-white= title
 				p.text-white= phrase
-			if buttons
-				each button in buttons.reverse()
-					button.nav-btn.btn.btn-default= button
 
 mixin section(title, lead)
 	.section

@@ -1,11 +1,35 @@
 extends _templates/base.jade
 
+mixin sport(sport)
+	.col-md-3
+		.panel.panel-default
+			.panel-heading
+				h5.title #{sport.name}
+			.panel-body
+				h6.title 
+					strong Coaching Staff
+				ul.list-unstyled
+					each coach in sport.coaches
+						li= coach.name
+							p.league
+								small= coach.league
+				
+				h6.title
+					strong Game Schedule
+				ul.list-unstyled
+					each schedule in sport.schedules
+						li
+							a(href=schedule.link target="_blank")=schedule.name
+
 block head
 	title Extracurriculars | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/extracurriculars.css")
 
 block body
-	+header("/assets/img/extracurriculars.jpg", title, phrase, buttons)
+	+header("/assets/img/extracurriculars.jpg", title, phrase)
 
 	.container
 		+section("Sports", "Get your game on")
+			.row
+				each sport in sports
+					+sport(sport)
