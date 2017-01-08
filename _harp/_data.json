@@ -6,7 +6,6 @@
 	"academics": {
 		"title": "Education is everything",
 		"phrase": "We seek to bring out the best in each of our students",
-		"buttons": ["Departments"],
 		"departments": {
 			"Mathematics": {
 				"lead": "Taylor Bacon",
@@ -81,7 +80,6 @@
 	"information": {
 		"title": "A school where smart is cool",
 		"phrase": "This is a learning environment like no other",
-		"buttons": ["About Us", "Contacts", "Directions", "Lunch Menu"],
 		"contacts": [
 			{
 				"name": "Allard, Philip",
@@ -345,6 +343,27 @@
 	},
 	"extracurriculars": {
 		"title": "Going above and beyond",
-		"phrase": "Because there's more to school than just classes"
+		"phrase": "Because there's more to school than just classes",
+		"sports": [
+			{
+				"name": "Men's Basketball",
+				"coaches": [
+					{
+						"name": "Jay Riccitelli",
+						"league": "Varsity"
+					},
+					{
+						"name": "Alfredo Cardona",
+						"league": "Junior Varsity/Freshman"
+					}
+				],
+				"schedules": [
+					{
+						"link": "//",
+						"name": "Varsity"
+					}
+				]
+			}
+		]
 	}
 }
