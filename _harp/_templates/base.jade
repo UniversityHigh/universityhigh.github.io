@@ -1,12 +1,15 @@
-mixin header(image, title, phrase)
+mixin header(image, title, phrase, buttons)
 	.jumbotron.header(style="background-image: url(" + image + ");")
 		.container
 			span.text-stroke.text-right
 				h1.text-white= title
 				p.text-white= phrase
+			if buttons
+				each button in buttons.reverse()
+					a.btn-nav.btn.btn-default.hidden-sm.hidden-xs(href=button.nav)= button.name
 
-mixin section(title, lead)
-	.section
+mixin section(title, lead, nav)
+	.section(id=nav)
 		h2= title
 			p.lead= lead
 		block
@@ -21,6 +24,7 @@ html(lang = "en")
 		link(rel = "stylesheet", href = "assets/css/theme.css")
 		link(rel = "icon", type = "image/ico", href = "/not_real.ico" sizes = "32x32")
 		link(rel = "apple-touch-icon", href = "/not_real.png", sizes = "128x128")
+		script(src="assets/js/app.js" defer)
 		block head
 	body
 		include navbar.jade

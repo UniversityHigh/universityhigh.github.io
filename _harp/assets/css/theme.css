@@ -1,10 +1,15 @@
 /* CSS added here will apply to every single page */
-.navbar-header {
-	padding-left: 10px;  /* For the hamburger button in mobile */
-}
-
 body {
 	padding-top: 64px;
+}
+
+hr {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+
+.navbar-header {
+	padding-left: 10px;  /* For the hamburger button in mobile */
 }
 
 .text-white {
@@ -25,12 +30,7 @@ body {
 	padding-bottom: 9em;
 }
 
-.section {
-	margin-top: 5em;
-	margin-bottom: 5em;
-}
-
-.nav-btn {
+.btn-nav {
 	float: right;
-	margin-right: .5em;
+	margin: .1em .1em;
 }

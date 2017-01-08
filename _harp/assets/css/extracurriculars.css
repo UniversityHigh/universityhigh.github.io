@@ -1,3 +1,26 @@
+h6 {
+	font-size: 12pt;
+}
+
+#coachingStaff {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+#gameSchedule {
+	margin-bottom: 0em;
+}
+
+.coachingStaff {
+	color: #444444;
+}
+
+.coachingStaff, .gameSchedule {
+	font-size: 10.25pt;
+}
+
 .league {
 	margin-top: -.6em;
+	font-size: 9.25pt;
+	color: #666666;
 }
