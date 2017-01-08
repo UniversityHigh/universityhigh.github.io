@@ -1,9 +1,11 @@
 {
 	"index": {
+		"img": "/assets/img/home.jpg",
 		"title": "University High School of Science and Engineering",
 		"phrase": "Early college high school located on the campus of University of Hartford"
 	},
 	"academics": {
+		"img": "/assets/img/academics.jpg",
 		"title": "Education is everything",
 		"phrase": "We seek to bring out the best in each of our students",
 		"buttons": [
@@ -44,6 +46,7 @@
 		}
 	},
 	"information": {
+		"img": "/assets/img/about.jpg",
 		"title": "A school where smart is cool",
 		"phrase": "This is a learning environment like no other",
 		"buttons": [
@@ -326,6 +329,7 @@
 		]
 	},
 	"extracurriculars": {
+		"img": "/assets/img/extracurriculars.jpg",
 		"title": "Going above and beyond",
 		"phrase": "Because there's more to school than just classes",
 		"buttons": [
