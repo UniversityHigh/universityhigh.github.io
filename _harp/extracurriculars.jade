@@ -1,21 +1,21 @@
 extends _templates/base.jade
 
-mixin sport(sport)
+mixin sport(name, coaches, schedules)
 	.col-md-3
 		.panel.panel-default
 			.panel-heading
-				h5 #{sport.name}
+				h5 #{name}
 			.panel-body
 				h6#coachingStaff
 					strong Coaching Staff
 				ul.list-unstyled
-					each coach in sport.coaches
+					each coach in coaches
 						li.coachingStaff #{coach.name} #[p.league #{coach.league}]
 				
 				h6#gameSchedule
 					strong Game Schedule
 				ul.list-unstyled
-					each schedule in sport.schedules
+					each schedule in schedules
 						li.gameSchedule #[a(href=schedule.link target="_blank") #{schedule.name}]
 
 block head
@@ -29,4 +29,4 @@ block body
 		+section("Sports", "Get your game on", "sports")
 			.row
 				each sport in sports
-					+sport(sport)
+					+sport(sport.name, sport.coaches, sport.schedules)
