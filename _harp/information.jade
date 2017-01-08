@@ -6,14 +6,15 @@ block head
 	script(src="assets/js/information.js" defer)
 
 block body
-	+header("/assets/img/about.jpg", title, phrase)
+	+header("/assets/img/about.jpg", title, phrase, buttons)
 	.container
-		+section("About Us", "What we're all about")
+
+		+section("About Us", "What we're all about", "aboutUs")
 			p University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven.
 
 		hr
 
-		+section("Contacts", "Get in touch")
+		+section("Contacts", "Get in touch", "contacts")
 			h6 
 				strong UHSSE Staff
 			.table-scroll
@@ -50,13 +51,13 @@ block body
 
 		hr
 
-		+section("Directions", "Not in Kansas anymore")
+		+section("Directions", "Not in Kansas anymore", "directions")
 			.embed-responsive.embed-responsive-16by9
 				iframe.embed-responsive-item(frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAjz6JN_cohkcqWB4wKgDCQtZ3in_LOUoU&q=University+High+School+of+Science+%26+Engineering")
 
 		hr
 
-		+section("Lunch Menu", "For when you're feeling hungry")
+		+section("Lunch Menu", "For when you're feeling hungry", "lunchMenu")
 			.embed-responsive.embed-responsive-16by9
-				iframe#lunchMenu.embed-responsive.item(frameborder="0" src="")
+				iframe#pdf.embed-responsive.item(frameborder="0" src="")
 		

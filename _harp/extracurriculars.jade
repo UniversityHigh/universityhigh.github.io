@@ -4,32 +4,29 @@ mixin sport(sport)
 	.col-md-3
 		.panel.panel-default
 			.panel-heading
-				h5.title #{sport.name}
+				h5 #{sport.name}
 			.panel-body
-				h6.title 
+				h6#coachingStaff
 					strong Coaching Staff
 				ul.list-unstyled
 					each coach in sport.coaches
-						li= coach.name
-							p.league
-								small= coach.league
+						li.coachingStaff #{coach.name} #[p.league #{coach.league}]
 				
-				h6.title
+				h6#gameSchedule
 					strong Game Schedule
 				ul.list-unstyled
 					each schedule in sport.schedules
-						li
-							a(href=schedule.link target="_blank")=schedule.name
+						li.gameSchedule #[a(href=schedule.link target="_blank") #{schedule.name}]
 
 block head
 	title Extracurriculars | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/extracurriculars.css")
 
 block body
-	+header("/assets/img/extracurriculars.jpg", title, phrase)
+	+header("/assets/img/extracurriculars.jpg", title, phrase, buttons)
 
 	.container
-		+section("Sports", "Get your game on")
+		+section("Sports", "Get your game on", "sports")
 			.row
 				each sport in sports
 					+sport(sport)
