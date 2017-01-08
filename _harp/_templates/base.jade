@@ -6,7 +6,7 @@ mixin header(image, title, phrase, buttons)
 				p.text-white= phrase
 			if buttons
 				each button in buttons.reverse()
-					a.btn-nav.btn.btn-default.hidden-sm.hidden-xs(href=button.nav)= button.name
+					a.btn-nav.btn.btn-default.hidden-xs(href=button.nav)= button.name
 
 mixin section(title, lead, nav)
 	.section(id=nav)
