@@ -461,6 +461,25 @@
 							"name": "Varsity"
 						}
 					]
+				},
+				{
+					"name": "Men's Basketball",
+					"coaches": [
+						{
+							"name": "Jay Riccitelli",
+							"league": "Varsity"
+						},
+						{
+							"name": "Alfredo Cardona",
+							"league": "Junior Varsity/Freshman"
+						}
+					],
+					"schedules": [
+						{
+							"nav": "//",
+							"name": "Varsity"
+						}
+					]
 				}
 			]
 		}
