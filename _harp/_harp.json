@@ -7,7 +7,13 @@
 				"Directions": "directions",
 				"Lunch Menu": "lunchMenu"
 			}],
-			"hi": "bye"
+			"News": "/news",
+			"Academics": "/academics",
+			"Extracurriculars": ["/extracurriculars", {
+				"Sports": "sports",
+				"Clubs": "clubs"
+			}],
+			"Prospective Students": "/prospective"
 		}
 	}
 }
