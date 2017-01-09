@@ -21,7 +21,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role = "navigation")
 							ul.dropdown-menu
 								each subLink, subName in data[1]
 									li
-										a(href = data[0] + "#" + subLink)= subName
+										a.nav-link(href = data[0] + "#" + subLink)= subName
 					else
 						li
-							a(href = data)= name
+							a.nav-link(href = data)= name
