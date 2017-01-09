@@ -1,13 +1,13 @@
 {
 	"index": {
 		"img": "/assets/img/home.jpg",
-		"title": "University High School of Science and Engineering",
-		"phrase": "Early college high school located on the campus of University of Hartford"
+		"name": "University High School of Science and Engineering",
+		"lead": "Early college high school located on the campus of University of Hartford"
 	},
 	"academics": {
 		"img": "/assets/img/academics.jpg",
-		"title": "Education is everything",
-		"phrase": "We seek to bring out the best in each of our students",
+		"name": "Education is everything",
+		"lead": "We seek to bring out the best in each of our students",
 		"buttons": [
 			{
 				"name": "Departments",
@@ -15,40 +15,45 @@
 			}
 		],
 		"departments": {
-			"Mathematics": {
-				"lead": "Taylor Bacon",
-				"desc": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
-				"courses": [
-					{
-						"name": "Algebra 2",
-						"teacher": "Kate Grayeb",
-						"teacherEmail": "idk@aol.com",
-						"syllabusnav": "http://google.com/search?q=learn+math",
-						"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-						"isECE": true
-					}
-				]
-			},
-			"Science": {
-				"lead": "Aaron Brown",
-				"desc": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
-				"courses": [
-					{
-						"name": "General Chemistry",
-						"teacher": "Michael Fromerth",
-						"teacherEmail": "idk@aol.com",
-						"syllabusnav": "http://google.com/search?q=learn+math",
-						"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-						"isAP": true
-					}
-				]
+			"name": "Departments",
+			"lead": "What we have to offer",
+			"nav": "departments",
+			"departments": {
+				"Mathematics": {
+					"lead": "Taylor Bacon",
+					"desc": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
+					"courses": [
+						{
+							"name": "Algebra 2",
+							"teacher": "Kate Grayeb",
+							"teacherEmail": "idk@aol.com",
+							"syllabusnav": "http://google.com/search?q=learn+math",
+							"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+							"isECE": true
+						}
+					]
+				},
+				"Science": {
+					"lead": "Aaron Brown",
+					"desc": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
+					"courses": [
+						{
+							"name": "General Chemistry",
+							"teacher": "Michael Fromerth",
+							"teacherEmail": "idk@aol.com",
+							"syllabusnav": "http://google.com/search?q=learn+math",
+							"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+							"isAP": true
+						}
+					]
+				}
 			}
 		}
 	},
 	"information": {
 		"img": "/assets/img/about.jpg",
-		"title": "A school where smart is cool",
-		"phrase": "This is a learning environment like no other",
+		"name": "A school where smart is cool",
+		"lead": "This is a learning environment like no other",
 		"buttons": [
 			{
 				"name": "About Us",
@@ -67,272 +72,292 @@
 				"nav": "#lunchMenu"
 			}
 		],
-		"aboutUs": ["University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven."],
-		"contacts": [
-			{
-				"name": "Allard, Philip",
-				"position": "English Teacher",
-				"email": "allap001@hartfordschools.org"
-			},
-			{
-				"name": "Bacon, Taylor",
-				"position": "Math Teacher",
-				"email": "Taylor.Bacon@hartfordschools.org"
-			},
-			{
-				"name": "Baseler, Caryn",
-				"position": "Magnet Instructional Coach",
-				"email": "basec001@hartfordschools.org"
-			},
-			{
-				"name": "Benfield, Elizabeth",
-				"position": "Athletic Director/Spanish Teacher",
-				"email": "benfe001@hartfordschools.org"
-			},
-			{
-				"name": "Bevans, Jon",
-				"position": "Social Studies Teacher",
-				"email": "bevaj001@hartfordschools.org"
-			},
-			{
-				"name": "Bosco, Robert",
-				"position": "Special Education",
-				"email": "boscr001@hartfordschools.org"
-			},
-			{
-				"name": "Brown, Aaron",
-				"position": "Physics/Engineering Teacher",
-				"email": "browa002@hartfordschools.org"
-			},
-			{
-				"name": "Cazzetta-Finn, Colleen",
-				"position": "Special Education",
-				"email": "cazzc001@hartfordschools.org"
-			},
-			{
-				"name": "Deleon-Vasquez, Haydee",
-				"position": "Cook Manager",
-				"email": "deleh001@hartfordschools.org"
-			},
-			{
-				"name": "Dennis, Christina",
-				"position": "Science Teacher",
-				"email": "wardc002@hartfordschools.org"
-			},
-			{
-				"name": "Devaux, John",
-				"position": "Para-Professional",
-				"email": "john.devaux@hartfordschools.org"
-			},
-			{
-				"name": "DiNello, James",
-				"position": "Math Teacher",
-				"email": "james.dinello@hartfordschools.org"
-			},
-			{
-				"name": "Doffek, Beth",
-				"position": "Guidance Counselor",
-				"email": "doffb001@hartfordschools.org"
-			},
-			{
-				"name": "Folan, Martin",
-				"position": "Principal",
-				"email": "folam001@hartfordschools.org"
-			},
-			{
-				"name": "Fromerth, Michael",
-				"position": "Chemistry Teacher",
-				"email": "fromm001@hartfordschools.org"
-			},
-			{
-				"name": "Grayeb, Kate",
-				"position": "Math Teacher",
-				"email": "grayk001@hartfordschools.org"
-			},
-			{
-				"name": "Harbunak, Stephen",
-				"position": "Biology Teacher",
-				"email": "harbs001@hartfordschools.org"
-			},
-			{
-				"name": "Kellerman, Delores",
-				"position": "Nurse",
-				"email": "dkellerman@hartfordschools.org"
-			},
-			{
-				"name": "Lai-Hipp, Kathleen",
-				"position": "Biology Teacher",
-				"email": "laihk001@hartfordschools.org"
-			},
-			{
-				"name": "Lowney, John",
-				"position": "Athletics Staff",
-				"email": "jlowneycolumbia@gmail.com"
-			},
-			{
-				"name": "Manocchio, Kara",
-				"position": "Office Assistant",
-				"email": "manok001@hartfordschools.org"
-			},
-			{
-				"name": "Maziarz, Megan",
-				"position": "English Teacher",
-				"email": "megan.maziarz@hartfordschools.org"
-			},
-			{
-				"name": "McCoy, Michael",
-				"position": "English Teacher",
-				"email": "michael.mccoy@hartfordschools.org"
-			},
-			{
-				"name": "Medina, Alfredo",
-				"position": "Spanish Teacher",
-				"email": "media001@hartfordschools.org"
-			},
-			{
-				"name": "Merlo, Kelly",
-				"position": "Chemistry Teacher",
-				"email": "hartk002@hartfordschools.org"
-			},
-			{
-				"name": "Miller, Joseph",
-				"position": "Social Studies",
-				"email": "joe.miller@hartfordschools.org"
-			},
-			{
-				"name": "Morrison, Robert",
-				"position": "Special Police Officer",
-				"email": "morrr001@hartfordschools.org"
-			},
-			{
-				"name": "Obie, Dennis",
-				"position": "Engineering Teacher",
-				"email": "obied001@hartfordschools.org"
-			},
-			{
-				"name": "Oporto, Nancy",
-				"position": "Social Worker/504 Coordinator",
-				"email": "noproto@hartfordschools.org"
-			},
-			{
-				"name": "Pedrick, Susan",
-				"position": "Engineering Teacher",
-				"email": "pedrs001@hartfordschools.org"
-			},
-			{
-				"name": "Prescott, Francia",
-				"position": "College/Career Specialist",
-				"email": "presf001@hartfordschools.org"
-			},
-			{
-				"name": "Radigan, Noel",
-				"position": "Guidance Counselor",
-				"email": "radin001@hartfordschools.org"
-			},
-			{
-				"name": "Riccitelli, Jason",
-				"position": "Physical Education",
-				"email": "riccj002@hartfordschools.org"
-			},
-			{
-				"name": "Richters, Guy",
-				"position": "Art Teacher",
-				"email": "richg001@hartfordschools.org"
-			},
-			{
-				"name": "Scanlon, Heidi",
-				"position": "Social Studies Teacher",
-				"email": "scanh001@hartfordschools.org"
-			},
-			{
-				"name": "Serrano, Jessica",
-				"position": "Spanish Teacher",
-				"email": "jessica.Serrano@hartfordschools.org"
-			},
-			{
-				"name": "Shea, Matthew",
-				"position": "Physical Education",
-				"email": "sheam002@hartfordschools.org"
-			},
-			{
-				"name": "Silenok, Nicole",
-				"position": "Math Teacher",
-				"email": "silen001@hartfordschools.org"
-			},
-			{
-				"name": "Steller, Paul",
-				"position": "Math Teacher",
-				"email": "stelp002@hartfordschools.org"
-			},
-			{
-				"name": "Thomas, Arthur",
-				"position": "Comprehensive Intervention",
-				"email": "thoma003@hartfordschools.org"
-			},
-			{
-				"name": "Todisco, Jennifer",
-				"position": "English Teacher",
-				"email": "todij001@hartfordschools.org"
-			},
-			{
-				"name": "Tomany, Sean",
-				"position": "Assistant Principal",
-				"email": "tomas001@hartfordschools.org"
-			},
-			{
-				"name": "Waite, Wayne",
-				"position": "Para-Professional",
-				"email": "wayne.waite@hartfordschools.org"
-			},
-			{
-				"name": "Wilcoxen, Sharol",
-				"position": "Science/Engineering Teacher",
-				"email": "swilcoxen@hartfordschools.org"
-			}
-		],
-		"supportContacts": [
-			{
-				"name": "Kara Manocchio",
-				"position": "Attendance",
-				"email": "manok001@hartfordschools.org",
-				"phone": "860-695-9020"
-			},
-			{
-				"name": "Haydee Deleon-Vasquez",
-				"position": "Food",
-				"email": "anglc001@hartfordschools.org",
-				"phone": "860-695-9057"
-			},
-			{
-				"name": "Francia Prescott",
-				"position": "Career",
-				"email": "presf001@hartfordschools.org",
-				"phone": "860-695-9025"
-			},
-			{
-				"name": "Delores Kellerman",
-				"position": "Health",
-				"email": "dkellerman@hartfordschools.org",
-				"phone": "860-695-9022"
-			},
-			{
-				"name": "Nancy Oporto-Brown",
-				"position": "Social Work",
-				"email": "noporto@hartfordschools.org",
-				"phone": "860-695-9023"
-			},
-			{
-				"name": "Rob Bosco",
-				"position": "Special Education",
-				"email": "boscr001@hartfordschools.org",
-				"phone": "860-695-9030"
-			}
-		]
+		"aboutUs": {
+			"name": "About Us",
+			"lead": "What we're all about",
+			"nav": "aboutUs",
+			"description": ["University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven."]
+		},
+		"contacts": {
+			"name": "Contacts",
+			"lead": "Get in touch",
+			"nav": "contacts",
+			"staff": [
+				{
+					"name": "Allard, Philip",
+					"position": "English Teacher",
+					"email": "allap001@hartfordschools.org"
+				},
+				{
+					"name": "Bacon, Taylor",
+					"position": "Math Teacher",
+					"email": "Taylor.Bacon@hartfordschools.org"
+				},
+				{
+					"name": "Baseler, Caryn",
+					"position": "Magnet Instructional Coach",
+					"email": "basec001@hartfordschools.org"
+				},
+				{
+					"name": "Benfield, Elizabeth",
+					"position": "Athletic Director/Spanish Teacher",
+					"email": "benfe001@hartfordschools.org"
+				},
+				{
+					"name": "Bevans, Jon",
+					"position": "Social Studies Teacher",
+					"email": "bevaj001@hartfordschools.org"
+				},
+				{
+					"name": "Bosco, Robert",
+					"position": "Special Education",
+					"email": "boscr001@hartfordschools.org"
+				},
+				{
+					"name": "Brown, Aaron",
+					"position": "Physics/Engineering Teacher",
+					"email": "browa002@hartfordschools.org"
+				},
+				{
+					"name": "Cazzetta-Finn, Colleen",
+					"position": "Special Education",
+					"email": "cazzc001@hartfordschools.org"
+				},
+				{
+					"name": "Deleon-Vasquez, Haydee",
+					"position": "Cook Manager",
+					"email": "deleh001@hartfordschools.org"
+				},
+				{
+					"name": "Dennis, Christina",
+					"position": "Science Teacher",
+					"email": "wardc002@hartfordschools.org"
+				},
+				{
+					"name": "Devaux, John",
+					"position": "Para-Professional",
+					"email": "john.devaux@hartfordschools.org"
+				},
+				{
+					"name": "DiNello, James",
+					"position": "Math Teacher",
+					"email": "james.dinello@hartfordschools.org"
+				},
+				{
+					"name": "Doffek, Beth",
+					"position": "Guidance Counselor",
+					"email": "doffb001@hartfordschools.org"
+				},
+				{
+					"name": "Folan, Martin",
+					"position": "Principal",
+					"email": "folam001@hartfordschools.org"
+				},
+				{
+					"name": "Fromerth, Michael",
+					"position": "Chemistry Teacher",
+					"email": "fromm001@hartfordschools.org"
+				},
+				{
+					"name": "Grayeb, Kate",
+					"position": "Math Teacher",
+					"email": "grayk001@hartfordschools.org"
+				},
+				{
+					"name": "Harbunak, Stephen",
+					"position": "Biology Teacher",
+					"email": "harbs001@hartfordschools.org"
+				},
+				{
+					"name": "Kellerman, Delores",
+					"position": "Nurse",
+					"email": "dkellerman@hartfordschools.org"
+				},
+				{
+					"name": "Lai-Hipp, Kathleen",
+					"position": "Biology Teacher",
+					"email": "laihk001@hartfordschools.org"
+				},
+				{
+					"name": "Lowney, John",
+					"position": "Athletics Staff",
+					"email": "jlowneycolumbia@gmail.com"
+				},
+				{
+					"name": "Manocchio, Kara",
+					"position": "Office Assistant",
+					"email": "manok001@hartfordschools.org"
+				},
+				{
+					"name": "Maziarz, Megan",
+					"position": "English Teacher",
+					"email": "megan.maziarz@hartfordschools.org"
+				},
+				{
+					"name": "McCoy, Michael",
+					"position": "English Teacher",
+					"email": "michael.mccoy@hartfordschools.org"
+				},
+				{
+					"name": "Medina, Alfredo",
+					"position": "Spanish Teacher",
+					"email": "media001@hartfordschools.org"
+				},
+				{
+					"name": "Merlo, Kelly",
+					"position": "Chemistry Teacher",
+					"email": "hartk002@hartfordschools.org"
+				},
+				{
+					"name": "Miller, Joseph",
+					"position": "Social Studies",
+					"email": "joe.miller@hartfordschools.org"
+				},
+				{
+					"name": "Morrison, Robert",
+					"position": "Special Police Officer",
+					"email": "morrr001@hartfordschools.org"
+				},
+				{
+					"name": "Obie, Dennis",
+					"position": "Engineering Teacher",
+					"email": "obied001@hartfordschools.org"
+				},
+				{
+					"name": "Oporto, Nancy",
+					"position": "Social Worker/504 Coordinator",
+					"email": "noproto@hartfordschools.org"
+				},
+				{
+					"name": "Pedrick, Susan",
+					"position": "Engineering Teacher",
+					"email": "pedrs001@hartfordschools.org"
+				},
+				{
+					"name": "Prescott, Francia",
+					"position": "College/Career Specialist",
+					"email": "presf001@hartfordschools.org"
+				},
+				{
+					"name": "Radigan, Noel",
+					"position": "Guidance Counselor",
+					"email": "radin001@hartfordschools.org"
+				},
+				{
+					"name": "Riccitelli, Jason",
+					"position": "Physical Education",
+					"email": "riccj002@hartfordschools.org"
+				},
+				{
+					"name": "Richters, Guy",
+					"position": "Art Teacher",
+					"email": "richg001@hartfordschools.org"
+				},
+				{
+					"name": "Scanlon, Heidi",
+					"position": "Social Studies Teacher",
+					"email": "scanh001@hartfordschools.org"
+				},
+				{
+					"name": "Serrano, Jessica",
+					"position": "Spanish Teacher",
+					"email": "jessica.Serrano@hartfordschools.org"
+				},
+				{
+					"name": "Shea, Matthew",
+					"position": "Physical Education",
+					"email": "sheam002@hartfordschools.org"
+				},
+				{
+					"name": "Silenok, Nicole",
+					"position": "Math Teacher",
+					"email": "silen001@hartfordschools.org"
+				},
+				{
+					"name": "Steller, Paul",
+					"position": "Math Teacher",
+					"email": "stelp002@hartfordschools.org"
+				},
+				{
+					"name": "Thomas, Arthur",
+					"position": "Comprehensive Intervention",
+					"email": "thoma003@hartfordschools.org"
+				},
+				{
+					"name": "Todisco, Jennifer",
+					"position": "English Teacher",
+					"email": "todij001@hartfordschools.org"
+				},
+				{
+					"name": "Tomany, Sean",
+					"position": "Assistant Principal",
+					"email": "tomas001@hartfordschools.org"
+				},
+				{
+					"name": "Waite, Wayne",
+					"position": "Para-Professional",
+					"email": "wayne.waite@hartfordschools.org"
+				},
+				{
+					"name": "Wilcoxen, Sharol",
+					"position": "Science/Engineering Teacher",
+					"email": "swilcoxen@hartfordschools.org"
+				}
+			],
+			"supportServices": [
+				{
+					"name": "Kara Manocchio",
+					"position": "Attendance",
+					"email": "manok001@hartfordschools.org",
+					"phone": "860-695-9020"
+				},
+				{
+					"name": "Haydee Deleon-Vasquez",
+					"position": "Food",
+					"email": "anglc001@hartfordschools.org",
+					"phone": "860-695-9057"
+				},
+				{
+					"name": "Francia Prescott",
+					"position": "Career",
+					"email": "presf001@hartfordschools.org",
+					"phone": "860-695-9025"
+				},
+				{
+					"name": "Delores Kellerman",
+					"position": "Health",
+					"email": "dkellerman@hartfordschools.org",
+					"phone": "860-695-9022"
+				},
+				{
+					"name": "Nancy Oporto-Brown",
+					"position": "Social Work",
+					"email": "noporto@hartfordschools.org",
+					"phone": "860-695-9023"
+				},
+				{
+					"name": "Rob Bosco",
+					"position": "Special Education",
+					"email": "boscr001@hartfordschools.org",
+					"phone": "860-695-9030"
+				}
+			]
+		},
+		"directions": {
+			"name": "Directions",
+			"lead": "Not in Kansas anymore",
+			"nav": "directions"
+		},
+		"lunchMenu": {
+			"name": "Lunch Menu",
+			"lead": "What's on the menu?",
+			"nav": "lunchMenu"
+		}
 	},
 	"extracurriculars": {
 		"img": "/assets/img/extracurriculars.jpg",
-		"title": "Going above and beyond",
-		"phrase": "Because there's more to school than just classes",
+		"name": "Going above and beyond",
+		"lead": "Because there's more to school than just classes",
 		"buttons": [
 			{
 				"name": "Sports",
@@ -343,26 +368,31 @@
 				"nav": "#clubs"
 			}
 		],
-		"sports": [
-			{
-				"name": "Men's Basketball",
-				"coaches": [
-					{
-						"name": "Jay Riccitelli",
-						"league": "Varsity"
-					},
-					{
-						"name": "Alfredo Cardona",
-						"league": "Junior Varsity/Freshman"
-					}
-				],
-				"schedules": [
-					{
-						"nav": "//",
-						"name": "Varsity"
-					}
-				]
-			}
-		]
+		"sports": {
+			"name": "Sports",
+			"lead": "Get your game on",
+			"nav": "sports",
+			"sports": [
+				{
+					"name": "Men's Basketball",
+					"coaches": [
+						{
+							"name": "Jay Riccitelli",
+							"league": "Varsity"
+						},
+						{
+							"name": "Alfredo Cardona",
+							"league": "Junior Varsity/Freshman"
+						}
+					],
+					"schedules": [
+						{
+							"nav": "//",
+							"name": "Varsity"
+						}
+					]
+				}
+			]
+		}
 	}
 }
