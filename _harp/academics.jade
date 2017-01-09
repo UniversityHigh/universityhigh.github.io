@@ -30,19 +30,19 @@ mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, i
 
 
 block head
-	title Academics | UHSS
+	title Academics | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/academics.css")
 
 
 block body
-	+header(img, title, phrase, buttons)
+	+header(banner, name, lead, buttons)
 	
 	.container
-		+section("Departments", "What we have to offer", "departments")
-			each department, name in departments
+		+section(departments.name, departments.lead, departments.nav)
+			each department, name in departments.departments
 				h4.title #{name} #[small Led by #[b #{department.lead}]]
-				p= department.desc
+				p= department.description
 				.row
 					each course in department.courses
-						+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.desc, course.isHonors, course.isECE, course.isAP)
+						+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.description, course.isHonors, course.isECE, course.isAP)
 				br

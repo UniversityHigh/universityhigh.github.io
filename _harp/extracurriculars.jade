@@ -16,21 +16,19 @@ mixin sport(name, coaches, schedules)
 					strong Game Schedule
 				ul.list-unstyled
 					each schedule in schedules
-						li.gameSchedule #[a(href=schedule.link target="_blank") #{schedule.name}]
+						li.gameSchedule #[a(href=schedule.nav target="_blank") #{schedule.name}]
 
 block head
 	title Extracurriculars | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/extracurriculars.css")
 
 block body
-	+header(img, title, phrase, buttons)
+	+header(banner, name, lead, buttons)
 
 	.container
-		+section("Sports", "Get your game on", "sports")
+		+section(sports.name, sports.lead, sports.nav)
 			.row
-				each sport in sports
+				each sport in sports.sports
 					+sport(sport.name, sport.coaches, sport.schedules)
 
 		hr
-
-		+section("Clubs", "Not used by cavemen", "clubs")

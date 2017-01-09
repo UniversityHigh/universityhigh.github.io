@@ -13,9 +13,15 @@ nav.navbar.navbar-default.navbar-fixed-top(role = "navigation")
 		div.collapse.navbar-collapse#navbar-links
 			ul.nav.navbar-nav.navbar-right
 				button.btn.btn-danger.navbar-btn(type = "button") STUDENTS
-				//- Build the navbar
-				- var links = {"Information" : "/information", "News": "/news", "Academics": "/academics", "Extracurriculars": "/extracurriculars", "Prospective Students": "/prospective"}
-				- for (var link in links)
-					- url = links[link]
-					li
-						a(href = url) #{link}
+				each data, name in navbar
+					if data instanceof Array
+						//- Dropdown required
+						li.dropdown
+							a.dropdown-toggle(href = data[0], data-toggle = "dropdown") #{name} #[span.caret]
+							ul.dropdown-menu
+								each subLink, subName in data[1]
+									li
+										a.nav-link(href = data[0] + "#" + subLink)= subName
+					else
+						li
+							a.nav-link(href = data)= name

@@ -1,4 +1,4 @@
-let btnNavs = document.querySelectorAll(".btn-nav");
+let btnNavs = document.querySelectorAll(".btn-nav, .nav-link");
 btnNavs.forEach(function(element) {
 	element.addEventListener("click", function() {
 		// Hack used for anchor buttons to account for space of nav-bar.

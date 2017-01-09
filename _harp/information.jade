@@ -6,16 +6,16 @@ block head
 	script(src="assets/js/information.js" defer)
 
 block body
-	+header(img, title, phrase, buttons)
+	+header(banner, name, lead, buttons)
 	.container
 
-		+section("About Us", "What we're all about", "aboutUs")
-			each paragraph in aboutUs
+		+section(aboutUs.name, aboutUs.lead, aboutUs.nav)
+			each paragraph in aboutUs.description
 				p= paragraph
 
 		hr
 
-		+section("Contacts", "Get in touch", "contacts")
+		+section(contacts.name, contacts.lead, contacts.nav)
 			h6 
 				strong UHSSE Staff
 			.table-scroll
@@ -25,7 +25,7 @@ block body
 						th Position
 						th Email
 					tbody
-						each contact in contacts
+						each contact in contacts.staff
 							tr
 								td= contact.name
 								td= contact.position
@@ -43,7 +43,7 @@ block body
 						th Email
 						th Phone
 					tbody
-						each service in supportContacts
+						each service in contacts.supportServices
 							tr
 								td= service.name
 								td= service.position
@@ -53,13 +53,13 @@ block body
 
 		hr
 
-		+section("Directions", "Not in Kansas anymore", "directions")
+		+section(directions.name, directions.lead, directions.nav)
 			.embed-responsive.embed-responsive-16by9
 				iframe.embed-responsive-item(frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAjz6JN_cohkcqWB4wKgDCQtZ3in_LOUoU&q=University+High+School+of+Science+%26+Engineering")
 
 		hr
 
-		+section("Lunch Menu", "For when you're feeling hungry", "lunchMenu")
+		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.nav)
 			.embed-responsive.embed-responsive-16by9
 				iframe#pdf.embed-responsive.item(frameborder="0" src="")
 		

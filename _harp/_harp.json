@@ -1,0 +1,19 @@
+{
+	"globals": {
+		"navbar": {
+			"Information": ["/information", {
+				"About Us": "aboutUs",
+				"Contacts": "contacts",
+				"Directions": "directions",
+				"Lunch Menu": "lunchMenu"
+			}],
+			"News": "/news",
+			"Academics": "/academics",
+			"Extracurriculars": ["/extracurriculars", {
+				"Sports": "sports",
+				"Clubs": "clubs"
+			}],
+			"Prospective Students": "/prospective"
+		}
+	}
+}
