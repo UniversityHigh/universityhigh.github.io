@@ -1,0 +1,13 @@
+{
+	"globals": {
+		"navbar": {
+			"Information": ["/information", {
+				"About Us": "aboutUs",
+				"Contacts": "contacts",
+				"Directions": "directions",
+				"Lunch Menu": "lunchMenu"
+			}],
+			"hi": "bye"
+		}
+	}
+}
