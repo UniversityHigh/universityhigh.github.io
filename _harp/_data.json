@@ -1,11 +1,11 @@
 {
 	"index": {
-		"img": "/assets/img/home.jpg",
+		"banner": "/assets/img/home.jpg",
 		"name": "University High School of Science and Engineering",
 		"lead": "Early college high school located on the campus of University of Hartford"
 	},
 	"academics": {
-		"img": "/assets/img/academics.jpg",
+		"banner": "/assets/img/academics.jpg",
 		"name": "Education is everything",
 		"lead": "We seek to bring out the best in each of our students",
 		"buttons": [
@@ -21,28 +21,28 @@
 			"departments": {
 				"Mathematics": {
 					"lead": "Taylor Bacon",
-					"desc": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
+					"description": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
 					"courses": [
 						{
 							"name": "Algebra 2",
 							"teacher": "Kate Grayeb",
 							"teacherEmail": "idk@aol.com",
 							"syllabusnav": "http://google.com/search?q=learn+math",
-							"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
 							"isECE": true
 						}
 					]
 				},
 				"Science": {
 					"lead": "Aaron Brown",
-					"desc": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
+					"description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
 					"courses": [
 						{
 							"name": "General Chemistry",
 							"teacher": "Michael Fromerth",
 							"teacherEmail": "idk@aol.com",
 							"syllabusnav": "http://google.com/search?q=learn+math",
-							"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
 							"isAP": true
 						}
 					]
@@ -51,7 +51,7 @@
 		}
 	},
 	"information": {
-		"img": "/assets/img/about.jpg",
+		"banner": "/assets/img/about.jpg",
 		"name": "A school where smart is cool",
 		"lead": "This is a learning environment like no other",
 		"buttons": [
@@ -355,7 +355,7 @@
 		}
 	},
 	"extracurriculars": {
-		"img": "/assets/img/extracurriculars.jpg",
+		"banner": "/assets/img/extracurriculars.jpg",
 		"name": "Going above and beyond",
 		"lead": "Because there's more to school than just classes",
 		"buttons": [

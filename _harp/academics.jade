@@ -35,13 +35,13 @@ block head
 
 
 block body
-	+header(img, name, lead, buttons)
+	+header(banner, name, lead, buttons)
 	
 	.container
 		+section(departments.name, departments.lead, departments.nav)
 			each department, name in departments.departments
 				h4.title #{name} #[small Led by #[b #{department.lead}]]
-				p= department.desc
+				p= department.description
 				.row
 					each course in department.courses
 						+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.desc, course.isHonors, course.isECE, course.isAP)
