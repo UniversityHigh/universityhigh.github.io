@@ -1,9 +1,11 @@
 {
 	"index": {
+		"img": "/assets/img/home.jpg",
 		"title": "University High School of Science and Engineering",
 		"phrase": "Early college high school located on the campus of University of Hartford"
 	},
 	"academics": {
+		"img": "/assets/img/academics.jpg",
 		"title": "Education is everything",
 		"phrase": "We seek to bring out the best in each of our students",
 		"buttons": [
@@ -84,6 +86,7 @@
 		}
 	},
 	"information": {
+		"img": "/assets/img/about.jpg",
 		"title": "A school where smart is cool",
 		"phrase": "This is a learning environment like no other",
 		"buttons": [
@@ -104,6 +107,7 @@
 				"nav": "#lunchMenu"
 			}
 		],
+		"aboutUs": ["University High School of Science & Engineering, seeks to bring out the best in every students by focusing on high academic achievement. UHSSE is an early college high school located on the campus of University of Hartford. Its course specialization theme is STEM (Science, Technology, Engineering, and Mathematics) and the Early College educational model. All courses are taught at the honors level. UHSSE offers a rigorous curriculum in science and engineering with advanced level science and math courses including the nationally recognized Project Lead the Way Engineering course sequence. Its students take ECE courses through The University of Hartford, The University of Connecticut, and The University of New Haven."],
 		"contacts": [
 			{
 				"name": "Allard, Philip",
@@ -366,6 +370,7 @@
 		]
 	},
 	"extracurriculars": {
+		"img": "/assets/img/extracurriculars.jpg",
 		"title": "Going above and beyond",
 		"phrase": "Because there's more to school than just classes",
 		"buttons": [
