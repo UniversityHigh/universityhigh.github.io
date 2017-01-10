@@ -2,12 +2,12 @@ h6 {
 	font-size: 12pt;
 }
 
-#coachingStaff {
-	margin-top: 0em;
-	margin-bottom: 0em;
+.coachingStaffTitle, .leader {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-#gameSchedule {
+.gameScheduleTitle, .position {
 	margin-bottom: 0em;
 }
 
@@ -15,7 +15,7 @@ h6 {
 	color: #444444;
 }
 
-.coachingStaff, .gameSchedule {
+.coachingStaff, .gameSchedule, .position {
 	font-size: 10.25pt;
 }
 
@@ -23,4 +23,16 @@ h6 {
 	margin-top: -.6em;
 	font-size: 9.25pt;
 	color: #666666;
+}
+
+.position {
+	margin-top: -.5em;
+}
+
+.leaderInformation {
+	margin: .35em 0em .35em;
+}
+
+.leaderInformation > span {
+	margin-right: .35em;
 }

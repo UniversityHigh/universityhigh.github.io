@@ -6,17 +6,38 @@ mixin sport(name, coaches, schedules)
 			.panel-heading
 				h5 #{name}
 			.panel-body
-				h6#coachingStaff
+				h6.coachingStaffTitle
 					strong Coaching Staff
 				ul.list-unstyled
 					each coach in coaches
 						li.coachingStaff #{coach.name} #[p.league #{coach.league}]
 				
-				h6#gameSchedule
+				h6.gameScheduleTitle
 					strong Game Schedule
 				ul.list-unstyled
 					each schedule in schedules
 						li.gameSchedule #[a(href=schedule.nav target="_blank") #{schedule.name}]
+
+mixin club(name, leader, phone, email, link)
+	.col-md-3
+		.panel.panel-default
+			.panel-heading
+				h5 #{name}
+			.panel-body
+				h6.leader
+					strong #{leader.name}
+				p.position #{leader.position}
+
+				ul.list-unstyled
+					li.leaderInformation
+						span.glyphicon.glyphicon-phone
+						= leader.phone
+					li.leaderInformation
+						span.glyphicon.glyphicon-envelope
+						a(href="mailto://" + leader.email)= leader.email
+					li.leaderInformation
+						span.glyphicon.glyphicon-link
+						a(href=leader.link target="_blank")= leader.link
 
 block head
 	title Extracurriculars | UHSSE
@@ -32,3 +53,9 @@ block body
 					+sport(sport.name, sport.coaches, sport.schedules)
 
 		hr
+
+	.container
+		+section(clubs.name, clubs.lead, clubs.nav)
+			.row
+				each club in clubs.clubs
+					+club(club.name, club.leader, club.phone, club.email, club.link)

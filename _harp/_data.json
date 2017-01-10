@@ -15,75 +15,6 @@
 			}
 		],
 		"departments": {
-<<<<<<< HEAD
-			"Mathematics": {
-				"lead": "Taylor Bacon",
-				"desc": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
-				"courses": [
-					{
-						"name": "Geometry",
-						"teacher": "Kate Grayeb",
-						"teacherEmail": "grayk001@hartfordschools.org",
-						"syllabusLink": "",
-						"desc": "Fill this in ",
-						"isHonors": "true"
-					},
-					{
-						"name": "Algebra 1",
-						"teacher": "Kate Grayeb/Taylor Bacon",
-						"teacherEmail": "",
-						"syllabusLink": "",
-						"desc": "Fill this in",
-						"isHonors": "true"
-					},
-					{
-						"name": "Algebra 2",
-						"teacher": "Kate Grayeb",
-						"teacherEmail": "idk@aol.com",
-						"syllabusnav": "http://google.com/search?q=learn+math",
-						"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-						"isECE": true
-					},
-					{
-						"name": "",
-						"teacher": "",
-						"teacherEmail": "",
-						"syllabusLink": "",
-						"desc": "",
-						"isHonors": ""
-					}
-				]
-			},
-			"Science": {
-				"lead": "Aaron Brown",
-				"desc": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
-				"courses": [
-					{
-						"name": "General Chemistry",
-						"teacher": "Michael Fromerth",
-						"teacherEmail": "idk@aol.com",
-						"syllabusnav": "http://google.com/search?q=learn+math",
-						"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-						"isAP": true
-					},
-					{
-						"name": "Biology",
-						"teacher": "Stephen ",
-						"teacherEmail": "",
-						"syllabusLink": "",
-						"desc": "",
-						"isHonors": ""
-					},
-					{
-						"name": "",
-						"teacher": "",
-						"teacherEmail": "",
-						"syllabusLink": "",
-						"desc": "",
-						"isHonors": ""
-					},
-				]
-=======
 			"name": "Departments",
 			"lead": "What we have to offer",
 			"nav": "departments",
@@ -116,7 +47,6 @@
 						}
 					]
 				}
->>>>>>> 847d175cff5346b3a8070d180d53eeced059e972
 			}
 		}
 	},
@@ -480,6 +410,23 @@
 							"name": "Varsity"
 						}
 					]
+				}
+			]
+		},
+		"clubs": {
+			"name": "Clubs",
+			"lead": "Not for cavemen",
+			"nav": "clubs",
+			"clubs": [
+				{
+					"name": "Intramural Basketball",
+					"leader": {
+						"name": "Alfredo Cardona",
+						"position": "Intramural Director",
+						"phone": "860-695-9019",
+						"email": "carda002@hartfordschools.org",
+						"link": "http://www.quickscores.com/uhsse"
+					}
 				}
 			]
 		}
