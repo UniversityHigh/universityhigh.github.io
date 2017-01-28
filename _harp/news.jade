@@ -1,0 +1,38 @@
+extends _templates/base.jade
+
+mixin calendar(month, year)
+	table.table.calendar
+		thead.banner
+			tr
+				th(colspan="4")
+					h4.text-white
+						strong= month
+						span= " " + year
+				th.change-month(colspan="3")
+					span.glyphicon.glyphicon-menu-left
+					span.glyphicon.glyphicon-menu-right
+			tr
+				each day in ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
+					th.day-title
+						h5.text-white= day
+			
+		tbody.days
+			- for (let week = 0; week < 5; week++) {
+				tr
+					- for (let day = 0; day < 7; day++) {
+						td
+					- }
+			- }
+
+block head
+	title News | UHSSE
+	link(rel = "stylesheet", href = "/assets/css/news.css")
+	script(src="assets/js/news.js" defer)
+
+block body
+	+header(banner, name, lead)
+
+	.container
+		+section(calendar.name, calendar.lead)
+			+calendar(calendar.month, calendar.year)
+			

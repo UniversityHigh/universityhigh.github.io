@@ -430,5 +430,16 @@
 				}
 			]
 		}
+	},
+	"news": {
+		"banner": "/assets/img/news.jpg",
+		"name": "What's on the schedule?",
+		"lead": "Busy bees are happy bees.",
+		"calendar": {
+			"name": "Calendar",
+			"lead": "Past, present, and future.",
+			"month": "January",
+			"year": 2017
+		}
 	}
 }
