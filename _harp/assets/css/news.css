@@ -7,30 +7,37 @@
 	background-color: red;
 }
 
-.calendar .change-month {
+.change-month {
 	text-align: right;
 	vertical-align: middle !important;
 }
 
-.calendar .change-month span {
+.change-month span {
 	color: white;
 	font-size: 25px;
 	padding: 0rem 1rem 0rem 1rem;
 }
 
-.calendar .day-title {
+.day-title {
 	text-align: right;
 	padding: 0;
 	margin: 0;
 }
 
-.calendar .day-title h5 {
+.day-title h5 {
 	margin: 0;
 	padding: 0rem .5rem .5rem 0rem;
 }
 
-.calendar .days td {
-	width: 100px;
-	height: 100px;
+.days td {
+	width: 10vw;
+	height: 10vh;
 	border: 1px solid #dddddd;
 }
+
+.day-number {
+	float: right;
+	font-size: 18px;
+	color: black;
+}
+
