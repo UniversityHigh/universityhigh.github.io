@@ -3,34 +3,68 @@
 	padding-bottom: 0 !important;
 }
 
+#month {
+	padding-left: 20px;
+}
+
 .calendar .banner {
 	background-color: red;
 }
 
-.calendar .change-month {
+.change-month {
 	text-align: right;
 	vertical-align: middle !important;
 }
 
-.calendar .change-month span {
+.change-month span {
 	color: white;
 	font-size: 25px;
 	padding: 0rem 1rem 0rem 1rem;
 }
 
-.calendar .day-title {
+.day-title {
 	text-align: right;
-	padding: 0;
-	margin: 0;
+	padding-right: 5px;
 }
 
-.calendar .day-title h5 {
+.day-title h5 {
 	margin: 0;
 	padding: 0rem .5rem .5rem 0rem;
 }
 
-.calendar .days td {
-	width: 100px;
-	height: 100px;
+.days td {
+	vertical-align: top;
+	width: 15vw;
+	height: 15vw;
 	border: 1px solid #dddddd;
+}
+
+.day-number {
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	font-size: 2.3rem;
+	color: black;
+}
+
+.events {
+	padding-left: 35px;
+	padding-right: 5px;
+}
+
+.event {
+	font-size: 30px;
+	line-height: 0.8;	
+}
+
+.event span {
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+.event-xs {
+	text-align: center;
+	font-size: 1.5rem;
+	color: red;
 }
