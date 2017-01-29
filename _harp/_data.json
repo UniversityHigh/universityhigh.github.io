@@ -437,9 +437,7 @@
 		"lead": "Busy bees are happy bees.",
 		"calendar": {
 			"name": "Calendar",
-			"lead": "Past, present, and future.",
-			"month": "January",
-			"year": 2017
+			"lead": "Past, present, and future."
 		}
 	}
 }

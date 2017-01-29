@@ -40,15 +40,31 @@
 }
 
 .day-number {
-	float: right;
+	display: block;
+	text-align: right;
 	padding-top: 10px;
 	padding-right: 10px;
-	font-size: 18px;
+	font-size: 2.3rem;
 	color: black;
 }
 
 .events {
-	padding-top: 40px;
-	padding-left: 30px;
+	padding-left: 35px;
 	padding-right: 5px;
+}
+
+.event {
+	font-size: 30px;
+	line-height: 0.8;	
+}
+
+.event span {
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+.event-xs {
+	text-align: center;
+	font-size: 1.5rem;
+	color: red;
 }
