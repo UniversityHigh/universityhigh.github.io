@@ -12,7 +12,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role = "navigation")
 			a.navbar-brand(href = "/") UHSSE
 		div.collapse.navbar-collapse#navbar-links
 			ul.nav.navbar-nav.navbar-right
-				button.btn.btn-danger.navbar-btn(type = "button") STUDENTS
+				a.btn.btn-danger.navbar-btn(href="students") STUDENTS
 				each data, name in navbar
 					if data instanceof Array
 						//- Dropdown required

@@ -1,0 +1,18 @@
+extends _templates/base.jade
+
+block head
+	title Students | UHSSE
+	link(rel = "stylesheet", href = "/assets/css/students.css")
+	script(src="assets/js/students.js" defer)
+
+block body
+	+header(banner, name, lead)
+
+	.container
+		+section(powerschool.name, powerschool.lead)
+			.embed-responsive.embed-responsive-16by9
+				iframe#powerschool.embed-responsive.item(frameborder="0" src="https://powerschool.hartfordschools.org/public/")
+
+		+section(naviance.name, naviance.lead)
+			.embed-responsive.embed-responsive-16by9
+				iframe#pdf.embed-responsive.item(frameborder="0" src="https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse")

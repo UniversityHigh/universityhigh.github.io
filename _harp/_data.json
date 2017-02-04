@@ -439,5 +439,18 @@
 			"name": "Calendar",
 			"lead": "Past, present, and future."
 		}
+	},
+	"students": {
+		"banner": "/assets/img/students.jpg",
+		"name": "Information tailored to you.",
+		"lead": "Because an informed student is a successful student.",
+		"powerschool": {
+			"name": "PowerSchool",
+			"lead": "Grades, classes, and attendance."
+		},
+		"naviance": {
+			"name": "Naviance",
+			"lead": "Planning is important."
+		}
 	}
 }
