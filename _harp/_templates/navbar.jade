@@ -12,7 +12,9 @@ nav.navbar.navbar-default.navbar-fixed-top(role = "navigation")
 			a.navbar-brand(href = "/") UHSSE
 		div.collapse.navbar-collapse#navbar-links
 			ul.nav.navbar-nav.navbar-right
-				a.btn.btn-danger.navbar-btn(href="students") STUDENTS
+				a.btn.btn-danger.navbar-btn(href=navbar["Students"]) STUDENTS
+				
+				- delete navbar["Students"]
 				each data, name in navbar
 					if data instanceof Array
 						//- Dropdown required

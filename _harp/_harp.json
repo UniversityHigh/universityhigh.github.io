@@ -1,6 +1,7 @@
 {
 	"globals": {
 		"navbar": {
+			"Students": "/students",
 			"Information": ["/information", {
 				"About Us": "aboutUs",
 				"Contacts": "contacts",
