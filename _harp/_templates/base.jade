@@ -15,15 +15,15 @@ mixin section(title, lead, nav)
 		block
 
 doctype html
-html(lang = "en")
+html(lang="en")
 	head
-		meta(charset = "utf-8")
-		meta(http-equiv = "X-UA-Compatible", content = "IE=edge")
-		meta(name = "viewport", content = "width=device-width,initial-scale=1")
-		link(rel = "stylesheet", href = "https://bootswatch.com/paper/bootstrap.min.css")
-		link(rel = "stylesheet", href = "assets/css/theme.css")
-		link(rel = "icon", type = "image/ico", href = "/not_real.ico" sizes = "32x32")
-		link(rel = "apple-touch-icon", href = "/not_real.png", sizes = "128x128")
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width,initial-scale=1")
+		link(rel="stylesheet", href="https://bootswatch.com/paper/bootstrap.min.css")
+		link(rel="stylesheet", href="assets/css/theme.css")
+		link(rel="icon", type="image/ico", href="/not_real.ico" sizes="32x32")
+		link(rel="apple-touch-icon", href="/not_real.png", sizes="128x128")
 		script(src="assets/js/app.js" defer)
 		block head
 	body
@@ -31,5 +31,5 @@ html(lang = "en")
 		block body
 		include footer.jade
 		//- Use SRI (Sub Resource Integrity) to make sure imported code hasn't been tampered with
-		script(src = "https://code.jquery.com/jquery-3.1.1.min.js", integrity = "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=", crossorigin = "anonymous")
-		script(src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin = "anonymous")
+		script(src="https://code.jquery.com/jquery-3.1.1.min.js", integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=", crossorigin="anonymous")
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")

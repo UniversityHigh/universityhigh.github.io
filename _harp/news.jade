@@ -1,45 +1,15 @@
 extends _templates/base.jade
 
-mixin calendar
-	table.table-responsive.calendar
-		thead.banner
-			tr
-				th(colspan = "4")
-					h4.text-white
-						strong#month
-						span#year
-				th.change-month(colspan = "3")
-					span.glyphicon.glyphicon-menu-left#lastMonth
-					span.glyphicon.glyphicon-menu-right#nextMonth
-			tr
-				each day in ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
-					th.day-title
-						h5.text-white= day
-		tbody.days
-			- function range(start, end) { var arr = []; for (var i = start; i < end; i++) arr.push(i); return arr; }
-			each week in range(0, 5)
-				tr
-					each day in range(0, 7)
-						td
-							strong.day-number
-							//- Events are hidden on small screens
-							ul.events.hidden-xs
-								li.event
-									span test event
-								li.event
-									span test event
-								li.event
-									span test event
-							//- http://www.alanwood.net/unicode/enclosed_alphanumerics.html
-							span.event-xs.visible-xs-block ①
-
 block head
 	title News | UHSSE
-	link(rel = "stylesheet", href = "/assets/css/news.css")
-	script(src = "assets/js/news.js" defer)
+	link(rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css")
+	link(rel="stylesheet" href="/assets/css/news.css")
+	script(src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js" defer)
+	script(src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js" defer)
+	script(src="assets/js/news.js" defer)
 
 block body
 	+header(banner, name, lead)
 	.container
 		+section(calendar.name, calendar.lead)
-			+calendar
+			#calendar
