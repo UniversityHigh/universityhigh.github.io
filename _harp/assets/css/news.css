@@ -35,8 +35,25 @@
 .days td {
 	vertical-align: top;
 	width: 15vw;
-	height: 15vh;
 	border: 1px solid #dddddd;
+}
+
+@media (max-width: 653px) {
+	.days td {
+		height: 5vh;
+	}
+}
+
+@media (min-width: 653px) and (max-width: 768px) {
+	.days td {
+		height: 10vh;
+	}
+}
+
+@media (min-width: 768px) {
+	.days td {
+		height: 15vh;
+	}
 }
 
 .day-number {
