@@ -40,11 +40,12 @@
 	color: white;
 }
 
-.fc-day-number {
-	font-size: 2rem;
+.fc-day.fc-sat, .fc-day.fc-sun {
+	background-color: #ededed;
 }
 
-.fc-today .fc-day-number {
-	font-weight: bold;
+.fc-day-number {
+	font-size: 2rem;
 	color: black;
+	padding-right: 1.25rem !important;
 }

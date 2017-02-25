@@ -1,5 +1,5 @@
-mixin header(image, name, lead, buttons)
-	.jumbotron.header(style="background-image: url(" + image + ");")
+mixin header(images, name, lead, buttons)
+	.jumbotron.header(style="background-image: url(" + (Array.isArray(images) ? images[0] : images) + ");" data-images=(Array.isArray(images) ? images : null))
 		.container
 			span.text-stroke.text-right
 				h1.text-white= name

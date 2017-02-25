@@ -1,4 +1,2 @@
-$("#calendar").fullCalendar({
-	weekends: false
-});
+$("#calendar").fullCalendar({});
 $(".fc-today-button").remove();

@@ -1,6 +1,6 @@
 {
 	"index": {
-		"banner": "/assets/img/home.jpg",
+		"banners": ["/assets/img/home.jpg", "/assets/img/about.jpg", "/assets/img/academics.jpg"],
 		"name": "University High School of Science and Engineering",
 		"lead": "Early college high school located on the campus of University of Hartford"
 	},

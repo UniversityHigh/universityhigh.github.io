@@ -1,3 +1,7 @@
+.jumbotron.header {
+	transition: background-image 1.5s ease;
+}
+
 .banner-strip {
 	background-color: red;
 	width: 100%;

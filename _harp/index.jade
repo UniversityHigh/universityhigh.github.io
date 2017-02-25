@@ -3,9 +3,10 @@ extends _templates/base.jade
 block head
 	title UHSSE
 	link(rel = "stylesheet", href = "/assets/css/index.css")
+	script(src="assets/js/index.js" defer)
 
 block body
-	+header(banner, name, phrase)
+	+header(banners, name, phrase)
 	.banner-strip
 		p.text-white.text-center
 			| 351 Mark Twain Drive, Hartford CT 06112 
