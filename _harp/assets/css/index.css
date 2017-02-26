@@ -1,10 +1,12 @@
-.jumbotron.header {
+.header {
+	margin-bottom: 0 !important;
 	transition: background-image 1.5s ease;
 }
 
 .banner-strip {
-	background-color: red;
+	background-color: #e51c23;
 	width: 100%;
+	margin-bottom: 5rem;
 	padding: .6em;
 	font-family: inherit;
 	font-weight: 100;
@@ -17,12 +19,11 @@
 }
 
 .banner-strip a {
-	color: red;
+	color: #e51c23;
 	margin-left: 10px;
 }
 
 .showcase {
-	margin-top: 40px;
 	text-align: center;
 }
 
@@ -32,4 +33,14 @@
 
 .showcase span.glyphicon {
 	font-size: 100px;
+}
+
+.pillar {
+	margin-bottom: 5rem;
+}
+
+.description {
+	width: 75%;
+	margin: 0 12.5% 0 12.5%;
+	text-align: center;
 }

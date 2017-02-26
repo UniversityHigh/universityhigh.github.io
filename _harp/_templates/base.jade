@@ -1,12 +1,9 @@
-mixin header(images, name, lead, buttons)
+mixin header(images, name, lead)
 	.jumbotron.header(style="background-image: url(" + (Array.isArray(images) ? images[0] : images) + ");" data-images=(Array.isArray(images) ? images : null))
-		.container
+		.container.header-text
 			span.text-stroke.text-right
 				h1.text-white= name
 				p.text-white= lead
-			if buttons
-				each button in buttons.reverse()
-					a.btn-nav.btn.btn-default.hidden-xs(href=button.nav)= button.name
 
 mixin section(title, lead, nav)
 	.section(id=nav)

@@ -14,12 +14,16 @@
 
 .fc-toolbar.fc-header-toolbar {
 	margin-bottom: 0;
-	background-color: red;
 	padding: 1rem .25rem 1rem;
+	background-color: #e51c23;
 }
 
 .fc-toolbar.fc-header-toolbar .fc-left {
 	margin-left: .5rem;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-left h2 {
+	font-weight: 600;
 }
 
 .fc-head-container.fc-widget-header {
@@ -27,7 +31,7 @@
 }
 
 .fc-head {
-	background-color: red;
+	background-color: #e51c23;
 }
 
 .fc-head th {

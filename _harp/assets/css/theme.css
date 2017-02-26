@@ -9,7 +9,7 @@ hr {
 }
 
 p {
-	font-size: 10.75pt;
+	font-size: 11pt;
 }
 
 .navbar-header {
@@ -21,17 +21,21 @@ p {
 }
 
 .text-stroke {
-	 text-shadow: 2px 2px #000;
+	 text-shadow: 1px 2px #000;
 }
 
 .header {
+	height: 31rem;
+	margin-bottom: 5em;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: rgba(0, 0 ,0, 0.5);  
+	background-color: rgba(0, 0 ,0, 0.25);  
 	background-blend-mode: multiply;
 	background-position: center;
-	margin-bottom: 0;
-	padding-bottom: 9em;
+}
+
+.header-text {
+	min-width: 75%;
 }
 
 .btn-nav {
@@ -47,4 +51,8 @@ p {
 	width: 0;
 	height: 64px;
 	margin-top: -64px;
+}
+
+.section h2 {
+	margin-top: 0;
 }
