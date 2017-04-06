@@ -1,8 +1,4 @@
 /* CSS added here will apply to every single page */
-body {
-	padding-top: 64px;
-}
-
 hr {
 	margin-top: 5em;
 	margin-bottom: 5em;
@@ -16,6 +12,33 @@ p {
 	padding-left: 10px;  /* For the hamburger button in mobile */
 }
 
+body {
+    margin: 30px 0px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar li {
+	font-size: 12pt;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+	background-color: rgb(231, 231, 231);
+	color: rgb(85, 85, 85);
+}
+
+li.dropdown:hover > .dropdown-menu {
+	display: inline-block;
+}
+
+.navbar-btn {
+	margin-left: 15px;
+}
+
 .text-white {
 	color: white !important;
 }
@@ -25,6 +48,8 @@ p {
 }
 
 .header {
+	display: flex;
+	align-items: center;
 	height: 31rem;
 	margin-bottom: 5em;
 	background-repeat: no-repeat;

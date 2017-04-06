@@ -54,24 +54,6 @@
 		"banner": "/assets/img/about.jpg",
 		"name": "A school where smart is cool",
 		"lead": "This is a learning environment like no other",
-		"buttons": [
-			{
-				"name": "About Us",
-				"nav": "#aboutUs"
-			},
-			{
-				"name": "Contacts",
-				"nav": "#contacts"
-			},
-			{
-				"name": "Directions",
-				"nav": "#directions"
-			},
-			{
-				"name": "Lunch Menu",
-				"nav": "#lunchMenu"
-			}
-		],
 		"aboutUs": {
 			"name": "About Us",
 			"lead": "What we're all about",
@@ -343,11 +325,6 @@
 				}
 			]
 		},
-		"directions": {
-			"name": "Directions",
-			"lead": "Not in Kansas anymore",
-			"nav": "directions"
-		},
 		"lunchMenu": {
 			"name": "Lunch Menu",
 			"lead": "What's on the menu?",
@@ -440,17 +417,9 @@
 			"lead": "Past, present, and future."
 		}
 	},
-	"students": {
-		"banner": "/assets/img/students.jpg",
+	"prospective": {
+		"banner": "/assets/img/prospective.jpg",
 		"name": "Information tailored to you.",
-		"lead": "Because an informed student is a successful student.",
-		"powerschool": {
-			"name": "PowerSchool",
-			"lead": "Grades, classes, and attendance."
-		},
-		"naviance": {
-			"name": "Naviance",
-			"lead": "Planning is important."
-		}
+		"lead": "Because an informed student is a successful student."
 	}
 }
