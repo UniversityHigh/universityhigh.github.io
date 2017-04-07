@@ -343,42 +343,90 @@
 			"name": "Sports",
 			"lead": "Get your game on",
 			"nav": "sports",
-			"sports": [
+			"seasons": [
 				{
-					"name": "Men's Basketball",
-					"coaches": [
+					"name": "Spring",
+					"sports": [
 						{
-							"name": "Jay Riccitelli",
-							"league": "Varsity"
+							"name": "Men's Basketball",
+							"coaches": [
+								{
+									"name": "Jay Riccitelli",
+									"league": "Varsity"
+								},
+								{
+									"name": "Alfredo Cardona",
+									"league": "Junior Varsity/Freshman"
+								}
+							],
+							"schedules": [
+								{
+									"nav": "//",
+									"name": "Varsity"
+								}
+							]
 						},
 						{
-							"name": "Alfredo Cardona",
-							"league": "Junior Varsity/Freshman"
-						}
-					],
-					"schedules": [
-						{
-							"nav": "//",
-							"name": "Varsity"
+							"name": "Men's Basketball",
+							"coaches": [
+								{
+									"name": "Jay Riccitelli",
+									"league": "Varsity"
+								},
+								{
+									"name": "Alfredo Cardona",
+									"league": "Junior Varsity/Freshman"
+								}
+							],
+							"schedules": [
+								{
+									"nav": "//",
+									"name": "Varsity"
+								}
+							]
 						}
 					]
 				},
 				{
-					"name": "Men's Basketball",
-					"coaches": [
+					"name": "Summer",
+					"sports": [
 						{
-							"name": "Jay Riccitelli",
-							"league": "Varsity"
+							"name": "Men's Basketball",
+							"coaches": [
+								{
+									"name": "Jay Riccitelli",
+									"league": "Varsity"
+								},
+								{
+									"name": "Alfredo Cardona",
+									"league": "Junior Varsity/Freshman"
+								}
+							],
+							"schedules": [
+								{
+									"nav": "//",
+									"name": "Varsity"
+								}
+							]
 						},
 						{
-							"name": "Alfredo Cardona",
-							"league": "Junior Varsity/Freshman"
-						}
-					],
-					"schedules": [
-						{
-							"nav": "//",
-							"name": "Varsity"
+							"name": "Men's Basketball",
+							"coaches": [
+								{
+									"name": "Jay Riccitelli",
+									"league": "Varsity"
+								},
+								{
+									"name": "Alfredo Cardona",
+									"league": "Junior Varsity/Freshman"
+								}
+							],
+							"schedules": [
+								{
+									"nav": "//",
+									"name": "Varsity"
+								}
+							]
 						}
 					]
 				}

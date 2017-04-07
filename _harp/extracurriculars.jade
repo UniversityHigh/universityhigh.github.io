@@ -1,5 +1,11 @@
 extends _templates/base.jade
 
+mixin season(name)
+	.col-md-12.season
+		.season-text= name
+		.season-line
+	block
+
 mixin sport(name, coaches, schedules)
 	.col-md-3
 		.panel.panel-default
@@ -48,9 +54,11 @@ block body
 
 	.container
 		+section(sports.name, sports.lead, sports.nav)
-			.row
-				each sport in sports.sports
-					+sport(sport.name, sport.coaches, sport.schedules)
+			each season in sports.seasons
+				.row
+					+season(season.name)
+					each sport in season.sports
+						+sport(sport.name, sport.coaches, sport.schedules)
 
 		hr
 
