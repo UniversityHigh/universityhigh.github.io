@@ -1,3 +1,9 @@
+$("table").floatThead({
+	scrollContainer: function(table) {
+		return table.closest(".table-scroll");
+	}
+});
+
 let date = new Date();
 let year = date.getFullYear();
 let monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

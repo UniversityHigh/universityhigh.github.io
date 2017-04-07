@@ -2,7 +2,8 @@ extends _templates/base.jade
 
 block head
 	title Information | UHSSE
-	link(rel = "stylesheet", href = "/assets/css/information.css")
+	link(rel = "stylesheet", href = "/assets/css/information.css" defer)
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js" defer)
 	script(src="assets/js/information.js" defer)
 
 block body
