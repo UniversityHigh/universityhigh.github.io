@@ -10,9 +10,9 @@ $.fn.extend({
 });
 
 $(window).scroll(function() {
-	if($(this).scrollTop() > 100 && $("#jump").css("display") === "none") {
-		$("#jump").css("display", "").animateCss("fadeInRight", );
-	} else if($(this).scrollTop() < 100 && $("#jump").css("display") !== "none") {
+	if($(this).scrollTop() > 50 && $("#jump").css("display") === "none") {
+		$("#jump").css("display", "").animateCss("fadeInRight");
+	} else if($(this).scrollTop() < 50 && $("#jump").css("display") !== "none") {
 		$("#jump").animateCss("fadeOutRight", function(element) { element.css("display", "none"); });
 	}
 });

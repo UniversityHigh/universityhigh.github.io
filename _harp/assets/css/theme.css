@@ -89,6 +89,7 @@ li.dropdown:hover > .dropdown-menu {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	z-index: 2147483647;
 	width: 5rem;
 	height: 5rem;
 	box-shadow: 1px 1px 1px rgba(0, 0 , 0, 0.3);
