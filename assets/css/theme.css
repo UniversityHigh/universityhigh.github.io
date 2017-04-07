@@ -20,7 +20,7 @@ body {
 	margin-bottom: 0;
 }
 
-.navbar li {
+.navbar li, .navbar-btn {
 	font-size: 12pt;
 }
 
@@ -80,4 +80,29 @@ li.dropdown:hover > .dropdown-menu {
 
 .section h2 {
 	margin-top: 0;
+}
+
+#jump {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5rem;
+	height: 5rem;
+	box-shadow: 1px 1px 1px rgba(0, 0 , 0, 0.3);
+	border-radius: 50%;
+	background-color: #e51c23;
+	color: white;
+	text-decoration: none;
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+	#jump {
+		bottom: 3rem;
+		right: 5rem;
+	}
 }

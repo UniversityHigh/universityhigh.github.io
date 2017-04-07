@@ -8,7 +8,6 @@
 			},
 			"links": {
 				"Information": ["/information", {
-					"About Us": "aboutUs",
 					"Contacts": "contacts",
 					"Lunch Menu": "lunchMenu"
 				}],

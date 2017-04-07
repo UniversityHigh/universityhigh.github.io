@@ -18,6 +18,7 @@ html(lang="en")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		meta(name="viewport", content="width=device-width,initial-scale=1")
 		link(rel="stylesheet", href="https://bootswatch.com/paper/bootstrap.min.css")
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css")
 		link(rel="stylesheet", href="assets/css/theme.css")
 		link(rel="icon", type="image/ico", href="/not_real.ico" sizes="32x32")
 		link(rel="apple-touch-icon", href="/not_real.png", sizes="128x128")
@@ -25,6 +26,8 @@ html(lang="en")
 		block head
 	body
 		include navbar.jade
+		a#jump(title="Jump to top of page." style="display: none;")
+			span.glyphicon.glyphicon-chevron-up
 		block body
 		include footer.jade
 		//- Use SRI (Sub Resource Integrity) to make sure imported code hasn't been tampered with
