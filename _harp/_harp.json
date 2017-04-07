@@ -1,17 +1,23 @@
 {
 	"globals": {
 		"navbar": {
-			"Prospective Students": "/prospective",
-			"Information": ["/information", {
-				"About Us": "aboutUs",
-				"Contacts": "contacts",
-				"Lunch Menu": "lunchMenu"
-			}],
-			"Academics": "/academics",
-			"Extracurriculars": ["/extracurriculars", {
-				"Sports": "sports",
-				"Clubs": "clubs"
-			}]
+			"brand": "UHSSE",
+			"button": {
+				"text": "PROSPECTIVE STUDENTS",
+				"link": "/prospective"
+			},
+			"links": {
+				"Information": ["/information", {
+					"About Us": "aboutUs",
+					"Contacts": "contacts",
+					"Lunch Menu": "lunchMenu"
+				}],
+				"Academics": "/academics",
+				"Extracurriculars": ["/extracurriculars", {
+					"Sports": "sports",
+					"Clubs": "clubs"
+				}]
+			}
 		}
 	}
 }

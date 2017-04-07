@@ -8,13 +8,6 @@ block head
 block body
 	+header(banner, name, lead)
 	.container
-
-		+section(aboutUs.name, aboutUs.lead, aboutUs.nav)
-			each paragraph in aboutUs.description
-				p= paragraph
-
-		hr
-
 		+section(contacts.name, contacts.lead, contacts.nav)
 			h6 
 				strong UHSSE Staff
