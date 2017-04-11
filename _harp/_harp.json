@@ -2,6 +2,18 @@
 	"globals": {
 		"navbar": {
 			"brand": "UHSSE",
+			"icons": [
+				{
+					"link": "https://powerschool.hartfordschools.org/public/",
+					"image": "assets/img/powerschool.png",
+					"size": "2rem"
+				},
+				{
+					"link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
+					"image": "assets/img/naviance.jpg",
+					"size": "2.5rem"
+				}
+			],
 			"button": {
 				"text": "PROSPECTIVE STUDENTS",
 				"link": "/prospective"

@@ -44,3 +44,17 @@
 	margin: 0 12.5% 0 12.5%;
 	text-align: center;
 }
+
+.fc-left > h2 {
+	font-size: 20px !important;
+}
+
+.fc-day-header {
+	border: none !important;
+	background-color: #e51c23;
+	color: white;
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: right !important;
+	padding-right: 1rem !important;
+}

@@ -2,7 +2,11 @@ extends _templates/base.jade
 
 block head
 	title UHSSE
-	link(rel = "stylesheet", href = "/assets/css/index.css")
+	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/fullcalendar.min.css")
+	link(rel="stylesheet" href="/assets/css/index.css")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" defer)
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/fullcalendar.min.js" defer)
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/gcal.min.js" defer)
 	script(src="assets/js/index.js" defer)
 
 block body
@@ -10,4 +14,6 @@ block body
 	.banner-strip
 		p.text-white.text-center
 			| 351 Mark Twain Drive, Hartford CT 06112 
-			a.btn.btn-default(href = "https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions
+			a.btn.btn-default(href="https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions
+	.container
+		#calendar
