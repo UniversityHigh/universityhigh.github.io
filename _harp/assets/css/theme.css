@@ -21,6 +21,10 @@ body {
 	margin-right: .25rem;
 }
 
+.icon {
+	margin-right: 1.5rem;
+}
+
 .navbar-header {
 	display: flex;
 	justify-content: start;
@@ -32,7 +36,7 @@ body {
 	font-weight: bolder;
 	font-size: 22pt;
 	text-shadow: 0px 0px 1px rgba(0, 0 , 0, 0.3);
-	margin-right: 1rem;
+	margin-right: 5rem;
 }
 
 /* Collapses the navbar sooner to account for larger items and social icons. */
@@ -111,10 +115,10 @@ li.dropdown:hover > .dropdown-menu {
 	height: 31rem;
 	margin-bottom: 5em;
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: rgba(0, 0 ,0, 0.25);  
+	background-color: rgba(0, 0 ,0, 0.25);
 	background-blend-mode: multiply;
 	background-position: center;
+	background-size: cover;
 }
 
 .header-text {

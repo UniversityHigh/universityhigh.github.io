@@ -6,12 +6,12 @@
 				{
 					"link": "https://powerschool.hartfordschools.org/public/",
 					"image": "assets/img/powerschool.png",
-					"size": "2rem"
+					"size": "2.25rem"
 				},
 				{
 					"link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
 					"image": "assets/img/naviance.jpg",
-					"size": "2.5rem"
+					"size": "3rem"
 				}
 			],
 			"button": {

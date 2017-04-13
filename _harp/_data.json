@@ -1,8 +1,25 @@
 {
 	"index": {
-		"banners": ["/assets/img/home.jpg", "/assets/img/about.jpg", "/assets/img/academics.jpg"],
+		"banners": "/assets/img/home.jpg",
 		"name": "University High School of Science and Engineering",
-		"lead": "Early college high school located on the campus of University of Hartford"
+		"lead": "Early college high school located on the campus of University of Hartford",
+		"qualities": [
+			{
+				"glyph": "glyphicon-blackboard",
+				"name": "Premier Education",
+				"description": "Only the best of the best. It doesn't get better. Just so great. Fantastic instructional content."
+			},
+			{
+				"glyph": "glyphicon-education",
+				"name": "College Experience",
+				"description": "College swag. Courses at UHart. Work. Universty fo' real."
+			},
+			{
+				"glyph": "glyphicon-sunglasses",
+				"name": "Athletic Awesomeness",
+				"description": "Awesome. Purely. Lift stuff up. Put it down. Run. Jog. Hit balls. Throw balls. Move balls. Balls."
+			}
+		]
 	},
 	"academics": {
 		"banner": "/assets/img/academics.jpg",

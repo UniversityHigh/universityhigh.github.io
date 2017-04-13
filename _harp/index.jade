@@ -1,5 +1,14 @@
 extends _templates/base.jade
 
+mixin quality(glyph, name, description)
+	.quality.col-md-4.text-center
+		span.glyphicon(class=glyph)
+		.caption
+			h4.text-center= name
+			p.text-left= description
+			
+
+
 block head
 	title UHSSE
 	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/fullcalendar.min.css")
@@ -17,3 +26,9 @@ block body
 			a.btn.btn-default(href="https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions
 	.container
 		#calendar
+
+		hr
+
+		.row
+			each quality in qualities
+				+quality(quality.glyph, quality.name, quality.description)

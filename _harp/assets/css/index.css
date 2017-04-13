@@ -1,6 +1,5 @@
 .header {
 	margin-bottom: 0 !important;
-	transition: background-image 1.5s ease;
 }
 
 .banner-strip {
@@ -57,4 +56,13 @@
 	font-weight: lighter;
 	text-align: right !important;
 	padding-right: 1rem !important;
+}
+
+/*.quality {
+	
+}*/
+
+.quality > .glyphicon {
+	padding: 1.5rem 1.5rem 1.5rem;
+	font-size: 100pt;
 }
