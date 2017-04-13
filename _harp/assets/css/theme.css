@@ -40,7 +40,7 @@ body {
 }
 
 /* Collapses the navbar sooner to account for larger items and social icons. */
-@media (max-width: 853px) {
+@media (max-width: 969px) {
 	.navbar-header {
 		float: none;
 	}
