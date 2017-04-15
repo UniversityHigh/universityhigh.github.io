@@ -25,11 +25,11 @@ html(lang="en")
 		script(src="assets/js/app.js" defer)
 		block head
 	body
-		include navbar.jade
+		include navbar.pug
 		a#jump(title="Jump to top of page." style="display: none;")
 			span.glyphicon.glyphicon-chevron-up
 		block body
-		include footer.jade
+		include footer.pug
 		//- Use SRI (Sub Resource Integrity) to make sure imported code hasn't been tampered with
 		script(src="https://code.jquery.com/jquery-3.1.1.min.js", integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=", crossorigin="anonymous")
 		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
