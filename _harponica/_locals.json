@@ -421,15 +421,15 @@
 				"donationForms": [
 					{
 						"name": "Donation Letter",
-						"link": "about:blank"
+						"link": "http://api.ning.com/files/C*P8XcSSeqfN6L0LO82IFBRhMVjzOGfCFY69caHISYrecen*rK5L7aIqO7eAtffGTTSV3dd6ry61eImofiSAM9xCUZMEnloN/AGPDonationLetter.pdf"
 					},
 					{
 						"name": "Donation Form",
-						"link": "about:blank"
+						"link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf"
 					},
 					{
 						"name": "Scholarship Opportunities",
-						"link": "about:blank"
+						"link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf"
 					}
 				],
 				"aids": [
