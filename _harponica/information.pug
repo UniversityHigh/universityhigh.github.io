@@ -62,25 +62,27 @@ block body
 		hr
 
 		+section(parentOrganizations.name, parentOrganizations.lead, parentOrganizations.nav)
+			- let pto = parentOrganizations.pto;
+			h4= "PTO"
 			.row
 				+card("Officers")
 					ul.list-unstyled
-						each officer in parentOrganizations.officers
+						each officer in pto.officers
 							li #{officer.position}: #[a(href=officer.link target="_blank") #{officer.name}]
 				
 				+card("Meeting Dates")
-					p= parentOrganizations.meetingDates.description
+					p= pto.meetingDates.description
 					strong Schedule
 					ul.list-unstyled
-						each date in parentOrganizations.meetingDates.dates
+						each date in pto.meetingDates.dates
 							li= date
 				
 				+card("Meeting Minutes")
 					ul.list-unstyled
-						each minute in parentOrganizations.meetingMinutes
+						each minute in pto.meetingMinutes
 							li #[a(href=minute.link target="_blank")= minute.text]
 
 				+card("Fundraisers")
 					ul.list-unstyled
-						each fundraiser in parentOrganizations.fundraisers
+						each fundraiser in pto.fundraisers
 							li #[a(href=fundraiser.link target="_blank")= fundraiser.name]

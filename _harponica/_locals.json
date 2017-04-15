@@ -345,72 +345,74 @@
 			"name": "Parent Organizations",
 			"lead": "Get involved",
 			"nav": "parentOrganizations",
-			"officers": [
-				{
-					"position": "President",
-					"name": "Jessica May",
-					"link": "about:blank"
+			"pto": {
+				"officers": [
+					{
+						"position": "President",
+						"name": "Jessica May",
+						"link": "about:blank"
+					},
+					{
+						"position": "Vice President",
+						"name": "Jay Kean",
+						"link": "about:blank"
+					},
+					{
+						"position": "Treasurer",
+						"name": "Danielle Hollister",
+						"link": "about:blank"
+					},
+					{
+						"position": "Secretary",
+						"name": "Dana Shagan",
+						"link": "about:blank"
+					}
+				],
+				"meetingDates": {
+					"description": "Meetings occur on the 3rd Tuesday each month at 6pm iun the UHSSE Commons.",
+					"dates": ["September 20, 2016", "October 18, 2016", "November 15, 2016", "January 17, 2017", "February 22, 2017 (Wed)", "March 28, 2017", "April 18, 2017", "May 16, 2017"]
 				},
-				{
-					"position": "Vice President",
-					"name": "Jay Kean",
-					"link": "about:blank"
-				},
-				{
-					"position": "Treasurer",
-					"name": "Danielle Hollister",
-					"link": "about:blank"
-				},
-				{
-					"position": "Secretary",
-					"name": "Dana Shagan",
-					"link": "about:blank"
-				}
-			],
-			"meetingDates": {
-				"description": "Meetings occur on the 3rd Tuesday each month at 6pm iun the UHSSE Commons.",
-				"dates": ["September 20, 2016", "October 18, 2016", "November 15, 2016", "January 17, 2017", "February 22, 2017 (Wed)", "March 28, 2017", "April 18, 2017", "May 16, 2017"]
-			},
-			"meetingMinutes": [
-				{
-					"link": "about:blank",
-					"text": "March 2017"
-				},
-				{
-					"link": "about:blank",
-					"text": "February 2017"
-				},
-				{
-					"link": "about:blank",
-					"text": "November 2016"
-				},
-				{
-					"link": "about:blank",
-					"text": "October 2016"
-				},
-				{
-					"link": "about:blank",
-					"text": "September 2016"
-				},
-				{
-					"link": "about:blank",
-					"text": "May 2016"
-				}
-			],
-			"fundraisers": [
-				{
-					"link": "about:blank",
-					"name": "Scrip"
-				},
-				{
-					"link": "about:blank",
-					"name": "A+ School Rewards"
-				},
-				{
-					"link": "about:blank",
-					"name": "ShopRite"
-				}
-			]
+				"meetingMinutes": [
+					{
+						"link": "about:blank",
+						"text": "March 2017"
+					},
+					{
+						"link": "about:blank",
+						"text": "February 2017"
+					},
+					{
+						"link": "about:blank",
+						"text": "November 2016"
+					},
+					{
+						"link": "about:blank",
+						"text": "October 2016"
+					},
+					{
+						"link": "about:blank",
+						"text": "September 2016"
+					},
+					{
+						"link": "about:blank",
+						"text": "May 2016"
+					}
+				],
+				"fundraisers": [
+					{
+						"link": "about:blank",
+						"name": "Scrip"
+					},
+					{
+						"link": "about:blank",
+						"name": "A+ School Rewards"
+					},
+					{
+						"link": "about:blank",
+						"name": "ShopRite"
+					}
+				]
+			}
 		}
 	},
 	"extracurriculars": {
