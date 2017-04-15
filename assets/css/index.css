@@ -58,9 +58,12 @@
 	padding-right: 1rem !important;
 }
 
-/*.quality {
-	
-}*/
+.fc-event {
+	background-color: #eb5156 !important;
+	color: white !important;
+	text-decoration: none !important;
+	border: none !important;
+}
 
 .quality > .glyphicon {
 	padding: 1.5rem 1.5rem 1.5rem;

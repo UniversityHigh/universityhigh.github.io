@@ -10,7 +10,7 @@ mixin card(name)
 
 block head
 	title Information | UHSSE
-	link(rel = "stylesheet", href = "/assets/css/information.css" defer)
+	link(rel="stylesheet" href="/assets/css/information.css" defer)
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js" defer)
 	script(src="assets/js/information.js" defer)
 
@@ -86,3 +86,29 @@ block body
 					ul.list-unstyled
 						each fundraiser in pto.fundraisers
 							li #[a(href=fundraiser.link target="_blank")= fundraiser.name]
+				
+			- let afterGrad = parentOrganizations.afterGrad;
+			h4= "After Grad Party"
+			p= afterGrad.description
+			.row
+				+card("Meeting Dates")
+					p= afterGrad.meetingDates.description
+					strong Schedule
+					ul.list-unstyled
+						each date in afterGrad.meetingDates.dates
+							li= date
+				
+				+card("Donation Forms")
+					ul.list-unstyled
+						each form in afterGrad.donationForms
+							li #[a(href=form.link target="_blank")= form.name]
+
+				+card("How Can You Help?")
+					ul.list-unstyled
+						each aid in afterGrad.aids
+							li #[a(href="javascript:void(0);" title=aid.description data-toggle="tooltip" data-trigger="focus" data-placement="auto")= aid.name]
+				
+				+card("Updates")
+					ul.list-unstyled
+						each update in afterGrad.updates
+							li #[a(href="javascript:void(0);" title=update.description data-toggle="tooltip" data-trigger="focus" data-placement="auto")= update.name]

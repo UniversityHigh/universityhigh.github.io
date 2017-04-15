@@ -6,3 +6,15 @@ thead {
 	max-height: 25em;
 	overflow: auto;
 }
+
+.tooltip {
+	font-size: 13px;
+}
+
+.tooltip-inner {
+	background-color: #2196f3 !important;
+}
+
+.tooltip-arrow {
+	border-top-color: #2196f3 !important;
+}

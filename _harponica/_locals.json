@@ -412,6 +412,54 @@
 						"name": "ShopRite"
 					}
 				]
+			},
+			"afterGrad": {
+				"meetingDates": {
+					"description": "Meetings will be held in the UHSSE commons at 6:30pm.",
+					"dates": ["September 6, 2016", "October 4, 2016", "November 1, 2016", "December 6, 2016", "January 3, 2017", "February 7, 2017 (Wed)", "March 7, 2017", "April 4, 2017", "May 23, 2017", "June 8, 2017"]
+				},
+				"donationForms": [
+					{
+						"name": "Donation Letter",
+						"link": "about:blank"
+					},
+					{
+						"name": "Donation Form",
+						"link": "about:blank"
+					},
+					{
+						"name": "Scholarship Opportunities",
+						"link": "about:blank"
+					}
+				],
+				"aids": [
+					{
+						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+						"name": "Attend a meeting"
+					},
+					{
+						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+						"name": "Attend a fundraiser"
+					},
+					{
+						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+						"name": "Donate to the party"
+					},
+					{
+						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+						"name": "Volunteer at the party"
+					}
+				],
+				"updates": [
+					{
+						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+						"name": "Emailed updates and reminders"
+					},
+					{
+						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+						"name": "Facebook"
+					}
+				]
 			}
 		}
 	},
