@@ -106,7 +106,7 @@ block body
 				+card("How Can You Help?")
 					ul.list-unstyled
 						each aid in afterGrad.aids
-							li #[a(href="javascript:void(0);" title=aid.description data-toggle="tooltip" data-trigger="focus" data-placement="auto")= aid.name]
+							li #[a(class="hidden-xs" href="javascript:void(0);" title=aid.description data-toggle="tooltip" data-trigger="focus" data-placement="auto")= aid.name] #[a(class = "visible-xs" href = `javascript:alert("${aid.description}");`)= aid.name]
 				
 				+card("Updates")
 					ul.list-unstyled
