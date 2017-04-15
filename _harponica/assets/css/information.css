@@ -13,6 +13,7 @@ thead {
 
 .tooltip-inner {
 	background-color: #2196f3 !important;
+	border-radius: 5px !important;
 }
 
 .tooltip-arrow {
