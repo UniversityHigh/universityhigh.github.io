@@ -20,7 +20,8 @@
 		"links": {
 			"Information": ["/information", {
 				"Contacts": "contacts",
-				"Lunch Menu": "lunchMenu"
+				"Lunch Menu": "lunchMenu",
+				"Parent Organizations": "parentOrganizations"
 			}],
 			"Academics": "/academics",
 			"Extracurriculars": ["/extracurriculars", {

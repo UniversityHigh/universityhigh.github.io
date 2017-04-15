@@ -1,5 +1,13 @@
 extends _templates/base.pug
 
+mixin card(name)
+	.col-md-3
+		.panel.panel-default
+			.panel-heading
+				h5 #{name}
+			.panel-body
+				block
+
 block head
 	title Information | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/information.css" defer)
@@ -50,3 +58,29 @@ block body
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.nav)
 			.embed-responsive.embed-responsive-16by9
 				iframe#pdf.embed-responsive.item(frameborder="0" src="https://docs.google.com/gview?url=")
+
+		hr
+
+		+section(parentOrganizations.name, parentOrganizations.lead, parentOrganizations.nav)
+			.row
+				+card("Officers")
+					ul.list-unstyled
+						each officer in parentOrganizations.officers
+							li #{officer.position}: #[a(href=officer.link target="_blank") #{officer.name}]
+				
+				+card("Meeting Dates")
+					p= parentOrganizations.meetingDates.description
+					strong Schedule
+					ul.list-unstyled
+						each date in parentOrganizations.meetingDates.dates
+							li= date
+				
+				+card("Meeting Minutes")
+					ul.list-unstyled
+						each minute in parentOrganizations.meetingMinutes
+							li #[a(href=minute.link target="_blank")= minute.text]
+
+				+card("Fundraisers")
+					ul.list-unstyled
+						each fundraiser in parentOrganizations.fundraisers
+							li #[a(href=fundraiser.link target="_blank")= fundraiser.name]
