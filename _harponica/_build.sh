@@ -1,1 +1,1 @@
-harp compile . ../
+harponica compile . ../
