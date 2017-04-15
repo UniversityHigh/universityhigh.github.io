@@ -350,22 +350,22 @@
 					{
 						"position": "President",
 						"name": "Jessica May",
-						"link": "about:blank"
+						"email": "jessmay01@gmail.com"
 					},
 					{
 						"position": "Vice President",
 						"name": "Jay Kean",
-						"link": "about:blank"
+						"email": "jay.kean@comcast.net"
 					},
 					{
 						"position": "Treasurer",
 						"name": "Danielle Hollister",
-						"link": "about:blank"
+						"email": "danie7@cox.net"
 					},
 					{
 						"position": "Secretary",
 						"name": "Dana Shagan",
-						"link": "about:blank"
+						"email": "shagandana@gmail.com"
 					}
 				],
 				"meetingDates": {
@@ -374,41 +374,41 @@
 				},
 				"meetingMinutes": [
 					{
-						"link": "about:blank",
+						"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
 						"text": "March 2017"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
 						"text": "February 2017"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
 						"text": "November 2016"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
 						"text": "October 2016"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
 						"text": "September 2016"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
 						"text": "May 2016"
 					}
 				],
 				"fundraisers": [
 					{
-						"link": "about:blank",
+						"link": "http://www.shopwithscrip.com/",
 						"name": "Scrip"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://www.stopandshop.com/aplus",
 						"name": "A+ School Rewards"
 					},
 					{
-						"link": "about:blank",
+						"link": "http://www.shopriteforeducation.com/",
 						"name": "ShopRite"
 					}
 				]

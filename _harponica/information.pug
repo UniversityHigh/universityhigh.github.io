@@ -68,7 +68,7 @@ block body
 				+card("Officers")
 					ul.list-unstyled
 						each officer in pto.officers
-							li #{officer.position}: #[a(href=officer.link target="_blank") #{officer.name}]
+							li #{officer.position}: #[a(href=`mailto:${officer.email}` target="_blank") #{officer.name}]
 				
 				+card("Meeting Dates")
 					p= pto.meetingDates.description
