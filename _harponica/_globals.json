@@ -1,0 +1,32 @@
+{
+	"navbar": {
+		"brand": "UHSSE",
+		"icons": [
+			{
+				"link": "https://powerschool.hartfordschools.org/public/",
+				"image": "assets/img/powerschool.png",
+				"size": "2.25rem"
+			},
+			{
+				"link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
+				"image": "assets/img/naviance.jpg",
+				"size": "3rem"
+			}
+		],
+		"button": {
+			"text": "PROSPECTIVE STUDENTS",
+			"link": "/prospective"
+		},
+		"links": {
+			"Information": ["/information", {
+				"Contacts": "contacts",
+				"Lunch Menu": "lunchMenu"
+			}],
+			"Academics": "/academics",
+			"Extracurriculars": ["/extracurriculars", {
+				"Sports": "sports",
+				"Clubs": "clubs"
+			}]
+		}
+	}
+}
