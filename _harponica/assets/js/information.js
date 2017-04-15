@@ -4,7 +4,7 @@ $("table").floatThead({
 	}
 });
 
-$('[data-toggle="tooltip"]').tooltip();
+$("[data-toggle='tooltip']").tooltip();
 
 let date = new Date();
 let year = date.getFullYear();
