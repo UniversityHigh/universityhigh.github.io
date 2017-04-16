@@ -18,8 +18,7 @@ block body
 	+header(banner, name, lead)
 	.container
 		+section(contacts.name, contacts.lead, contacts.nav)
-			h6 
-				strong UHSSE Staff
+			+innerSection("UHSSE Staff")
 			.table-scroll
 				table.table.table-striped.table-hover.table-condensed.table-responsive
 					thead
@@ -32,11 +31,10 @@ block body
 								td= contact.name
 								td= contact.position
 								td
-									a(href="mailto://" + contact.email)= contact.email
+									a(href="mailto:" + contact.email)= contact.email
 			br
 			br
-			h6
-				strong Support Services
+			+innerSection("Support Services")
 			.table-scroll
 				table.table.table-striped.table-hover.table-condensed.table-responsive
 					thead
@@ -63,7 +61,7 @@ block body
 
 		+section(parentOrganizations.name, parentOrganizations.lead, parentOrganizations.nav)
 			- let pto = parentOrganizations.pto;
-			h4= "PTO"
+			+innerSection("PTO")
 			.row
 				+card("Officers")
 					ul.list-unstyled
@@ -88,7 +86,7 @@ block body
 							li #[a(href=fundraiser.link target="_blank")= fundraiser.name]
 				
 			- let afterGrad = parentOrganizations.afterGrad;
-			h4= "After Grad Party"
+			+innerSection("After Grad Party")
 			p= afterGrad.description
 			.row
 				+card("Meeting Dates")
@@ -112,3 +110,22 @@ block body
 					ul.list-unstyled
 						each update in afterGrad.updates
 							li #[a(class="hidden-xs" href="javascript:void(0);" title=update.description data-toggle="tooltip" data-trigger="focus" data-placement="auto")= update.name] #[a(class="visible-xs" href=`javascript:alert("${update.description}");`)= update.name]
+
+		hr
+
+		+section(guidance.name, guidance.lead, guidance.nav)
+			p !{guidance.description}
+			
+			+innerSection("Scholarships")
+			.table-scroll
+			table.table.table-striped.table-hover.table-condensed.table-responsive
+				thead
+					th Organization
+					th Website
+				tbody
+					each scholarship in guidance.scholarships
+						tr
+							td= scholarship.organization
+							td
+								- let link = scholarship.link.includes("http") ? scholarship.link : "http://" + scholarship.link;
+								a(href=link target="_blank")= link

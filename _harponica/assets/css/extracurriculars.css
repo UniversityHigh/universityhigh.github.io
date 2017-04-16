@@ -2,26 +2,6 @@ h6 {
 	font-size: 12pt;
 }
 
-.season {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding-top: .5rem;
-	padding-bottom: .5rem;
-}
-
-.season-text {
-	flex-grow: 0;
-	padding-right: .5rem;
-	font-size: 14pt;
-}
-
-.season-line {
-	flex-grow: 1;
-	height: 1px;
-	background-color: lightgray;
-}
-
 .coachingStaffTitle, .leader {
 	margin-top: 0;
 	margin-bottom: 0;

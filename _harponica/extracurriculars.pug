@@ -1,11 +1,5 @@
 extends _templates/base.pug
 
-mixin season(name)
-	.col-md-12.season
-		.season-text= name
-		.season-line
-	block
-
 mixin sport(name, coaches, schedules)
 	.col-md-3
 		.panel.panel-default
@@ -56,7 +50,8 @@ block body
 		+section(sports.name, sports.lead, sports.nav)
 			each season in sports.seasons
 				.row
-					+season(season.name)
+					.col-md-12
+						+innerSection(season.name)
 					each sport in season.sports
 						+sport(sport.name, sport.coaches, sport.schedules)
 

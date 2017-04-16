@@ -461,7 +461,18 @@
 					}
 				]
 			}
-		}
+		},
+		"guidance": {
+				"name": "Guidance",
+				"nav": "guidance",
+				"description": "Students with last names starting with A-M have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with N-Z.",
+				"scholarships": [
+					{
+						"organization": "Money for HS",
+						"link": "www.google.com"
+					}
+				]
+			}
 	},
 	"extracurriculars": {
 		"banner": "/assets/img/extracurriculars.jpg",

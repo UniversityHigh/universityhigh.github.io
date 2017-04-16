@@ -8,8 +8,14 @@ mixin header(images, name, lead)
 mixin section(title, lead, nav)
 	.section(id=nav)
 		h2= title
-			p.lead= lead
+			if lead
+				p.lead= lead
 		block
+
+mixin innerSection(name)
+	.inner-section
+		h4= name
+	block
 
 doctype html
 html(lang="en")

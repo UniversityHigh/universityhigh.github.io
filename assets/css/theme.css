@@ -144,6 +144,14 @@ li.dropdown:hover > .dropdown-menu {
 	margin-top: 0;
 }
 
+.inner-section {
+	padding-top: .5rem;
+}
+
+.inner-section > h4 {
+	text-align: left;
+}
+
 #jump {
 	position: fixed;
 	bottom: 1rem;

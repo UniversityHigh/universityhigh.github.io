@@ -21,7 +21,8 @@
 			"Information": ["/information", {
 				"Contacts": "contacts",
 				"Lunch Menu": "lunchMenu",
-				"Parent Organizations": "parentOrganizations"
+				"Parent Organizations": "parentOrganizations",
+				"Guidance": "guidance"
 			}],
 			"Academics": "/academics",
 			"Extracurriculars": ["/extracurriculars", {
