@@ -152,6 +152,10 @@ li.dropdown:hover > .dropdown-menu {
 	text-align: left;
 }
 
+.inner-section span {
+	background-color: #e51c23 !important;
+}
+
 #jump {
 	position: fixed;
 	bottom: 1rem;

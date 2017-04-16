@@ -14,7 +14,7 @@ mixin section(title, lead, nav)
 
 mixin innerSection(name)
 	.inner-section
-		h4= name
+		h4 #[span.label.label-default= name]
 	block
 
 doctype html
