@@ -1,9 +1,48 @@
 extends _templates/base.pug
 
+mixin step(number, backgroundColor, title, subtitle)
+	.step
+		h1.number(style=`background-color: ${backgroundColor};`)= number
+		.text
+			h4.title= title
+			h5.subtitle= subtitle
+
+mixin date(name, date, time, link)
+	.date.panel.panel-default
+		.icon
+			span.glyphicon.glyphicon-calendar
+		.body
+			h4= name
+			p #[strong= date]
+			p #[strong= time]
+			p #[a(href=link target="_blank")= "Reserve a seat"]
+
 block head
 	title Prospective Students | UHSSE
-	link(rel = "stylesheet", href = "/assets/css/prospective.css")
+	link(rel="stylesheet" href="/assets/css/prospective.css")
 	script(src="assets/js/prospective.js" defer)
 
 block body
 	+header(banner, name, lead)
+	.container
+		+section(applications.name, applications.lead, applications.nav)
+			.row
+				.col-md-9
+					each step, index in applications.timeline
+						+step(index + 1, step.backgroundColor, step.title, step.subtitle)
+				.col-md-3.text-center
+					.deadline
+						a.btn.btn-danger(href=applications.application.link target="_blank")= applications.application.buttonText
+						h4.title= "Application Deadline"
+						p.date
+							span.month= applications.application.month
+							span.day= applications.application.day
+		
+		hr
+
+		+section(openHouse.name, openHouse.lead, openHouse.nav)
+			p !{openHouse.text}
+			.openHouseDates.row
+				each date in openHouse.dates
+					div(class="col-md-" + (12 / openHouse.dates.length))
+						+date(date.name, date.date, date.time, date.link)

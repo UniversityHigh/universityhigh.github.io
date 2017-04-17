@@ -611,6 +611,54 @@
 	"prospective": {
 		"banner": "/assets/img/prospective.jpg",
 		"name": "Information tailored to you.",
-		"lead": "Because an informed student is a successful student."
+		"lead": "Because an informed student is a successful student.",
+		"applications": {
+			"name": "Applications",
+			"lead": "Applying is easy",
+			"nav": "applications",
+			"timeline": [
+				{
+					"backgroundColor": "#00def0",
+					"title": "Complete an online or paper application",
+					"subtitle": "before the application deadline and submit it to the Regional School Choice office."
+				},
+				{
+					"backgroundColor": "#00aab9",
+					"title": "Results will be mailed to families",
+					"subtitle": "by the Regional School Choice Office"
+				},
+				{
+					"backgroundColor": "#006570",
+					"title": "If selected, you will have three weeks to accept the placement.",
+					"subtitle": "If not selected, you will be notified of your position on the waiting list."
+				}
+			],
+			"application": {
+				"link": "about:blank",
+				"buttonText": "Online Application",
+				"month": "Feb",
+				"day": 15
+			}
+		},
+		"openHouse": {
+			"name": "Open House Dates",
+			"lead": "See what we're about",
+			"nav": "openHouse",
+			"text": "Feel free to contact <a href='mailto:basec001@hartfordschools.org' target='_blank'>Mrs. Baseler</a> with any questions!",
+			"dates": [
+				{
+					"name": "UHSSE Open House 1",
+					"date": "December 12, 2017",
+					"time": "10:00am - 12:00pm",
+					"link": "about:blank"
+				},
+				{
+					"name": "UHSSE Open House 2",
+					"date": "December 22, 2017",
+					"time": "10:00am - 12:00pm",
+					"link": "about:blank"
+				}
+			]
+		}
 	}
 }
