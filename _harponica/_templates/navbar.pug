@@ -21,7 +21,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
 					if data instanceof Array
 						//- Dropdown required
 						li.dropdown
-							a.disabled.dropdown-toggle(href=data[0], data-toggle="dropdown") #{name} #[span.caret]
+							a.disabled.dropdown-toggle(href=data[0], data-toggle="dropdown" data-hover="dropdown") #{name} #[span.caret]
 							ul.dropdown-menu
 								each subLink, subName in data[1]
 									li

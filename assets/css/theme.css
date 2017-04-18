@@ -81,17 +81,6 @@ body {
 	font-size: 12pt;
 }
 
-.navbar-default .navbar-nav > li.dropdown:hover > a, 
-.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
-.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
-	background-color: rgb(231, 231, 231);
-	color: rgb(85, 85, 85);
-}
-
-li.dropdown:hover > .dropdown-menu {
-	display: inline-block;
-}
-
 .navbar-btn {
 	margin-left: 15px;
 	margin-right: 15px;
