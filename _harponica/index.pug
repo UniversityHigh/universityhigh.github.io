@@ -13,9 +13,6 @@ block head
 	title UHSSE
 	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/fullcalendar.min.css")
 	link(rel="stylesheet" href="/assets/css/index.css")
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" defer)
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/fullcalendar.min.js" defer)
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/gcal.min.js" defer)
 	script(src="assets/js/index.js" defer)
 
 block body
@@ -25,10 +22,12 @@ block body
 			| 351 Mark Twain Drive, Hartford CT 06112 
 			a.btn.btn-default(href="https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions
 	.container
-		#calendar
-
-		hr
-
 		.row
 			each quality in qualities
 				+quality(quality.glyph, quality.name, quality.description)
+
+		hr
+
+		+innerSection("School Calendar")
+		#calendar.embed-responsive.embed-responsive-16by9
+			iframe.embed-responsive.item(frameborder="0" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=simo1ri6habk6k2njrdlj62j8g%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FNew_York")

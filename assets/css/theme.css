@@ -152,6 +152,7 @@ li.dropdown:hover > .dropdown-menu {
 
 .inner-section > h4 {
 	text-align: left;
+	font-weight: lighter;
 }
 
 #jump {
@@ -178,4 +179,8 @@ li.dropdown:hover > .dropdown-menu {
 		bottom: 3rem;
 		right: 5rem;
 	}
+}
+
+#footer {
+	margin-top: 5rem;
 }
