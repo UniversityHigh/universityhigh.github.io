@@ -2,14 +2,14 @@ extends _templates/base.pug
 
 mixin step(number, backgroundColor, title, subtitle)
 	.step
-		h1.number(style=`background-color: ${backgroundColor};`)= number
-		.text
+		h1.step-number(style=`background-color: ${backgroundColor};`)= number
+		.step-body
 			h4.title= title
 			h5.subtitle= subtitle
 
 mixin date(name, date, time, link)
 	.date.panel.panel-default
-		.icon
+		.calendar-icon
 			span.glyphicon.glyphicon-calendar
 		.body
 			h4= name
@@ -34,9 +34,9 @@ block body
 					.deadline
 						a.btn.btn-danger(href=applications.application.link target="_blank")= applications.application.buttonText
 						h4.title= "Application Deadline"
-						p.date
-							span.month= applications.application.month
-							span.day= applications.application.day
+						p#deadlineDate
+							span#deadlineMonth= applications.application.month
+							span#deadlineDay= applications.application.day
 		
 		hr
 

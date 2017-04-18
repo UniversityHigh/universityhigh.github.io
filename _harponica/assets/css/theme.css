@@ -16,12 +16,8 @@ body {
     margin: 30px 0px;
 }
 
-.icon {
+.navbar-icon {
 	margin-left: .25rem;
-	margin-right: .25rem;
-}
-
-.icon {
 	margin-right: 1.5rem;
 }
 
@@ -127,6 +123,12 @@ li.dropdown:hover > .dropdown-menu {
 	min-width: 75%;
 }
 
+@media (max-width: 576px) {
+	.header-text h1 {
+		font-size: 40px;
+	}
+}
+
 .btn-nav {
 	float: right;
 	margin: .1em .1em;
@@ -172,6 +174,10 @@ li.dropdown:hover > .dropdown-menu {
 	text-decoration: none;
 	font-size: 2.5rem;
 	cursor: pointer;
+}
+
+#jump > .glyphicon {
+	padding-bottom: .15rem;
 }
 
 @media (min-width: 1200px) {

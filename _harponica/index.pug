@@ -1,13 +1,12 @@
 extends _templates/base.pug
-
-mixin quality(glyph, name, description)
-	.quality.col-md-4.text-center
-		span.glyphicon(class=glyph)
-		.caption
-			h4.text-center= name
-			p.text-left= description
 			
-
+mixin quality(backgroundColor, glyph, name, description)
+	.quality
+		.icon(style=`background-color: ${backgroundColor};`)
+			span.glyphicon(class=glyph)
+		.body
+			h4= name
+			p= description
 
 block head
 	title UHSSE
@@ -22,21 +21,21 @@ block body
 		p.text-white.text-center
 			| 351 Mark Twain Drive, Hartford CT 06112 
 			a.btn.btn-default(href="https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions
+	
 	.container
-		.row
-			each quality in qualities
-				+quality(quality.glyph, quality.name, quality.description)
+		#about.row
+			.col-md-6.hidden-xs.hidden-sm
+				ul#gallery
+					each image in gallery
+						li
+							a(href=image.link || "javascript:void(0);" target="_blank")
+								img(src=image.src alt=image.caption)
+			.col-md-5.col-md-offset-1
+				each quality in qualities
+					+quality(quality.backgroundColor, quality.glyph, quality.name, quality.description)
 
 		hr
 
 		+innerSection("School Events")
-		.row
-			.col-md-6
-				#calendar.embed-responsive.embed-responsive-16by9
+			#calendar.embed-responsive.embed-responsive-16by9
 					iframe.embed-responsive.item(frameborder="0" src="https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
-			.col-md-6
-				ul#gallery
-					each image in gallery
-						li
-							a(href="javascript:void(0);")
-								img(src=image.src alt=image.text)

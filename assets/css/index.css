@@ -22,31 +22,37 @@
 	margin-left: 10px;
 }
 
-.showcase {
-	text-align: center;
+@media (min-width: 768px) {
+	#about {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
-.showcase h3 {
-	margin-bottom: 30px;
+.quality {
+	display: flex;
+	margin-bottom: 2rem;
 }
 
-.showcase span.glyphicon {
-	font-size: 100px;
+.quality .icon {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	margin-right: 2.5rem;
 }
 
-.pillar {
-	margin-bottom: 5rem;
+.quality .icon > span {
+	color: white;
+	font-size: 5rem;
 }
 
-.description {
-	width: 75%;
-	margin: 0 12.5% 0 12.5%;
-	text-align: center;
-}
-
-.quality > .glyphicon {
-	padding: 1.5rem 1.5rem 1.5rem;
-	font-size: 100pt;
+.quality h4 {
+	margin-bottom: 0;
 }
 
 .sy-pager li.sy-active a {

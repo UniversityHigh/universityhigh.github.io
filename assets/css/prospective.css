@@ -3,7 +3,7 @@
 	align-items: center;
 }
 
-.step .number {
+.step-number {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -14,7 +14,7 @@
 	color: white;
 }
 
-.step .text {
+.step-body {
 	display: inline-block;
 	margin-left: 5rem;
 }
@@ -50,7 +50,7 @@
 	}
 }
 
-.deadline .date {
+#deadlineDate {
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
@@ -62,22 +62,22 @@
 	background-color: #e51c23;
 }
 
-.deadline .date .month {
+#deadlineMonth {
 	margin-bottom: -2.75rem;
 	font-weight: bold;
 	font-size: 13pt;
 }
 
-.deadline .date .day {
+#deadlineDay {
 	font-size: 45px;
 	margin-bottom: -1.25rem;
 }
 
-.openHouseDates .date {
+.date {
 	display: flex;
 }
 
-.openHouseDates .date .icon {
+.date .calendar-icon {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -87,25 +87,20 @@
 	padding: 0 1rem 0 1.8rem;
 }
 
-.openHouseDates .date .glyphicon-calendar {
+.date > .calendar-icon > .glyphicon {
 	color: white;
 	font-size: 5rem;
 }
 
-.openHouseDates .date .media-left {
-	vertical-align: middle;
-	background-color: #3996ff;
-	padding-left: 10px;
-}
-
-.openHouseDates .date .body {
+.date .body {
+	margin-left: 2rem;
 	margin-bottom: 11.5px;
 }
 
-.openHouseDates .date h4 {
+.date h4 {
 	font-weight: lighter;
 }
 
-.openHouseDates .date p {
+.date p {
 	margin: 0;
 }
