@@ -48,3 +48,15 @@
 	padding: 1.5rem 1.5rem 1.5rem;
 	font-size: 100pt;
 }
+
+.sy-pager li.sy-active a {
+	background-color: #e51c23;
+}
+
+.sy-controls li a:after {
+	background-image: url("/assets/img/arrows.svg") !important;
+}
+
+.sy-box.sy-loading {
+	background-image: url("/assets/img/sy-loader.gif") 50% 50% no-repeat !important;
+}

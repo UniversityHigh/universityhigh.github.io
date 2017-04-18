@@ -19,6 +19,20 @@
 				"name": "Athletic Awesomeness",
 				"description": "Awesome. Purely. Lift stuff up. Put it down. Run. Jog. Hit balls. Throw balls. Move balls. Balls."
 			}
+		],
+		"gallery": [
+			{
+				"src": "assets/img/about.jpg",
+				"text": "This is some info about the image."
+			},
+			{
+				"src": "assets/img/home.jpg",
+				"text": "This is some info about the image."
+			},
+			{
+				"src": "assets/img/prospective.jpg",
+				"text": "This is some info about the image."
+			}
 		]
 	},
 	"academics": {

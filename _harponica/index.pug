@@ -11,7 +11,9 @@ mixin quality(glyph, name, description)
 
 block head
 	title UHSSE
-	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.1/fullcalendar.min.css")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)
+	script(src="assets/js/index.js" defer)
+	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css")
 	link(rel="stylesheet" href="/assets/css/index.css")
 
 block body
@@ -27,6 +29,14 @@ block body
 
 		hr
 
-		+innerSection("School Calendar")
-		#calendar.embed-responsive.embed-responsive-16by9
-			iframe.embed-responsive.item(frameborder="0" src="https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
+		+innerSection("School Events")
+		.row
+			.col-md-6
+				#calendar.embed-responsive.embed-responsive-16by9
+					iframe.embed-responsive.item(frameborder="0" src="https://calendar.google.com/calendar/embed?src=oaomn16s4itdvibnciuc45386k%40group.calendar.google.com&ctz=America/New_York")
+			.col-md-6
+				ul#gallery
+					each image in gallery
+						li
+							a(href="javascript:void(0);")
+								img(src=image.src alt=image.text)
