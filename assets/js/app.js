@@ -29,6 +29,7 @@ $("li.dropdown :first-child").on("click", function() {
 
 let announcements = $(".announcements p");
 if(announcements.length === 1) {
+	$("nav").append($(".announcements"));
 	let data = announcements.data("announcements");
 	let dataLength = data.length;
 	let dataIndex = 0;

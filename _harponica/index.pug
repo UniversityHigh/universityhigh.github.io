@@ -16,6 +16,7 @@ block head
 	link(rel="stylesheet" href="/assets/css/index.css")
 
 block body
+	+announcements(announcements)
 	+header(banners, name, phrase, announcements)
 	.banner-strip
 		p.text-white.text-center
