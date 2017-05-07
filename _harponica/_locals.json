@@ -360,7 +360,8 @@
 		"lunchMenu": {
 			"name": "Lunch Menu",
 			"lead": "What's on the menu?",
-			"nav": "lunchMenu"
+			"nav": "lunchMenu",
+			"url": "https://www.hartfordschools.org/wp-content/uploads/2016/01/Lunch-Menu-6-12-May2017.pdf"
 		},
 		"parentOrganizations": {
 			"name": "Parent Organizations",
