@@ -3,6 +3,7 @@
 		"banners": "/assets/img/home.jpg",
 		"name": "University High School of Science and Engineering",
 		"lead": "Early college high school located on the campus of University of Hartford",
+		"announcements": ["This is a test announcement.", "This is another.", "And this is another!"],
 		"qualities": [
 			{
 				"backgroundColor": "#ED4646",
@@ -617,15 +618,6 @@
 					}
 				}
 			]
-		}
-	},
-	"news": {
-		"banner": "/assets/img/news.jpg",
-		"name": "What's on the schedule?",
-		"lead": "Busy bees are happy bees.",
-		"calendar": {
-			"name": "Calendar",
-			"lead": "Past, present, and future."
 		}
 	},
 	"prospective": {

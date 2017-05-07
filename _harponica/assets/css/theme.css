@@ -118,6 +118,19 @@ body {
 	}
 }
 
+.announcements {
+	width: 100%;
+	background-color: #e51c23;
+	padding: .6em;
+	font-family: inherit;
+	font-weight: 100;
+}
+
+.announcements p {
+	font-size: 14px;
+	margin: 0em;
+}
+
 .btn-nav {
 	float: right;
 	margin: .1em .1em;
