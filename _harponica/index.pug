@@ -30,7 +30,7 @@ block body
 					each image in gallery
 						li
 							a(href=image.link || "javascript:void(0);" target="_blank")
-								img(src=image.src alt=image.caption)
+								img.img-responsive(src=image.src alt=image.caption)
 			.col-md-5.col-md-offset-1
 				each quality in qualities
 					+quality(quality.backgroundColor, quality.glyph, quality.name, quality.description)
