@@ -39,8 +39,8 @@ block body
 	
 	.container
 		+section(departments.name, departments.lead, departments.nav)
-			each department, name in departments.departments
-				h4.title #{name} #[small Led by #[b #{department.lead}]]
+			each department in departments.departments
+				h4.title #{department.name} #[small Led by #[b #{department.lead}]]
 				p= department.description
 				.row
 					each course in department.courses
