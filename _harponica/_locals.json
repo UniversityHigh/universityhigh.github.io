@@ -8,20 +8,20 @@
 			{
 				"backgroundColor": "#ED4646",
 				"glyph": "glyphicon-blackboard",
-				"name": "Premier Education",
-				"description": "Only the best of the best. It doesn't get better. Just so great. Fantastic instructional content."
+				"name": "Unparalleled Education",
+				"description": "Students are presented with a wide variety of high level courses throughout their four years."
 			},
 			{
 				"backgroundColor": "#B72626",
 				"glyph": "glyphicon-education",
-				"name": "College Experience",
-				"description": "College swag. Courses at UHart. Work. Universty fo' real."
+				"name": "College Collaboration",
+				"description": "A partnership with UHart allows our students to get a full taste of the college world."
 			},
 			{
 				"backgroundColor": "#6E1515",
 				"glyph": "glyphicon-sunglasses",
-				"name": "Athletic Awesomeness",
-				"description": "Awesome. Purely. Lift stuff up. Put it down. Run. Jog. Hit balls. Throw balls. Move balls. Balls."
+				"name": "Athletic Affluence",
+				"description": "From robotics to track to popcorn club, there is always a group for everyone."
 			}
 		],
 		"gallery": [
