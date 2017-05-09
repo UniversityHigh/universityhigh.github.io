@@ -10,18 +10,18 @@ mixin quality(backgroundColor, glyph, name, description)
 
 block head
 	title UHSSE
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" defer)
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)
 	script(src="assets/js/index.js" defer)
 	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css")
 	link(rel="stylesheet" href="/assets/css/index.css")
 
 block body
-	+announcements(announcements)
 	+header(banners, name, phrase, announcements)
 	.banner-strip
 		p.text-white.text-center
 			| 351 Mark Twain Drive, Hartford CT 06112 
-			a.btn.btn-default(href="https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions
+			a.btn.btn-default(href="https://goo.gl/maps/1trdfAtqE4A2" target="_blank") #[span.glyphicon.glyphicon-road] Get Directions	
 	
 	.container
 		#about.row

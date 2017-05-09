@@ -14,10 +14,6 @@ nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
 					image.navbar-icon(src=icon.image style="width: " + icon.size + "; height: auto;")
 		div.collapse.navbar-collapse#navbar-links
 			ul.nav.navbar-nav.navbar-right
-				li.btn-nav
-					div
-						a.btn.btn-danger.navbar-btn(href=navbar.button.link)= navbar.button.text
-				
 				each data, name in navbar.links
 					if data instanceof Array
 						//- Dropdown required
@@ -30,3 +26,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
 					else
 						li
 							a.nav-link(href=data)= name
+				
+				li.btn-nav
+					div
+						a.btn.btn-danger.navbar-btn(href=navbar.button.link)= navbar.button.text
