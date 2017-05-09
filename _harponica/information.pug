@@ -19,8 +19,9 @@ block body
 	.container
 		+section(contacts.name, contacts.lead, contacts.nav)
 			+innerSection("UHSSE Staff")
+				input#staffSearch(type="text" placeholder="Type here to filter...")
 			.table-scroll
-				table.table.table-striped.table-hover.table-condensed.table-responsive
+				table#staff.table.table-striped.table-hover.table-condensed.table-responsive
 					thead
 						th Name
 						th Position
@@ -35,8 +36,9 @@ block body
 			br
 			br
 			+innerSection("Support Services")
+				input#supportServicesSearch(type="text" placeholder="Type here to filter...")
 			.table-scroll
-				table.table.table-striped.table-hover.table-condensed.table-responsive
+				table#supportServices.table.table-striped.table-hover.table-condensed.table-responsive
 					thead
 						th Name
 						th Service

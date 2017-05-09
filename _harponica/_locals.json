@@ -65,8 +65,11 @@
 						{
 							"name": "Algebra 2",
 							"teacher": "Kate Grayeb",
-							"teacherEmail": "idk@aol.com",
-							"syllabusnav": "http://google.com/search?q=learn+math",
+							"teacherWebsite": "https://www.google.com",
+							"email": "idk@aol.com",
+							"moreInformation": "http://www.uconn.edu",
+							"syllabus": "http://google.com/search?q=learn+math",
+							"assignments": "http://drive.google.com",
 							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
 							"isECE": true,
 							"isAP": false,
@@ -82,8 +85,10 @@
 						{
 							"name": "General Chemistry",
 							"teacher": "Michael Fromerth",
-							"teacherEmail": "idk@aol.com",
-							"syllabusnav": "http://google.com/search?q=learn+math",
+							"teacherWebsite": "https://www.google.com",
+							"email": "idk@aol.com",
+							"moreInformation": "http://www.uconn.edu",
+							"syllabus": "http://google.com/search?q=learn+math",
 							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
 							"isAP": true,
 							"isECE": false,
@@ -508,7 +513,7 @@
 		"lead": "Because there's more to school than just classes",
 		"buttons": [
 			{
-				"name": "Sports",
+				"name": "Athletics",
 				"nav": "#sports"
 			},
 			{
@@ -516,10 +521,10 @@
 				"nav": "#clubs"
 			}
 		],
-		"sports": {
-			"name": "Sports",
+		"athletics": {
+			"name": "Athletics",
 			"lead": "Get your game on",
-			"nav": "sports",
+			"nav": "athletics",
 			"seasons": [
 				{
 					"name": "Spring",

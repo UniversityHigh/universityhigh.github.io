@@ -1,3 +1,17 @@
+.inner-section {
+	display: flex;
+	align-items: center;
+}
+
+.inner-section > h4 {
+	margin: 0;
+	padding-right: 2rem;
+}
+
+.inner-section > input {
+	outline: none;
+}
+
 thead {
 	background-color: white;
 }

@@ -1,6 +1,6 @@
 extends _templates/base.pug
 
-mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, isAP)
+mixin course(name, teacher, email, teacherWebsite, moreInformation, syllabus, assignments, description, isHonors, isECE, isAP)
 	- isHonors = isHonors || true
 	- isECE = isECE || false
 	- isAP = isAP || false
@@ -9,15 +9,24 @@ mixin course(name, teacher, teacherEmail, syllabusLink, desc, isHonors, isECE, i
 			.panel-heading
 				h5.title #{name} #[small #{teacher}]
 					.btn-group.pull-right
-						button.btn.btn-link.btn-sm.dropdown-toggle(type = "button", data-toggle = "dropdown")
+						button.btn.btn-link.btn-sm.dropdown-toggle(type = "button" data-toggle = "dropdown")
 							span.glyphicon.glyphicon-option-vertical
 						ul.dropdown-menu
+							if moreInformation
+								li
+									a(href=moreInformation target="_blank") #[span.glyphicon.glyphicon-info-sign] More Information
+							if teacherWebsite
+								li
+									a(href=teacherWebsite target="_blank") #[span.glyphicon.glyphicon-apple] Teacher Website
 							li
-								a(href = "mailto://" + teacherEmail) #[span.glyphicon.glyphicon-envelope] Email Teacher
+								a(href = "mailto://" + teacherEmail target="_blank") #[span.glyphicon.glyphicon-envelope] Email Teacher
 							li
-								a(href = syllabusLink) #[span.glyphicon.glyphicon-file] View Syllabus
+								a(href = syllabus target="_blank") #[span.glyphicon.glyphicon-file] View Syllabus
+							if assignments
+								li
+									a(href=assignments target="_blank") #[span.glyphicon.glyphicon-folder-open] View Assignments
 			.panel-body
-				p= desc
+				p= description
 			.panel-footer
 				h5.text-right
 					if isHonors
@@ -44,5 +53,5 @@ block body
 				p= department.description
 				.row
 					each course in department.courses
-						+course(course.name, course.teacher, course.teacherEmail, course.syllabusLink, course.description, course.isHonors, course.isECE, course.isAP)
+						+course(course.name, course.teacher, course.email, course.teacherWebsite, course.moreInformation, course.syllabus, course.assignments, course.description, course.isHonors, course.isECE, course.isAP)
 				br
