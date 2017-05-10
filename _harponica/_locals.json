@@ -4,6 +4,7 @@
 		"name": "University High School of Science and Engineering",
 		"lead": "Early college high school located on the campus of University of Hartford",
 		"announcements": ["This is a test announcement.", "This is another.", "And this is another!"],
+		"phoneNumber": "(860) 695-9020",
 		"qualities": [
 			{
 				"backgroundColor": "#ED4646",
