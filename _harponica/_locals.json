@@ -497,16 +497,32 @@
 			}
 		},
 		"guidance": {
-				"name": "Guidance",
-				"nav": "guidance",
-				"description": "Students with last names starting with A-M have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with N-Z.",
-				"scholarships": [
-					{
-						"organization": "Money for HS",
-						"link": "www.google.com"
-					}
-				]
-			}
+			"name": "Guidance",
+			"nav": "guidance",
+			"description": "Students with last names starting with A-M have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with N-Z.",
+			"scholarships": [
+				{
+					"organization": "Money for HS",
+					"link": "www.google.com"
+				}
+			]
+		},
+		"resources": {
+			"name": "Resources",
+			"nav": "resources",
+			"resources": [
+				{
+					"url": "https://google.com",
+					"name": "Student Handbook",
+					"description": "Tree killer extrodinaire."
+				},
+				{
+					"url": "https://google.com",
+					"name": "Health Form #1",
+					"description": "Just don't die, okay?"
+				}
+			]
+		}
 	},
 	"extracurriculars": {
 		"banner": "/assets/img/extracurriculars.jpg",

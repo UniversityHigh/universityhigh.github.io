@@ -46,12 +46,20 @@ block head
 block body
 	+header(banner, name, lead)
 	
+	-
+		function camelize(value) {
+			return value.replace(/(?:^\w|[A-Z]|\b\w)/g, function(letter, index) {
+				return index == 0 ? letter.toLowerCase() : letter.toUpperCase();
+			}).replace(/\s+/g, '');
+		}
+
 	.container
 		+section(departments.name, departments.lead, departments.nav)
 			each department in departments.departments
-				h4.title #{department.name} #[small Led by #[b #{department.lead}]]
-				p= department.description
-				.row
-					each course in department.courses
-						+course(course.name, course.teacher, course.email, course.teacherWebsite, course.moreInformation, course.syllabus, course.assignments, course.description, course.isHonors, course.isECE, course.isAP)
-				br
+				.department(id=camelize(department.name))
+					h4.title #{department.name} #[small Led by #[b #{department.lead}]]
+					p= department.description
+					.row
+						each course in department.courses
+							+course(course.name, course.teacher, course.email, course.teacherWebsite, course.moreInformation, course.syllabus, course.assignments, course.description, course.isHonors, course.isECE, course.isAP)
+					br

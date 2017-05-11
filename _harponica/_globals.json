@@ -22,9 +22,13 @@
 				"Contacts": "contacts",
 				"Lunch Menu": "lunchMenu",
 				"Parent Organizations": "parentOrganizations",
-				"Guidance": "guidance"
+				"Guidance": "guidance",
+				"Resources": "resources"
 			}],
-			"Academics": "/academics",
+			"Academics": ["/academics", {
+				"Mathematics": "mathematics",
+				"Science": "science"
+			}],
 			"Extracurriculars": ["/extracurriculars", {
 				"Athletics": "athletics",
 				"Clubs": "clubs"

@@ -64,6 +64,7 @@ block body
 		+section(parentOrganizations.name, parentOrganizations.lead, parentOrganizations.nav)
 			- let pto = parentOrganizations.pto;
 			+innerSection("PTO")
+			p= pto.description
 			.row
 				+card("Officers")
 					ul.list-unstyled
@@ -113,6 +114,22 @@ block body
 						each update in afterGrad.updates
 							li.update #[a(href="javascript:void(0);" data-description=update.description)= update.name]
 
+			//- - let sgc = parentOrganizations.sgc;
+			//- +innerSection("SGC")
+			//- p= sgc.description
+			//- .row
+			//- 	+card("Meeting Dates")
+			//- 		p= sgc.meetingDates.description
+			//- 		strong Schedule
+			//- 		ul.list-unstyled
+			//- 			each date in sgc.meetingDates.dates
+			//- 				li= date
+				
+			//- 	+card("Meeting Minutes")
+			//- 		ul.list-unstyled
+			//- 			each minute in pto.meetingMinutes
+			//- 				li #[a(href=minute.link target="_blank")= minute.text]
+
 		hr
 
 		+section(guidance.name, guidance.lead, guidance.nav)
@@ -120,14 +137,23 @@ block body
 			
 			+innerSection("Scholarships")
 			.table-scroll
-			table.table.table-striped.table-hover.table-condensed.table-responsive
-				thead
-					th Organization
-					th Website
-				tbody
-					each scholarship in guidance.scholarships
-						tr
-							td= scholarship.organization
-							td
-								- let link = scholarship.link.includes("http") ? scholarship.link : "http://" + scholarship.link;
-								a(href=link target="_blank")= link
+				table.table.table-striped.table-hover.table-condensed.table-responsive
+					thead
+						th Organization
+						th Website
+					tbody
+						each scholarship in guidance.scholarships
+							tr
+								td= scholarship.organization
+								td
+									- let link = scholarship.link.includes("http") ? scholarship.link : "http://" + scholarship.link;
+									a(href=link target="_blank")= link
+
+		hr
+
+		+section(resources.name, resources.lead, resources.nav)
+			.list-group
+				each resource in resources.resources
+					a.list-group-item(href=resource.url target="_blank")
+						h5.list-group-item-heading= resource.name
+						p.list-group-item-text= resource.description

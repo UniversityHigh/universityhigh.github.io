@@ -33,3 +33,7 @@ thead {
 .tooltip-arrow {
 	border-top-color: #2196f3 !important;
 }
+
+.list-group-item-heading {
+	font-size: 13pt;
+}
