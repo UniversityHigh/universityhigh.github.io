@@ -17,22 +17,61 @@
 			"text": "PROSPECTIVE STUDENTS",
 			"link": "/prospective"
 		},
-		"links": {
-			"Information": ["/information", {
-				"Contacts": "contacts",
-				"Lunch Menu": "lunchMenu",
-				"Parent Organizations": "parentOrganizations",
-				"Guidance": "guidance",
-				"Resources": "resources"
-			}],
-			"Academics": ["/academics", {
-				"Mathematics": "mathematics",
-				"Science": "science"
-			}],
-			"Extracurriculars": ["/extracurriculars", {
-				"Athletics": "athletics",
-				"Clubs": "clubs"
-			}]
-		}
+		"links": [
+			{
+				"name": "Information",
+				"path": "/information",
+				"subLinks": [
+					{
+						"name": "Contacts",
+						"nav": "contacts"
+					},
+					{
+						"name": "Lunch Menu",
+						"nav": "lunchMenu"
+					},
+					{
+						"name": "Parent Organizations",
+						"nav": "parentOrganizations"
+					},
+					{
+						"name": "Guidance",
+						"nav": "guidance"
+					},
+					{
+						"name": "Resources",
+						"nav": "resources"
+					}
+				]
+			},
+			{
+				"name": "Academics",
+				"path": "/academics",
+				"subLinks": [
+					{
+						"name": "Mathematics",
+						"nav": "mathematics"
+					},
+					{
+						"name": "Science",
+						"nav": "science"
+					}
+				]
+			},
+			{
+				"name": "Extracurriculars",
+				"path": "/extracurriculars",
+				"subLinks": [
+					{
+						"name": "Athletics",
+						"nav": "athletics"
+					},
+					{
+						"name": "Clubs",
+						"nav": "clubs"
+					}
+				]
+			}
+		]
 	}
 }

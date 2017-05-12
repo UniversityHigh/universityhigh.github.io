@@ -14,18 +14,18 @@ nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
 					image.navbar-icon(src=icon.image style="width: " + icon.size + "; height: auto;")
 		div.collapse.navbar-collapse#navbar-links
 			ul.nav.navbar-nav.navbar-right
-				each data, name in navbar.links
-					if data instanceof Array
+				each link in navbar.links
+					if link.subLinks instanceof Array
 						//- Dropdown required
 						li.dropdown
-							a.dropdown-toggle(href=data[0] data-toggle="dropdown") #{name} #[span.caret]
+							a.dropdown-toggle(href=link.path data-toggle="dropdown") #{link.name} #[span.caret]
 							ul.dropdown-menu
-								each subLink, subName in data[1]
+								each subLink in link.subLinks
 									li
-										a.nav-link(href=data[0] + "#" + subLink)= subName
+										a.nav-link(href=link.path + "#" + subLink.nav)= subLink.name
 					else
 						li
-							a.nav-link(href=data)= name
+							a.nav-link(href=link.path)= link.name
 				
 				li.btn-nav
 					div
