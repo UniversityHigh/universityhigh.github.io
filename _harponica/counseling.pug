@@ -33,6 +33,19 @@ block body
 		
 		hr
 
+		+section(links.name, links.lead, links.nav)
+			.list-group
+				each link in links.links
+					a.list-group-item(href=link.link target="_blank")
+						h5.list-group-item-heading= link.name
+						if link.description
+							p.list-group-item-text= link.description
+
+			each grade in links.grades
+				a.btn.btn-danger.grade(href=grade.link target="_blank")= grade.name
+
+		hr
+
 		+section(graduationRequirements.name, graduationRequirements.lead, graduationRequirements.nav)
 			.table-scroll
 				table#graduationRequirements.table.table-striped.table-hover.table-condensed.table-responsive
@@ -47,19 +60,6 @@ block body
 								td= requirement.department
 								td= requirement.description
 								td=requirement.credits
-
-		hr
-
-		+section(links.name, links.lead, links.nav)
-			.list-group
-				each link in links.links
-					a.list-group-item(href=link.link target="_blank")
-						h5.list-group-item-heading= link.name
-						if link.description
-							p.list-group-item-text= link.description
-
-			each grade in links.grades
-				a.btn.btn-danger.grade(href=grade.link target="_blank")= grade.name
 
 		hr
 
