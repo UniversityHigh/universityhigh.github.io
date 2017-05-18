@@ -132,28 +132,16 @@ block body
 
 		hr
 
-		+section(guidance.name, guidance.lead, guidance.nav)
-			p !{guidance.description}
-			
-			+innerSection("Scholarships")
-			.table-scroll
-				table.table.table-striped.table-hover.table-condensed.table-responsive
-					thead
-						th Organization
-						th Website
-					tbody
-						each scholarship in guidance.scholarships
-							tr
-								td= scholarship.organization
-								td
-									- let link = scholarship.link.includes("http") ? scholarship.link : "http://" + scholarship.link;
-									a(href=link target="_blank")= link
-
-		hr
-
 		+section(resources.name, resources.lead, resources.nav)
 			.list-group
 				each resource in resources.resources
+					a.list-group-item(href=resource.url target="_blank")
+						h5.list-group-item-heading= resource.name
+						p.list-group-item-text= resource.description
+			
+			+innerSection("Student Council")
+			.list-group
+				each resource in resources.studentCouncil.resources
 					a.list-group-item(href=resource.url target="_blank")
 						h5.list-group-item-heading= resource.name
 						p.list-group-item-text= resource.description

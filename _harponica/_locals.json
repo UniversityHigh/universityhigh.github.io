@@ -100,6 +100,78 @@
 			]
 		}
 	},
+	"counseling": {
+		"banner": "/assets/img/guidance.jpg",
+		"name": "School Counseling",
+		"lead": "For all your guidance needs.",
+		"overview": "Students with last names starting with A-K have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with L-Z.",
+		"mission": {
+			"name": "Mission Statement",
+			"lead": "What we strive for",
+			"statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
+		},
+		"philosophy": {
+			"text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success.",
+			"principles": ["The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.", "The program is a collaborative effort among school counselors, administration, teachers, home and community.", "The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.", "The program uses data to drive the program development and evaluation, and monitor student results.", "School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."]
+		},
+		"graduationRequirements": {
+			"name": "Graduation Requirements",
+			"nav": "graduationRequirements",
+			"lead": "Credits and all",
+			"requirements": [
+				{
+					"department": "English",
+					"description": "(Must include English 1 & English 2)",
+					"credits": 4
+				}
+			]
+		},
+		"links": {
+			"name": "Quick Links",
+			"nav": "links",
+			"lead": "In a flash",
+			"grades": [
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
+					"name": "Freshmen"
+				},
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/sophomores.html",
+					"name": "Sophomores"
+				},
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/juniors.html",
+					"name": "Juniors"
+				},
+				{
+					"link": "http://www.collegeboard.com/student/plan/action/seniors.html",
+					"name": "Seniors"
+				}
+			],
+			"links": [
+				{
+					"name": "Scholarships",
+					"description": "Make sure you are applying!",
+					"link": "https://google.com"
+				}
+			]
+		},
+		"dates": {
+			"name": "SAT and ACT Test Dates",
+			"lead": "Testing, testing, testing",
+			"nav": "dates",
+			"sat": {
+				"link": "https://www.google.com",
+				"testDates": ["September 6, 2016"],
+				"registrationDates": ["September 6, 2016"]
+			},
+			"act": {
+				"link": "https://www.google.com",
+				"testDates": ["September 6, 2016"],
+				"registrationDates": ["September 6, 2016"]
+			}
+		}
+	},
 	"information": {
 		"banner": "/assets/img/about.jpg",
 		"name": "A school where smart is cool",
@@ -496,17 +568,6 @@
 				]
 			}
 		},
-		"guidance": {
-			"name": "Guidance",
-			"nav": "guidance",
-			"description": "Students with last names starting with A-M have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with N-Z.",
-			"scholarships": [
-				{
-					"organization": "Money for HS",
-					"link": "www.google.com"
-				}
-			]
-		},
 		"resources": {
 			"name": "Resources",
 			"nav": "resources",
@@ -521,7 +582,16 @@
 					"name": "Health Form #1",
 					"description": "Just don't die, okay?"
 				}
-			]
+			],
+			"studentCouncil": {
+				"resources": [
+					{
+						"url": "https://yoyo.com",
+						"name": "Our Website",
+						"description": "Cause UHSSE.org sucks!"
+					}
+				]
+			}
 		}
 	},
 	"extracurriculars": {

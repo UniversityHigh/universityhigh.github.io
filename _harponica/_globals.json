@@ -35,10 +35,6 @@
 						"nav": "parentOrganizations"
 					},
 					{
-						"name": "Guidance",
-						"nav": "guidance"
-					},
-					{
 						"name": "Resources",
 						"nav": "resources"
 					}
@@ -55,6 +51,28 @@
 					{
 						"name": "Science",
 						"nav": "science"
+					}
+				]
+			},
+			{
+				"name": "Counseling",
+				"path": "/counseling",
+				"subLinks": [
+					{
+						"name": "Mission Statement",
+						"nav": "missionStatement"
+					},
+					{
+						"name": "Graduation Requirements",
+						"nav": "graduationRequirements"
+					},
+					{
+						"name": "Quick Links",
+						"nav": "links"
+					},
+					{
+						"name": "SAT and ACT Test Dates",
+						"nav": "dates"
 					}
 				]
 			},
