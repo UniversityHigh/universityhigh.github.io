@@ -184,6 +184,19 @@ body {
 	}
 }
 
+thead {
+	background-color: white;
+}
+
+.search {
+	outline: none;
+}
+
+.table-scroll, .list-group {
+	max-height: 25em;
+	overflow: auto;
+}
+
 #footer {
 	margin-top: 5rem;
 }

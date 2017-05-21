@@ -567,6 +567,45 @@
 						"name": "Facebook"
 					}
 				]
+			},
+			"sgc": {
+				"meetingDates": {
+					"description": "Meetings will be held in the UHSSE commons at 6:30pm.",
+					"dates": ["September 20, 2016", "October 18, 2016", "November 15, 2016", "January 17, 2017", "February 22, 2017 (Wed)", "March 28, 2017", "April 18, 2017", "May 16, 2017"]
+				},
+				"meetingMinutes": [
+					{
+						"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
+						"text": "March 2017"
+					},
+					{
+						"link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
+						"text": "February 2017"
+					},
+					{
+						"link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
+						"text": "November 2016"
+					},
+					{
+						"link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
+						"text": "October 2016"
+					},
+					{
+						"link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
+						"text": "September 2016"
+					},
+					{
+						"link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
+						"text": "May 2016"
+					}
+				],
+				"members": [
+					{
+						"name": "Mr. Mister",
+						"position": "Mister",
+						"email": "email@email.email"
+					}
+				]
 			}
 		},
 		"resources": {
@@ -585,11 +624,46 @@
 				}
 			],
 			"studentCouncil": {
-				"resources": [
+				"grades": [
 					{
-						"url": "https://yoyo.com",
-						"name": "Our Website",
-						"description": "Cause UHSSE.org sucks!"
+						"name": "Freshmen",
+						"resources": [
+							{
+								"url": "https://yoyo.com",
+								"name": "Our Website",
+								"description": "Cause UHSSE.org sucks!"
+							}
+						]
+					},
+					{
+						"name": "Sophomores",
+						"resources": [
+							{
+								"url": "https://yoyo.com",
+								"name": "Our Website",
+								"description": "Cause UHSSE.org sucks!"
+							}
+						]
+					},
+					{
+						"name": "Juniors",
+						"resources": [
+							{
+								"url": "https://yoyo.com",
+								"name": "Our Website",
+								"description": "Cause UHSSE.org sucks!"
+							}
+						]
+					},
+					{
+						"name": "Seniors",
+						"resources": [
+							{
+								"url": "https://yoyo.com",
+								"name": "Our Website",
+								"description": "Cause UHSSE.org sucks!"
+							}
+						]
 					}
 				]
 			}
@@ -719,6 +793,36 @@
 				}
 			]
 		}
+	},
+	"alumni": {
+		"banner": "/assets/img/alumni.jpg",
+		"name": "Our best and brightest",
+		"lead": "Where are they now?",
+		"avatars": [
+			{
+				"image": "http://theredlist.com/media/database/films/cinema/2000/avatar-/027-avatar-theredlist.jpg",
+				"name": "Blue Person",
+				"information": "Graduate of University of Blue"
+			},
+			{
+				"image": "https://ak6.picdn.net/shutterstock/videos/2704991/thumb/10.jpg",
+				"name": "Green Person",
+				"information": "Graduate of University of Green"
+			},
+			{
+				"image": "https://s-media-cache-ak0.pinimg.com/236x/59/6d/7a/596d7a8ea32657aea1a578f8942ea20a.jpg",
+				"name": "Red Person",
+				"information": "Graduate of University of Red"
+			}
+		],
+		"alumnis": [
+			{
+				"name": "Andi Duro",
+				"college": "UCONN",
+				"contact": "8605555555"
+			}
+		],
+		"apply": "https://google.com"
 	},
 	"prospective": {
 		"banner": "/assets/img/prospective.jpg",

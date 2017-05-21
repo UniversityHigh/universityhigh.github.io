@@ -42,3 +42,19 @@ $("#jump").on("click", function() {
 	$("html, body").animate({ scrollTop: 0 }, "slow");
 	return false;
 });
+
+$("table").floatThead({
+	scrollContainer: function(table) {
+		return table.closest(".table-scroll");
+	}
+});
+
+$(".search").on("input", function(event) {
+	const table = "#" + $(this).data("table");
+	const value = $(this).val().toLowerCase();
+	if(!value) $(table + " > tbody > tr").show();
+	$(table + " > tbody > tr").filter(function() {
+		const td = $(this).find("td");
+		return td.filter(function() { return !$(this).text().toLowerCase().includes(value); }).length === td.length;
+	}).hide();
+});

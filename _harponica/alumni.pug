@@ -1,0 +1,40 @@
+extends _templates/base.pug
+
+mixin avatar(image, name, information)
+	.avatar
+		.avatar-image(style=`background-image: url(${image});`)
+		.avatar-body
+			h4.title= name
+			h5.subtitle= information
+
+block head
+	title Alumni | UHSSE
+	link(rel="stylesheet" href="/assets/css/alumni.css" defer)
+	//- script(src="assets/js/prospective.js" defer)
+
+block body
+	+header(banner, name, lead)
+	.container
+		.row
+			.col-md-7
+				each avatar in avatars
+					+avatar(avatar.image, avatar.name, avatar.information)
+			.col-md-5
+				br.hidden-md.hidden-lg
+				br.hidden-md.hidden-lg
+				input.search(type="text" placeholder="Type here to filter..." data-table="alumni")
+				.table-scroll
+					table#alumni.table.table-striped.table-hover.table-condensed.table-responsive
+						thead
+							tr
+								th Name
+								th College
+								th Contact
+						tbody
+							each alumni in alumnis
+								tr
+									td= alumni.name
+									td= alumni.college
+									td= alumni.contact
+
+		a.btn.btn-danger.pull-right(href=apply target="_blank") Apply to be listed

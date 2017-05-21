@@ -12,7 +12,7 @@ block head
 	title Counseling | UHSSE
 	link(rel="stylesheet" href="/assets/css/counseling.css" defer)
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js" defer)
-	script(src="assets/js/counseling.js" defer)
+	//- script(src="assets/js/counseling.js" defer)
 
 block body
 	+header(banner, name, lead)
@@ -47,6 +47,7 @@ block body
 		hr
 
 		+section(graduationRequirements.name, graduationRequirements.lead, graduationRequirements.nav)
+			input.search(type="text" placeholder="Type here to filter..." data-table="graduationRequirements")
 			.table-scroll
 				table#graduationRequirements.table.table-striped.table-hover.table-condensed.table-responsive
 					thead

@@ -89,6 +89,10 @@
 						"nav": "clubs"
 					}
 				]
+			},
+			{
+				"name": "Alumni",
+				"path": "/alumni"
 			}
 		]
 	}

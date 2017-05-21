@@ -1,17 +1,24 @@
 extends _templates/base.pug
 
-mixin card(name)
-	.col-md-3
-		.panel.panel-default
-			.panel-heading
-				h5 #{name}
-			.panel-body
-				block
+mixin card(name, size)
+	if !size
+		.col-md-3
+			.panel.panel-default
+				.panel-heading
+					h5 #{name}
+				.panel-body
+					block
+	else
+		div(class="col-md-" + size)
+			.panel.panel-default
+				.panel-heading
+					h5 #{name}
+				.panel-body
+					block
 
 block head
 	title Information | UHSSE
 	link(rel="stylesheet" href="/assets/css/information.css" defer)
-	script(src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.0.3/jquery.floatThead.min.js" defer)
 	script(src="assets/js/information.js" defer)
 
 block body
@@ -19,7 +26,7 @@ block body
 	.container
 		+section(contacts.name, contacts.lead, contacts.nav)
 			+innerSection("UHSSE Staff")
-				input#staffSearch(type="text" placeholder="Type here to filter...")
+				input.search(type="text" placeholder="Type here to filter..." data-table="staff")
 			.table-scroll
 				table#staff.table.table-striped.table-hover.table-condensed.table-responsive
 					thead
@@ -36,7 +43,7 @@ block body
 			br
 			br
 			+innerSection("Support Services")
-				input#supportServicesSearch(type="text" placeholder="Type here to filter...")
+				input.search(type="text" placeholder="Type here to filter..." data-table="supportServices")
 			.table-scroll
 				table#supportServices.table.table-striped.table-hover.table-condensed.table-responsive
 					thead
@@ -114,21 +121,35 @@ block body
 						each update in afterGrad.updates
 							li.update #[a(href="javascript:void(0);" data-description=update.description)= update.name]
 
-			//- - let sgc = parentOrganizations.sgc;
-			//- +innerSection("SGC")
-			//- p= sgc.description
-			//- .row
-			//- 	+card("Meeting Dates")
-			//- 		p= sgc.meetingDates.description
-			//- 		strong Schedule
-			//- 		ul.list-unstyled
-			//- 			each date in sgc.meetingDates.dates
-			//- 				li= date
+			- let sgc = parentOrganizations.sgc;
+			+innerSection("SGC")
+			p=sgc.description
+			.row
+				+card("Members", 4)
+					table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
+						thead
+							tr
+								th Name
+								th Position
+								th Email
+						tbody
+							each member in sgc.members
+								tr
+									td= member.name
+									td= member.position
+									td #[a(href="mailto:" + member.email target="_blank")=member.email]
 				
-			//- 	+card("Meeting Minutes")
-			//- 		ul.list-unstyled
-			//- 			each minute in pto.meetingMinutes
-			//- 				li #[a(href=minute.link target="_blank")= minute.text]
+				+card("Meeting Dates", 4)
+					p= sgc.meetingDates.description
+					strong Schedule
+					ul.list-unstyled
+						each date in sgc.meetingDates.dates
+							li= date
+				
+				+card("Meeting Minutes", 4)
+					ul.list-unstyled
+						each minute in pto.meetingMinutes
+							li #[a(href=minute.link target="_blank")= minute.text]
 
 		hr
 
@@ -140,8 +161,17 @@ block body
 						p.list-group-item-text= resource.description
 			
 			+innerSection("Student Council")
-			.list-group
-				each resource in resources.studentCouncil.resources
-					a.list-group-item(href=resource.url target="_blank")
-						h5.list-group-item-heading= resource.name
-						p.list-group-item-text= resource.description
+			ul.nav.nav-tabs(role="tablist")
+				each grade, index in resources.studentCouncil.grades
+					- let active = index === 0 ? "active" : null;
+					li(class=active role="presentation") #[a(href="#" + grade.name.toLowerCase() aria-controls=grade.name.toLowerCase() role="tab" data-toggle="tab")= grade.name]
+
+			.tab-content
+				each grade, index in resources.studentCouncil.grades
+					- let active = index === 0 ? "active" : null;
+					.tab-pane.list-group(class=active role="tab-pane" id=grade.name.toLowerCase())
+						each resource in grade.resources
+							a.list-group-item(href=resource.url target="_blank")
+								h5.list-group-item-heading= resource.name
+								if resource.description
+									p.list-group-item-text= resource.description

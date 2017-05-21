@@ -8,19 +8,6 @@
 	padding-right: 2rem;
 }
 
-.inner-section > input {
-	outline: none;
-}
-
-thead {
-	background-color: white;
-}
-
-.table-scroll {
-	max-height: 25em;
-	overflow: auto;
-}
-
 .tooltip {
 	font-size: 13px;
 }

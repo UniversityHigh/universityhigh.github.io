@@ -1,0 +1,40 @@
+.avatar {
+	display: flex;
+	align-items: center;
+	margin: 2rem 0;
+}
+
+.avatar-image {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.avatar-body {
+	display: inline-block;
+	margin-left: 5rem;
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 20px;
+	}
+}
+
+.subtitle {
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+@media (max-width: 768px) {
+	.subtitle {
+		font-size: 16px;
+	}
+}
