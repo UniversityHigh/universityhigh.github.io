@@ -1,880 +1,925 @@
 {
-	"index": {
-		"banners": "/assets/img/home.jpg",
-		"name": "University High School of Science and Engineering",
-		"lead": "Early college high school located on the campus of University of Hartford",
-		"announcements": ["This is a test announcement.", "This is another.", "And this is another!"],
-		"phoneNumber": "(860) 695-9020",
-		"qualities": [
-			{
-				"backgroundColor": "#ED4646",
-				"glyph": "glyphicon-blackboard",
-				"name": "Unparalleled Education",
-				"description": "Students are presented with a wide variety of high level courses throughout their four years."
-			},
-			{
-				"backgroundColor": "#B72626",
-				"glyph": "glyphicon-education",
-				"name": "College Collaboration",
-				"description": "A partnership with UHart allows our students to get a full taste of the college world."
-			},
-			{
-				"backgroundColor": "#6E1515",
-				"glyph": "glyphicon-sunglasses",
-				"name": "Athletic Affluence",
-				"description": "From robotics to track to popcorn club, there is always a group for everyone."
-			}
-		],
-		"gallery": [
-			{
-				"link": "about:blank",
-				"src": "assets/img/about.jpg",
-				"caption": "This is some info about the image."
-			},
-			{
-				"link": "about:blank",
-				"src": "assets/img/home.jpg",
-				"caption": "This is some info about the image."
-			},
-			{
-				"link": "about:blank",
-				"src": "assets/img/prospective.jpg",
-				"caption": "This is some info about the image."
-			}
-		]
-	},
-	"academics": {
-		"banner": "/assets/img/academics.jpg",
-		"name": "Education is everything",
-		"lead": "We seek to bring out the best in each of our students",
-		"buttons": [
-			{
-				"name": "Departments",
-				"nav": "#departments"
-			}
-		],
-		"departments": {
-			"name": "Departments",
-			"lead": "What we have to offer",
-			"nav": "departments",
-			"departments": [
-				{
-					"name": "Mathematics",
-					"lead": "Taylor Bacon",
-					"description": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
-					"courses": [
-						{
-							"name": "Algebra 2",
-							"teacher": "Kate Grayeb",
-							"teacherWebsite": "https://www.google.com",
-							"email": "idk@aol.com",
-							"moreInformation": "http://www.uconn.edu",
-							"syllabus": "http://google.com/search?q=learn+math",
-							"assignments": "http://drive.google.com",
-							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-							"isECE": true,
-							"isAP": false,
-							"isHonors": false
-						}
-					]
-				},
-				{
-					"name": "Science",
-					"lead": "Aaron Brown",
-					"description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
-					"courses": [
-						{
-							"name": "General Chemistry",
-							"teacher": "Michael Fromerth",
-							"teacherWebsite": "https://www.google.com",
-							"email": "idk@aol.com",
-							"moreInformation": "http://www.uconn.edu",
-							"syllabus": "http://google.com/search?q=learn+math",
-							"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-							"isAP": true,
-							"isECE": false,
-							"isHonors": false
-						}
-					]
-				}
-			]
-		}
-	},
-	"counseling": {
-		"banner": "/assets/img/guidance.jpg",
-		"name": "School Counseling",
-		"lead": "For all your guidance needs.",
-		"overview": "Students with last names starting with A-K have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with L-Z.",
-		"mission": {
-			"name": "Mission Statement",
-			"nav": "missionStatement",
-			"lead": "What we strive for",
-			"statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
-		},
-		"philosophy": {
-			"text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success.",
-			"principles": ["The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.", "The program is a collaborative effort among school counselors, administration, teachers, home and community.", "The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.", "The program uses data to drive the program development and evaluation, and monitor student results.", "School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."]
-		},
-		"graduationRequirements": {
-			"name": "Graduation Requirements",
-			"nav": "graduationRequirements",
-			"lead": "Credits and all",
-			"requirements": [
-				{
-					"department": "English",
-					"description": "(Must include English 1 & English 2)",
-					"credits": 4
-				}
-			]
-		},
-		"links": {
-			"name": "Quick Links",
-			"nav": "links",
-			"lead": "In a flash",
-			"grades": [
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
-					"name": "Freshmen"
-				},
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/sophomores.html",
-					"name": "Sophomores"
-				},
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/juniors.html",
-					"name": "Juniors"
-				},
-				{
-					"link": "http://www.collegeboard.com/student/plan/action/seniors.html",
-					"name": "Seniors"
-				}
-			],
-			"links": [
-				{
-					"name": "Scholarships",
-					"description": "Make sure you are applying!",
-					"link": "https://google.com"
-				}
-			]
-		},
-		"dates": {
-			"name": "SAT and ACT Test Dates",
-			"lead": "Testing, testing, testing",
-			"nav": "dates",
-			"sat": {
-				"link": "https://www.google.com",
-				"testDates": ["September 6, 2016"],
-				"registrationDates": ["September 6, 2016"]
-			},
-			"act": {
-				"link": "https://www.google.com",
-				"testDates": ["September 6, 2016"],
-				"registrationDates": ["September 6, 2016"]
-			}
-		}
-	},
-	"information": {
-		"banner": "/assets/img/about.jpg",
-		"name": "A school where smart is cool",
-		"lead": "This is a learning environment like no other",
-		"contacts": {
-			"name": "Contacts",
-			"lead": "Get in touch",
-			"nav": "contacts",
-			"staff": [
-				{
-					"name": "Allard, Philip",
-					"position": "English Teacher",
-					"email": "allap001@hartfordschools.org"
-				},
-				{
-					"name": "Bacon, Taylor",
-					"position": "Math Teacher",
-					"email": "Taylor.Bacon@hartfordschools.org"
-				},
-				{
-					"name": "Baseler, Caryn",
-					"position": "Magnet Instructional Coach",
-					"email": "basec001@hartfordschools.org"
-				},
-				{
-					"name": "Benfield, Elizabeth",
-					"position": "Athletic Director/Spanish Teacher",
-					"email": "benfe001@hartfordschools.org"
-				},
-				{
-					"name": "Bevans, Jon",
-					"position": "Social Studies Teacher",
-					"email": "bevaj001@hartfordschools.org"
-				},
-				{
-					"name": "Bosco, Robert",
-					"position": "Special Education",
-					"email": "boscr001@hartfordschools.org"
-				},
-				{
-					"name": "Brown, Aaron",
-					"position": "Physics/Engineering Teacher",
-					"email": "browa002@hartfordschools.org"
-				},
-				{
-					"name": "Cazzetta-Finn, Colleen",
-					"position": "Special Education",
-					"email": "cazzc001@hartfordschools.org"
-				},
-				{
-					"name": "Deleon-Vasquez, Haydee",
-					"position": "Cook Manager",
-					"email": "deleh001@hartfordschools.org"
-				},
-				{
-					"name": "Dennis, Christina",
-					"position": "Science Teacher",
-					"email": "wardc002@hartfordschools.org"
-				},
-				{
-					"name": "Devaux, John",
-					"position": "Para-Professional",
-					"email": "john.devaux@hartfordschools.org"
-				},
-				{
-					"name": "DiNello, James",
-					"position": "Math Teacher",
-					"email": "james.dinello@hartfordschools.org"
-				},
-				{
-					"name": "Doffek, Beth",
-					"position": "Guidance Counselor",
-					"email": "doffb001@hartfordschools.org"
-				},
-				{
-					"name": "Folan, Martin",
-					"position": "Principal",
-					"email": "folam001@hartfordschools.org"
-				},
-				{
-					"name": "Fromerth, Michael",
-					"position": "Chemistry Teacher",
-					"email": "fromm001@hartfordschools.org"
-				},
-				{
-					"name": "Grayeb, Kate",
-					"position": "Math Teacher",
-					"email": "grayk001@hartfordschools.org"
-				},
-				{
-					"name": "Harbunak, Stephen",
-					"position": "Biology Teacher",
-					"email": "harbs001@hartfordschools.org"
-				},
-				{
-					"name": "Kellerman, Delores",
-					"position": "Nurse",
-					"email": "dkellerman@hartfordschools.org"
-				},
-				{
-					"name": "Lai-Hipp, Kathleen",
-					"position": "Biology Teacher",
-					"email": "laihk001@hartfordschools.org"
-				},
-				{
-					"name": "Lowney, John",
-					"position": "Athletics Staff",
-					"email": "jlowneycolumbia@gmail.com"
-				},
-				{
-					"name": "Manocchio, Kara",
-					"position": "Office Assistant",
-					"email": "manok001@hartfordschools.org"
-				},
-				{
-					"name": "Maziarz, Megan",
-					"position": "English Teacher",
-					"email": "megan.maziarz@hartfordschools.org"
-				},
-				{
-					"name": "McCoy, Michael",
-					"position": "English Teacher",
-					"email": "michael.mccoy@hartfordschools.org"
-				},
-				{
-					"name": "Medina, Alfredo",
-					"position": "Spanish Teacher",
-					"email": "media001@hartfordschools.org"
-				},
-				{
-					"name": "Merlo, Kelly",
-					"position": "Chemistry Teacher",
-					"email": "hartk002@hartfordschools.org"
-				},
-				{
-					"name": "Miller, Joseph",
-					"position": "Social Studies",
-					"email": "joe.miller@hartfordschools.org"
-				},
-				{
-					"name": "Morrison, Robert",
-					"position": "Special Police Officer",
-					"email": "morrr001@hartfordschools.org"
-				},
-				{
-					"name": "Obie, Dennis",
-					"position": "Engineering Teacher",
-					"email": "obied001@hartfordschools.org"
-				},
-				{
-					"name": "Oporto, Nancy",
-					"position": "Social Worker/504 Coordinator",
-					"email": "noproto@hartfordschools.org"
-				},
-				{
-					"name": "Pedrick, Susan",
-					"position": "Engineering Teacher",
-					"email": "pedrs001@hartfordschools.org"
-				},
-				{
-					"name": "Prescott, Francia",
-					"position": "College/Career Specialist",
-					"email": "presf001@hartfordschools.org"
-				},
-				{
-					"name": "Radigan, Noel",
-					"position": "Guidance Counselor",
-					"email": "radin001@hartfordschools.org"
-				},
-				{
-					"name": "Riccitelli, Jason",
-					"position": "Physical Education",
-					"email": "riccj002@hartfordschools.org"
-				},
-				{
-					"name": "Richters, Guy",
-					"position": "Art Teacher",
-					"email": "richg001@hartfordschools.org"
-				},
-				{
-					"name": "Scanlon, Heidi",
-					"position": "Social Studies Teacher",
-					"email": "scanh001@hartfordschools.org"
-				},
-				{
-					"name": "Serrano, Jessica",
-					"position": "Spanish Teacher",
-					"email": "jessica.Serrano@hartfordschools.org"
-				},
-				{
-					"name": "Shea, Matthew",
-					"position": "Physical Education",
-					"email": "sheam002@hartfordschools.org"
-				},
-				{
-					"name": "Silenok, Nicole",
-					"position": "Math Teacher",
-					"email": "silen001@hartfordschools.org"
-				},
-				{
-					"name": "Steller, Paul",
-					"position": "Math Teacher",
-					"email": "stelp002@hartfordschools.org"
-				},
-				{
-					"name": "Thomas, Arthur",
-					"position": "Comprehensive Intervention",
-					"email": "thoma003@hartfordschools.org"
-				},
-				{
-					"name": "Todisco, Jennifer",
-					"position": "English Teacher",
-					"email": "todij001@hartfordschools.org"
-				},
-				{
-					"name": "Tomany, Sean",
-					"position": "Assistant Principal",
-					"email": "tomas001@hartfordschools.org"
-				},
-				{
-					"name": "Waite, Wayne",
-					"position": "Para-Professional",
-					"email": "wayne.waite@hartfordschools.org"
-				},
-				{
-					"name": "Wilcoxen, Sharol",
-					"position": "Science/Engineering Teacher",
-					"email": "swilcoxen@hartfordschools.org"
-				}
-			],
-			"supportServices": [
-				{
-					"name": "Kara Manocchio",
-					"position": "Attendance",
-					"email": "manok001@hartfordschools.org",
-					"phone": "860-695-9020"
-				},
-				{
-					"name": "Haydee Deleon-Vasquez",
-					"position": "Food",
-					"email": "anglc001@hartfordschools.org",
-					"phone": "860-695-9057"
-				},
-				{
-					"name": "Francia Prescott",
-					"position": "Career",
-					"email": "presf001@hartfordschools.org",
-					"phone": "860-695-9025"
-				},
-				{
-					"name": "Delores Kellerman",
-					"position": "Health",
-					"email": "dkellerman@hartfordschools.org",
-					"phone": "860-695-9022"
-				},
-				{
-					"name": "Nancy Oporto-Brown",
-					"position": "Social Work",
-					"email": "noporto@hartfordschools.org",
-					"phone": "860-695-9023"
-				},
-				{
-					"name": "Rob Bosco",
-					"position": "Special Education",
-					"email": "boscr001@hartfordschools.org",
-					"phone": "860-695-9030"
-				}
-			]
-		},
-		"lunchMenu": {
-			"name": "Lunch Menu",
-			"lead": "What's on the menu?",
-			"nav": "lunchMenu",
-			"url": "www.hartfordschools.org/wp-content/uploads/2016/01/Lunch-Menu-6-12-May2017.pdf"
-		},
-		"parentOrganizations": {
-			"name": "Parent Organizations",
-			"lead": "Get involved",
-			"nav": "parentOrganizations",
-			"pto": {
-				"officers": [
-					{
-						"position": "President",
-						"name": "Jessica May",
-						"email": "jessmay01@gmail.com"
-					},
-					{
-						"position": "Vice President",
-						"name": "Jay Kean",
-						"email": "jay.kean@comcast.net"
-					},
-					{
-						"position": "Treasurer",
-						"name": "Danielle Hollister",
-						"email": "danie7@cox.net"
-					},
-					{
-						"position": "Secretary",
-						"name": "Dana Shagan",
-						"email": "shagandana@gmail.com"
-					}
-				],
-				"meetingDates": {
-					"description": "Meetings occur on the 3rd Tuesday each month at 6pm iun the UHSSE Commons.",
-					"dates": ["September 20, 2016", "October 18, 2016", "November 15, 2016", "January 17, 2017", "February 22, 2017 (Wed)", "March 28, 2017", "April 18, 2017", "May 16, 2017"]
-				},
-				"meetingMinutes": [
-					{
-						"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-						"text": "March 2017"
-					},
-					{
-						"link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
-						"text": "February 2017"
-					},
-					{
-						"link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
-						"text": "November 2016"
-					},
-					{
-						"link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
-						"text": "October 2016"
-					},
-					{
-						"link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
-						"text": "September 2016"
-					},
-					{
-						"link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
-						"text": "May 2016"
-					}
-				],
-				"fundraisers": [
-					{
-						"link": "http://www.shopwithscrip.com/",
-						"name": "Scrip"
-					},
-					{
-						"link": "http://www.stopandshop.com/aplus",
-						"name": "A+ School Rewards"
-					},
-					{
-						"link": "http://www.shopriteforeducation.com/",
-						"name": "ShopRite"
-					}
-				]
-			},
-			"afterGrad": {
-				"meetingDates": {
-					"description": "Meetings will be held in the UHSSE commons at 6:30pm.",
-					"dates": ["September 6, 2016", "October 4, 2016", "November 1, 2016", "December 6, 2016", "January 3, 2017", "February 7, 2017 (Wed)", "March 7, 2017", "April 4, 2017", "May 23, 2017", "June 8, 2017"]
-				},
-				"donationForms": [
-					{
-						"name": "Donation Letter",
-						"link": "http://api.ning.com/files/C*P8XcSSeqfN6L0LO82IFBRhMVjzOGfCFY69caHISYrecen*rK5L7aIqO7eAtffGTTSV3dd6ry61eImofiSAM9xCUZMEnloN/AGPDonationLetter.pdf"
-					},
-					{
-						"name": "Donation Form",
-						"link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf"
-					},
-					{
-						"name": "Scholarship Opportunities",
-						"link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf"
-					}
-				],
-				"aids": [
-					{
-						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
-						"name": "Attend a meeting"
-					},
-					{
-						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
-						"name": "Attend a fundraiser"
-					},
-					{
-						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
-						"name": "Donate to the party"
-					},
-					{
-						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
-						"name": "Volunteer at the party"
-					}
-				],
-				"updates": [
-					{
-						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
-						"name": "Emailed updates and reminders"
-					},
-					{
-						"description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
-						"name": "Facebook"
-					}
-				]
-			},
-			"sgc": {
-				"meetingDates": {
-					"description": "Meetings will be held in the UHSSE commons at 6:30pm.",
-					"dates": ["September 20, 2016", "October 18, 2016", "November 15, 2016", "January 17, 2017", "February 22, 2017 (Wed)", "March 28, 2017", "April 18, 2017", "May 16, 2017"]
-				},
-				"meetingMinutes": [
-					{
-						"link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-						"text": "March 2017"
-					},
-					{
-						"link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
-						"text": "February 2017"
-					},
-					{
-						"link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
-						"text": "November 2016"
-					},
-					{
-						"link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
-						"text": "October 2016"
-					},
-					{
-						"link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
-						"text": "September 2016"
-					},
-					{
-						"link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
-						"text": "May 2016"
-					}
-				],
-				"members": [
-					{
-						"name": "Mr. Mister",
-						"position": "Mister",
-						"email": "email@email.email"
-					}
-				]
-			}
-		},
-		"resources": {
-			"name": "Resources",
-			"nav": "resources",
-			"resources": [
-				{
-					"url": "https://google.com",
-					"name": "Student Handbook",
-					"description": "Tree killer extrodinaire."
-				},
-				{
-					"url": "https://google.com",
-					"name": "Health Form #1",
-					"description": "Just don't die, okay?"
-				}
-			],
-			"studentCouncil": {
-				"grades": [
-					{
-						"name": "Freshmen",
-						"resources": [
-							{
-								"url": "https://yoyo.com",
-								"name": "Our Website",
-								"description": "Cause UHSSE.org sucks!"
-							}
-						]
-					},
-					{
-						"name": "Sophomores",
-						"resources": [
-							{
-								"url": "https://yoyo.com",
-								"name": "Our Website",
-								"description": "Cause UHSSE.org sucks!"
-							}
-						]
-					},
-					{
-						"name": "Juniors",
-						"resources": [
-							{
-								"url": "https://yoyo.com",
-								"name": "Our Website",
-								"description": "Cause UHSSE.org sucks!"
-							}
-						]
-					},
-					{
-						"name": "Seniors",
-						"resources": [
-							{
-								"url": "https://yoyo.com",
-								"name": "Our Website",
-								"description": "Cause UHSSE.org sucks!"
-							}
-						]
-					}
-				]
-			}
-		}
-	},
-	"extracurriculars": {
-		"banner": "/assets/img/extracurriculars.jpg",
-		"name": "Going above and beyond",
-		"lead": "Because there's more to school than just classes",
-		"buttons": [
-			{
-				"name": "Athletics",
-				"nav": "#sports"
-			},
-			{
-				"name": "Clubs",
-				"nav": "#clubs"
-			}
-		],
-		"athletics": {
-			"name": "Athletics",
-			"lead": "Get your game on",
-			"nav": "athletics",
-			"seasons": [
-				{
-					"name": "Spring",
-					"sports": [
-						{
-							"name": "Men's Basketball",
-							"coaches": [
-								{
-									"name": "Jay Riccitelli",
-									"league": "Varsity"
-								},
-								{
-									"name": "Alfredo Cardona",
-									"league": "Junior Varsity/Freshman"
-								}
-							],
-							"schedules": [
-								{
-									"nav": "//",
-									"name": "Varsity"
-								}
-							]
-						},
-						{
-							"name": "Men's Basketball",
-							"coaches": [
-								{
-									"name": "Jay Riccitelli",
-									"league": "Varsity"
-								},
-								{
-									"name": "Alfredo Cardona",
-									"league": "Junior Varsity/Freshman"
-								}
-							],
-							"schedules": [
-								{
-									"nav": "//",
-									"name": "Varsity"
-								}
-							]
-						}
-					]
-				},
-				{
-					"name": "Summer",
-					"sports": [
-						{
-							"name": "Men's Basketball",
-							"coaches": [
-								{
-									"name": "Jay Riccitelli",
-									"league": "Varsity"
-								},
-								{
-									"name": "Alfredo Cardona",
-									"league": "Junior Varsity/Freshman"
-								}
-							],
-							"schedules": [
-								{
-									"nav": "//",
-									"name": "Varsity"
-								}
-							]
-						},
-						{
-							"name": "Men's Basketball",
-							"coaches": [
-								{
-									"name": "Jay Riccitelli",
-									"league": "Varsity"
-								},
-								{
-									"name": "Alfredo Cardona",
-									"league": "Junior Varsity/Freshman"
-								}
-							],
-							"schedules": [
-								{
-									"nav": "//",
-									"name": "Varsity"
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		"clubs": {
-			"name": "Clubs",
-			"lead": "Not for cavemen",
-			"nav": "clubs",
-			"clubs": [
-				{
-					"name": "Intramural Basketball",
-					"link": "http://www.quickscores.com/uhsse",
-					"leader": {
-						"name": "Alfredo Cardona",
-						"position": "Intramural Director",
-						"phone": "860-695-9019",
-						"email": "carda002@hartfordschools.org"
-					}
-				}
-			]
-		}
-	},
-	"alumni": {
-		"banner": "/assets/img/alumni.jpg",
-		"name": "Our best and brightest",
-		"lead": "Where are they now?",
-		"avatars": [
-			{
-				"image": "http://theredlist.com/media/database/films/cinema/2000/avatar-/027-avatar-theredlist.jpg",
-				"name": "Blue Person",
-				"information": "Graduate of University of Blue"
-			},
-			{
-				"image": "https://ak6.picdn.net/shutterstock/videos/2704991/thumb/10.jpg",
-				"name": "Green Person",
-				"information": "Graduate of University of Green"
-			},
-			{
-				"image": "https://s-media-cache-ak0.pinimg.com/236x/59/6d/7a/596d7a8ea32657aea1a578f8942ea20a.jpg",
-				"name": "Red Person",
-				"information": "Graduate of University of Red"
-			}
-		],
-		"alumnis": [
-			{
-				"name": "Andi Duro",
-				"college": "UCONN",
-				"contact": "8605555555"
-			}
-		],
-		"apply": "https://google.com"
-	},
-	"prospective": {
-		"banner": "/assets/img/prospective.jpg",
-		"name": "UHSSE on your mind?",
-		"lead": "This is who we are.",
-		"applications": {
-			"name": "Applications",
-			"lead": "Applying is easy",
-			"nav": "applications",
-			"timeline": [
-				{
-					"backgroundColor": "#00def0",
-					"title": "Complete an online or paper application",
-					"subtitle": "before the application deadline and submit it to the Regional School Choice office."
-				},
-				{
-					"backgroundColor": "#00aab9",
-					"title": "Results will be mailed to families",
-					"subtitle": "by the Regional School Choice Office"
-				},
-				{
-					"backgroundColor": "#006570",
-					"title": "If selected, you will have three weeks to accept the placement.",
-					"subtitle": "If not selected, you will be notified of your position on the waiting list."
-				}
-			],
-			"application": {
-				"link": "about:blank",
-				"buttonText": "Online Application",
-				"month": "Feb",
-				"day": 15
-			}
-		},
-		"openHouse": {
-			"name": "Open House Dates",
-			"lead": "See what we're about",
-			"nav": "openHouse",
-			"text": "Feel free to contact <a href='mailto:basec001@hartfordschools.org' target='_blank'>Mrs. Baseler</a> with any questions!",
-			"dates": [
-				{
-					"name": "UHSSE Open House 1",
-					"date": "December 12, 2017",
-					"time": "10:00am - 12:00pm",
-					"link": "about:blank"
-				},
-				{
-					"name": "UHSSE Open House 2",
-					"date": "December 22, 2017",
-					"time": "10:00am - 12:00pm",
-					"link": "about:blank"
-				}
-			]
-		}
-	}
+  "index": {
+    "announcements": [
+      "We are almost ready to launch!"
+    ],
+    "banners": "/assets/img/home.jpg",
+    "gallery": [
+      {
+        "caption": "This is some info about the image.",
+        "link": "about:blank",
+        "src": "assets/img/about.jpg"
+      },
+      {
+        "caption": "This is some info about the image.",
+        "link": "about:blank",
+        "src": "assets/img/home.jpg"
+      },
+      {
+        "caption": "This is some info about the image.",
+        "link": "about:blank",
+        "src": "assets/img/prospective.jpg"
+      }
+    ],
+    "lead": "Early college high school located on the campus of University of Hartford",
+    "name": "University High School of Science and Engineering",
+    "phoneNumber": "(860) 695-9020",
+    "qualities": [
+      {
+        "backgroundColor": "#ED4646",
+        "description": "Students are presented with a wide variety of high level courses throughout their four years.",
+        "glyph": "glyphicon-blackboard",
+        "name": "Unparalleled Education"
+      },
+      {
+        "backgroundColor": "#B72626",
+        "description": "A partnership with UHart allows our students to get a full taste of the college world.",
+        "glyph": "glyphicon-education",
+        "name": "College Collaboration"
+      },
+      {
+        "backgroundColor": "#6E1515",
+        "description": "From robotics to track to popcorn club, there is always a group for everyone.",
+        "glyph": "glyphicon-sunglasses",
+        "name": "Athletic Affluence"
+      }
+    ]
+  },
+  "academics": {
+    "banner": "/assets/img/academics.jpg",
+    "name": "Education is everything",
+    "lead": "We seek to bring out the best in each of our students",
+    "buttons": [
+      {
+        "name": "Departments",
+        "nav": "#departments"
+      }
+    ],
+    "departments": {
+      "name": "Departments",
+      "lead": "What we have to offer",
+      "nav": "departments",
+      "departments": [
+        {
+          "name": "Mathematics",
+          "lead": "Taylor Bacon",
+          "description": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
+          "courses": [
+            {
+              "name": "Algebra 2",
+              "teacher": "Kate Grayeb",
+              "teacherWebsite": "https://www.google.com",
+              "email": "idk@aol.com",
+              "moreInformation": "http://www.uconn.edu",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "assignments": "http://drive.google.com",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "isECE": true,
+              "isAP": false,
+              "isHonors": false
+            }
+          ]
+        },
+        {
+          "name": "Science",
+          "lead": "Aaron Brown",
+          "description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
+          "courses": [
+            {
+              "name": "General Chemistry",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com",
+              "email": "idk@aol.com",
+              "moreInformation": "http://www.uconn.edu",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "counseling": {
+    "banner": "/assets/img/guidance.jpg",
+    "name": "School Counseling",
+    "lead": "For all your guidance needs.",
+    "overview": "Students with last names starting with A-K have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with L-Z.",
+    "mission": {
+      "name": "Mission Statement",
+      "nav": "missionStatement",
+      "lead": "What we strive for",
+      "statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
+    },
+    "philosophy": {
+      "text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success.",
+      "principles": [
+        "The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
+        "The program is a collaborative effort among school counselors, administration, teachers, home and community.",
+        "The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
+        "The program uses data to drive the program development and evaluation, and monitor student results.",
+        "School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
+      ]
+    },
+    "graduationRequirements": {
+      "name": "Graduation Requirements",
+      "nav": "graduationRequirements",
+      "lead": "Credits and all",
+      "requirements": [
+        {
+          "department": "English",
+          "description": "(Must include English 1 & English 2)",
+          "credits": 4
+        }
+      ]
+    },
+    "links": {
+      "name": "Quick Links",
+      "nav": "links",
+      "lead": "In a flash",
+      "grades": [
+        {
+          "link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
+          "name": "Freshmen"
+        },
+        {
+          "link": "http://www.collegeboard.com/student/plan/action/sophomores.html",
+          "name": "Sophomores"
+        },
+        {
+          "link": "http://www.collegeboard.com/student/plan/action/juniors.html",
+          "name": "Juniors"
+        },
+        {
+          "link": "http://www.collegeboard.com/student/plan/action/seniors.html",
+          "name": "Seniors"
+        }
+      ],
+      "links": [
+        {
+          "name": "Scholarships",
+          "description": "Make sure you are applying!",
+          "link": "https://google.com"
+        }
+      ]
+    },
+    "dates": {
+      "name": "SAT and ACT Test Dates",
+      "lead": "Testing, testing, testing",
+      "nav": "dates",
+      "sat": {
+        "link": "https://www.google.com",
+        "testDates": [
+          "September 6, 2016"
+        ],
+        "registrationDates": [
+          "September 6, 2016"
+        ]
+      },
+      "act": {
+        "link": "https://www.google.com",
+        "testDates": [
+          "September 6, 2016"
+        ],
+        "registrationDates": [
+          "September 6, 2016"
+        ]
+      }
+    }
+  },
+  "information": {
+    "banner": "/assets/img/about.jpg",
+    "name": "A school where smart is cool",
+    "lead": "This is a learning environment like no other",
+    "contacts": {
+      "name": "Contacts",
+      "lead": "Get in touch",
+      "nav": "contacts",
+      "staff": [
+        {
+          "name": "Allard, Philip",
+          "position": "English Teacher",
+          "email": "allap001@hartfordschools.org"
+        },
+        {
+          "name": "Bacon, Taylor",
+          "position": "Math Teacher",
+          "email": "Taylor.Bacon@hartfordschools.org"
+        },
+        {
+          "name": "Baseler, Caryn",
+          "position": "Magnet Instructional Coach",
+          "email": "basec001@hartfordschools.org"
+        },
+        {
+          "name": "Benfield, Elizabeth",
+          "position": "Athletic Director/Spanish Teacher",
+          "email": "benfe001@hartfordschools.org"
+        },
+        {
+          "name": "Bevans, Jon",
+          "position": "Social Studies Teacher",
+          "email": "bevaj001@hartfordschools.org"
+        },
+        {
+          "name": "Bosco, Robert",
+          "position": "Special Education",
+          "email": "boscr001@hartfordschools.org"
+        },
+        {
+          "name": "Brown, Aaron",
+          "position": "Physics/Engineering Teacher",
+          "email": "browa002@hartfordschools.org"
+        },
+        {
+          "name": "Cazzetta-Finn, Colleen",
+          "position": "Special Education",
+          "email": "cazzc001@hartfordschools.org"
+        },
+        {
+          "name": "Deleon-Vasquez, Haydee",
+          "position": "Cook Manager",
+          "email": "deleh001@hartfordschools.org"
+        },
+        {
+          "name": "Dennis, Christina",
+          "position": "Science Teacher",
+          "email": "wardc002@hartfordschools.org"
+        },
+        {
+          "name": "Devaux, John",
+          "position": "Para-Professional",
+          "email": "john.devaux@hartfordschools.org"
+        },
+        {
+          "name": "DiNello, James",
+          "position": "Math Teacher",
+          "email": "james.dinello@hartfordschools.org"
+        },
+        {
+          "name": "Doffek, Beth",
+          "position": "Guidance Counselor",
+          "email": "doffb001@hartfordschools.org"
+        },
+        {
+          "name": "Folan, Martin",
+          "position": "Principal",
+          "email": "folam001@hartfordschools.org"
+        },
+        {
+          "name": "Fromerth, Michael",
+          "position": "Chemistry Teacher",
+          "email": "fromm001@hartfordschools.org"
+        },
+        {
+          "name": "Grayeb, Kate",
+          "position": "Math Teacher",
+          "email": "grayk001@hartfordschools.org"
+        },
+        {
+          "name": "Harbunak, Stephen",
+          "position": "Biology Teacher",
+          "email": "harbs001@hartfordschools.org"
+        },
+        {
+          "name": "Kellerman, Delores",
+          "position": "Nurse",
+          "email": "dkellerman@hartfordschools.org"
+        },
+        {
+          "name": "Lai-Hipp, Kathleen",
+          "position": "Biology Teacher",
+          "email": "laihk001@hartfordschools.org"
+        },
+        {
+          "name": "Lowney, John",
+          "position": "Athletics Staff",
+          "email": "jlowneycolumbia@gmail.com"
+        },
+        {
+          "name": "Manocchio, Kara",
+          "position": "Office Assistant",
+          "email": "manok001@hartfordschools.org"
+        },
+        {
+          "name": "Maziarz, Megan",
+          "position": "English Teacher",
+          "email": "megan.maziarz@hartfordschools.org"
+        },
+        {
+          "name": "McCoy, Michael",
+          "position": "English Teacher",
+          "email": "michael.mccoy@hartfordschools.org"
+        },
+        {
+          "name": "Medina, Alfredo",
+          "position": "Spanish Teacher",
+          "email": "media001@hartfordschools.org"
+        },
+        {
+          "name": "Merlo, Kelly",
+          "position": "Chemistry Teacher",
+          "email": "hartk002@hartfordschools.org"
+        },
+        {
+          "name": "Miller, Joseph",
+          "position": "Social Studies",
+          "email": "joe.miller@hartfordschools.org"
+        },
+        {
+          "name": "Morrison, Robert",
+          "position": "Special Police Officer",
+          "email": "morrr001@hartfordschools.org"
+        },
+        {
+          "name": "Obie, Dennis",
+          "position": "Engineering Teacher",
+          "email": "obied001@hartfordschools.org"
+        },
+        {
+          "name": "Oporto, Nancy",
+          "position": "Social Worker/504 Coordinator",
+          "email": "noproto@hartfordschools.org"
+        },
+        {
+          "name": "Pedrick, Susan",
+          "position": "Engineering Teacher",
+          "email": "pedrs001@hartfordschools.org"
+        },
+        {
+          "name": "Prescott, Francia",
+          "position": "College/Career Specialist",
+          "email": "presf001@hartfordschools.org"
+        },
+        {
+          "name": "Radigan, Noel",
+          "position": "Guidance Counselor",
+          "email": "radin001@hartfordschools.org"
+        },
+        {
+          "name": "Riccitelli, Jason",
+          "position": "Physical Education",
+          "email": "riccj002@hartfordschools.org"
+        },
+        {
+          "name": "Richters, Guy",
+          "position": "Art Teacher",
+          "email": "richg001@hartfordschools.org"
+        },
+        {
+          "name": "Scanlon, Heidi",
+          "position": "Social Studies Teacher",
+          "email": "scanh001@hartfordschools.org"
+        },
+        {
+          "name": "Serrano, Jessica",
+          "position": "Spanish Teacher",
+          "email": "jessica.Serrano@hartfordschools.org"
+        },
+        {
+          "name": "Shea, Matthew",
+          "position": "Physical Education",
+          "email": "sheam002@hartfordschools.org"
+        },
+        {
+          "name": "Silenok, Nicole",
+          "position": "Math Teacher",
+          "email": "silen001@hartfordschools.org"
+        },
+        {
+          "name": "Steller, Paul",
+          "position": "Math Teacher",
+          "email": "stelp002@hartfordschools.org"
+        },
+        {
+          "name": "Thomas, Arthur",
+          "position": "Comprehensive Intervention",
+          "email": "thoma003@hartfordschools.org"
+        },
+        {
+          "name": "Todisco, Jennifer",
+          "position": "English Teacher",
+          "email": "todij001@hartfordschools.org"
+        },
+        {
+          "name": "Tomany, Sean",
+          "position": "Assistant Principal",
+          "email": "tomas001@hartfordschools.org"
+        },
+        {
+          "name": "Waite, Wayne",
+          "position": "Para-Professional",
+          "email": "wayne.waite@hartfordschools.org"
+        },
+        {
+          "name": "Wilcoxen, Sharol",
+          "position": "Science/Engineering Teacher",
+          "email": "swilcoxen@hartfordschools.org"
+        }
+      ],
+      "supportServices": [
+        {
+          "name": "Kara Manocchio",
+          "position": "Attendance",
+          "email": "manok001@hartfordschools.org",
+          "phone": "860-695-9020"
+        },
+        {
+          "name": "Haydee Deleon-Vasquez",
+          "position": "Food",
+          "email": "anglc001@hartfordschools.org",
+          "phone": "860-695-9057"
+        },
+        {
+          "name": "Francia Prescott",
+          "position": "Career",
+          "email": "presf001@hartfordschools.org",
+          "phone": "860-695-9025"
+        },
+        {
+          "name": "Delores Kellerman",
+          "position": "Health",
+          "email": "dkellerman@hartfordschools.org",
+          "phone": "860-695-9022"
+        },
+        {
+          "name": "Nancy Oporto-Brown",
+          "position": "Social Work",
+          "email": "noporto@hartfordschools.org",
+          "phone": "860-695-9023"
+        },
+        {
+          "name": "Rob Bosco",
+          "position": "Special Education",
+          "email": "boscr001@hartfordschools.org",
+          "phone": "860-695-9030"
+        }
+      ]
+    },
+    "lunchMenu": {
+      "name": "Lunch Menu",
+      "lead": "What's on the menu?",
+      "nav": "lunchMenu",
+      "url": "www.hartfordschools.org/wp-content/uploads/2016/01/Lunch-Menu-6-12-May2017.pdf"
+    },
+    "parentOrganizations": {
+      "name": "Parent Organizations",
+      "lead": "Get involved",
+      "nav": "parentOrganizations",
+      "pto": {
+        "officers": [
+          {
+            "position": "President",
+            "name": "Jessica May",
+            "email": "jessmay01@gmail.com"
+          },
+          {
+            "position": "Vice President",
+            "name": "Jay Kean",
+            "email": "jay.kean@comcast.net"
+          },
+          {
+            "position": "Treasurer",
+            "name": "Danielle Hollister",
+            "email": "danie7@cox.net"
+          },
+          {
+            "position": "Secretary",
+            "name": "Dana Shagan",
+            "email": "shagandana@gmail.com"
+          }
+        ],
+        "meetingDates": {
+          "description": "Meetings occur on the 3rd Tuesday each month at 6pm iun the UHSSE Commons.",
+          "dates": [
+            "September 20, 2016",
+            "October 18, 2016",
+            "November 15, 2016",
+            "January 17, 2017",
+            "February 22, 2017 (Wed)",
+            "March 28, 2017",
+            "April 18, 2017",
+            "May 16, 2017"
+          ]
+        },
+        "meetingMinutes": [
+          {
+            "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
+            "text": "March 2017"
+          },
+          {
+            "link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
+            "text": "February 2017"
+          },
+          {
+            "link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
+            "text": "November 2016"
+          },
+          {
+            "link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
+            "text": "October 2016"
+          },
+          {
+            "link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
+            "text": "September 2016"
+          },
+          {
+            "link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
+            "text": "May 2016"
+          }
+        ],
+        "fundraisers": [
+          {
+            "link": "http://www.shopwithscrip.com/",
+            "name": "Scrip"
+          },
+          {
+            "link": "http://www.stopandshop.com/aplus",
+            "name": "A+ School Rewards"
+          },
+          {
+            "link": "http://www.shopriteforeducation.com/",
+            "name": "ShopRite"
+          }
+        ]
+      },
+      "afterGrad": {
+        "meetingDates": {
+          "description": "Meetings will be held in the UHSSE commons at 6:30pm.",
+          "dates": [
+            "September 6, 2016",
+            "October 4, 2016",
+            "November 1, 2016",
+            "December 6, 2016",
+            "January 3, 2017",
+            "February 7, 2017 (Wed)",
+            "March 7, 2017",
+            "April 4, 2017",
+            "May 23, 2017",
+            "June 8, 2017"
+          ]
+        },
+        "donationForms": [
+          {
+            "name": "Donation Letter",
+            "link": "http://api.ning.com/files/C*P8XcSSeqfN6L0LO82IFBRhMVjzOGfCFY69caHISYrecen*rK5L7aIqO7eAtffGTTSV3dd6ry61eImofiSAM9xCUZMEnloN/AGPDonationLetter.pdf"
+          },
+          {
+            "name": "Donation Form",
+            "link": "http://api.ning.com/files/C*P8XcSSeqe7DoFR*Gj4DJVhb8JtCYeAeGNffUeCgEztKOuaoE*nqGA8MvVSsQA7tf*yuLoqWrKuXl88xMmlWprQz5OhdPnh/AGPDonationFormItem.pdf"
+          },
+          {
+            "name": "Scholarship Opportunities",
+            "link": "http://api.ning.com/files/C*P8XcSSeqcxqeNr0Ed5ewnR52ASx3Vjow608GrbicZ98a2t9WEnzv6xE2jm9q0kco9TXU7F1wP6TNxPGrkHDVAUf42O*BMw/AGPSponsorshipOpportunities.pdf"
+          }
+        ],
+        "aids": [
+          {
+            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "name": "Attend a meeting"
+          },
+          {
+            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "name": "Attend a fundraiser"
+          },
+          {
+            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "name": "Donate to the party"
+          },
+          {
+            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "name": "Volunteer at the party"
+          }
+        ],
+        "updates": [
+          {
+            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "name": "Emailed updates and reminders"
+          },
+          {
+            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "name": "Facebook"
+          }
+        ]
+      },
+      "sgc": {
+        "meetingDates": {
+          "description": "Meetings will be held in the UHSSE commons at 6:30pm.",
+          "dates": [
+            "September 20, 2016",
+            "October 18, 2016",
+            "November 15, 2016",
+            "January 17, 2017",
+            "February 22, 2017 (Wed)",
+            "March 28, 2017",
+            "April 18, 2017",
+            "May 16, 2017"
+          ]
+        },
+        "meetingMinutes": [
+          {
+            "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
+            "text": "March 2017"
+          },
+          {
+            "link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
+            "text": "February 2017"
+          },
+          {
+            "link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
+            "text": "November 2016"
+          },
+          {
+            "link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
+            "text": "October 2016"
+          },
+          {
+            "link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
+            "text": "September 2016"
+          },
+          {
+            "link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
+            "text": "May 2016"
+          }
+        ],
+        "members": [
+          {
+            "name": "Mr. Mister",
+            "position": "Mister",
+            "email": "email@email.email"
+          }
+        ]
+      }
+    },
+    "resources": {
+      "name": "Resources",
+      "nav": "resources",
+      "resources": [
+        {
+          "url": "https://google.com",
+          "name": "Student Handbook",
+          "description": "Tree killer extrodinaire."
+        },
+        {
+          "url": "https://google.com",
+          "name": "Health Form #1",
+          "description": "Just don't die, okay?"
+        }
+      ],
+      "studentCouncil": {
+        "grades": [
+          {
+            "name": "Freshmen",
+            "resources": [
+              {
+                "url": "https://yoyo.com",
+                "name": "Our Website",
+                "description": "Cause UHSSE.org sucks!"
+              }
+            ]
+          },
+          {
+            "name": "Sophomores",
+            "resources": [
+              {
+                "url": "https://yoyo.com",
+                "name": "Our Website",
+                "description": "Cause UHSSE.org sucks!"
+              }
+            ]
+          },
+          {
+            "name": "Juniors",
+            "resources": [
+              {
+                "url": "https://yoyo.com",
+                "name": "Our Website",
+                "description": "Cause UHSSE.org sucks!"
+              }
+            ]
+          },
+          {
+            "name": "Seniors",
+            "resources": [
+              {
+                "url": "https://yoyo.com",
+                "name": "Our Website",
+                "description": "Cause UHSSE.org sucks!"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "extracurriculars": {
+    "banner": "/assets/img/extracurriculars.jpg",
+    "name": "Going above and beyond",
+    "lead": "Because there's more to school than just classes",
+    "buttons": [
+      {
+        "name": "Athletics",
+        "nav": "#sports"
+      },
+      {
+        "name": "Clubs",
+        "nav": "#clubs"
+      }
+    ],
+    "athletics": {
+      "name": "Athletics",
+      "lead": "Get your game on",
+      "nav": "athletics",
+      "seasons": [
+        {
+          "name": "Spring",
+          "sports": [
+            {
+              "name": "Men's Basketball",
+              "coaches": [
+                {
+                  "name": "Jay Riccitelli",
+                  "league": "Varsity"
+                },
+                {
+                  "name": "Alfredo Cardona",
+                  "league": "Junior Varsity/Freshman"
+                }
+              ],
+              "schedules": [
+                {
+                  "nav": "//",
+                  "name": "Varsity"
+                }
+              ]
+            },
+            {
+              "name": "Men's Basketball",
+              "coaches": [
+                {
+                  "name": "Jay Riccitelli",
+                  "league": "Varsity"
+                },
+                {
+                  "name": "Alfredo Cardona",
+                  "league": "Junior Varsity/Freshman"
+                }
+              ],
+              "schedules": [
+                {
+                  "nav": "//",
+                  "name": "Varsity"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Summer",
+          "sports": [
+            {
+              "name": "Men's Basketball",
+              "coaches": [
+                {
+                  "name": "Jay Riccitelli",
+                  "league": "Varsity"
+                },
+                {
+                  "name": "Alfredo Cardona",
+                  "league": "Junior Varsity/Freshman"
+                }
+              ],
+              "schedules": [
+                {
+                  "nav": "//",
+                  "name": "Varsity"
+                }
+              ]
+            },
+            {
+              "name": "Men's Basketball",
+              "coaches": [
+                {
+                  "name": "Jay Riccitelli",
+                  "league": "Varsity"
+                },
+                {
+                  "name": "Alfredo Cardona",
+                  "league": "Junior Varsity/Freshman"
+                }
+              ],
+              "schedules": [
+                {
+                  "nav": "//",
+                  "name": "Varsity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "clubs": {
+      "name": "Clubs",
+      "lead": "Not for cavemen",
+      "nav": "clubs",
+      "clubs": [
+        {
+          "name": "Intramural Basketball",
+          "link": "http://www.quickscores.com/uhsse",
+          "leader": {
+            "name": "Alfredo Cardona",
+            "position": "Intramural Director",
+            "phone": "860-695-9019",
+            "email": "carda002@hartfordschools.org"
+          }
+        }
+      ]
+    }
+  },
+  "alumni": {
+    "banner": "/assets/img/alumni.jpg",
+    "name": "Our best and brightest",
+    "lead": "Where are they now?",
+    "avatars": [
+      {
+        "image": "http://theredlist.com/media/database/films/cinema/2000/avatar-/027-avatar-theredlist.jpg",
+        "name": "Blue Person",
+        "information": "Graduate of University of Blue"
+      },
+      {
+        "image": "https://ak6.picdn.net/shutterstock/videos/2704991/thumb/10.jpg",
+        "name": "Green Person",
+        "information": "Graduate of University of Green"
+      },
+      {
+        "image": "https://s-media-cache-ak0.pinimg.com/236x/59/6d/7a/596d7a8ea32657aea1a578f8942ea20a.jpg",
+        "name": "Red Person",
+        "information": "Graduate of University of Red"
+      }
+    ],
+    "alumnis": [
+      {
+        "name": "Andi Duro",
+        "college": "UCONN",
+        "contact": "8605555555"
+      }
+    ],
+    "apply": "https://google.com"
+  },
+  "prospective": {
+    "banner": "/assets/img/prospective.jpg",
+    "name": "UHSSE on your mind?",
+    "lead": "This is who we are.",
+    "applications": {
+      "name": "Applications",
+      "lead": "Applying is easy",
+      "nav": "applications",
+      "timeline": [
+        {
+          "backgroundColor": "#00def0",
+          "title": "Complete an online or paper application",
+          "subtitle": "before the application deadline and submit it to the Regional School Choice office."
+        },
+        {
+          "backgroundColor": "#00aab9",
+          "title": "Results will be mailed to families",
+          "subtitle": "by the Regional School Choice Office"
+        },
+        {
+          "backgroundColor": "#006570",
+          "title": "If selected, you will have three weeks to accept the placement.",
+          "subtitle": "If not selected, you will be notified of your position on the waiting list."
+        }
+      ],
+      "application": {
+        "link": "about:blank",
+        "buttonText": "Online Application",
+        "month": "Feb",
+        "day": 15
+      }
+    },
+    "openHouse": {
+      "name": "Open House Dates",
+      "lead": "See what we're about",
+      "nav": "openHouse",
+      "text": "Feel free to contact <a href='mailto:basec001@hartfordschools.org' target='_blank'>Mrs. Baseler</a> with any questions!",
+      "dates": [
+        {
+          "name": "UHSSE Open House 1",
+          "date": "December 12, 2017",
+          "time": "10:00am - 12:00pm",
+          "link": "about:blank"
+        },
+        {
+          "name": "UHSSE Open House 2",
+          "date": "December 22, 2017",
+          "time": "10:00am - 12:00pm",
+          "link": "about:blank"
+        }
+      ]
+    }
+  }
 }
