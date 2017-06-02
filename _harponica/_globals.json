@@ -1,99 +1,123 @@
 {
-	"navbar": {
-		"brand": "UHSSE",
-		"icons": [
-			{
-				"link": "https://powerschool.hartfordschools.org/public/",
-				"image": "assets/img/powerschool.png",
-				"size": "2.25rem"
-			},
-			{
-				"link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
-				"image": "assets/img/naviance.jpg",
-				"size": "3rem"
-			}
-		],
-		"button": {
-			"text": "PROSPECTIVE STUDENTS",
-			"link": "/prospective"
-		},
-		"links": [
-			{
-				"name": "Information",
-				"path": "/information",
-				"subLinks": [
-					{
-						"name": "Contacts",
-						"nav": "contacts"
-					},
-					{
-						"name": "Lunch Menu",
-						"nav": "lunchMenu"
-					},
-					{
-						"name": "Parent Organizations",
-						"nav": "parentOrganizations"
-					},
-					{
-						"name": "Resources",
-						"nav": "resources"
-					}
-				]
-			},
-			{
-				"name": "Academics",
-				"path": "/academics",
-				"subLinks": [
-					{
-						"name": "Mathematics",
-						"nav": "mathematics"
-					},
-					{
-						"name": "Science",
-						"nav": "science"
-					}
-				]
-			},
-			{
-				"name": "Counseling",
-				"path": "/counseling",
-				"subLinks": [
-					{
-						"name": "Mission Statement",
-						"nav": "missionStatement"
-					},
-					{
-						"name": "Quick Links",
-						"nav": "links"
-					},
-					{
-						"name": "Graduation Requirements",
-						"nav": "graduationRequirements"
-					},
-					{
-						"name": "SAT and ACT Test Dates",
-						"nav": "dates"
-					}
-				]
-			},
-			{
-				"name": "Extracurriculars",
-				"path": "/extracurriculars",
-				"subLinks": [
-					{
-						"name": "Athletics",
-						"nav": "athletics"
-					},
-					{
-						"name": "Clubs",
-						"nav": "clubs"
-					}
-				]
-			},
-			{
-				"name": "Alumni",
-				"path": "/alumni"
-			}
-		]
-	}
+  "navbar": {
+    "brand": "UHSSE",
+    "button": {
+      "link": "/prospective",
+      "text": "PROSPECTIVE STUDENTS"
+    },
+    "icons": [
+      {
+        "image": "assets/img/powerschool.png",
+        "link": "https://powerschool.hartfordschools.org/public/",
+        "size": "2.25rem"
+      },
+      {
+        "image": "assets/img/naviance.jpg",
+        "link": "https://connection.naviance.com/family-connection/auth/login/?hsid=uhsse",
+        "size": "3rem"
+      }
+    ],
+    "links": [
+      {
+        "name": "Information",
+        "path": "/information",
+        "subLinks": [
+          {
+            "name": "Contacts",
+            "nav": "contacts"
+          },
+          {
+            "name": "Lunch Menu",
+            "nav": "lunchMenu"
+          },
+          {
+            "name": "Parent Organizations",
+            "nav": "parentOrganizations"
+          },
+          {
+            "name": "Resources",
+            "nav": "resources"
+          }
+        ]
+      },
+      {
+        "name": "Academics",
+        "path": "/academics",
+        "subLinks": [
+          {
+            "name": "Mathematics",
+            "nav": "mathematics"
+          },
+          {
+            "name": "Science",
+            "nav": "science"
+          },
+          {
+            "name": "Engineering ",
+            "nav": "engineering"
+          },
+          {
+            "name": "English",
+            "nav": "english"
+          },
+          {
+            "name": "Spanish",
+            "nav": "spanish"
+          },
+          {
+            "name": "Social Studies",
+            "nav": "socialstudies"
+          },
+          {
+            "name": "Art",
+            "nav": "art"
+          },
+          {
+            "name": "Physical Education/Health",
+            "nav": "physicaleducation/health"
+          }
+        ]
+      },
+      {
+        "name": "Counseling",
+        "path": "/counseling",
+        "subLinks": [
+          {
+            "name": "Mission Statement",
+            "nav": "missionStatement"
+          },
+          {
+            "name": "Quick Links",
+            "nav": "links"
+          },
+          {
+            "name": "Graduation Requirements",
+            "nav": "graduationRequirements"
+          },
+          {
+            "name": "SAT and ACT Test Dates",
+            "nav": "dates"
+          }
+        ]
+      },
+      {
+        "name": "Extracurriculars",
+        "path": "/extracurriculars",
+        "subLinks": [
+          {
+            "name": "Athletics",
+            "nav": "athletics"
+          },
+          {
+            "name": "Clubs",
+            "nav": "clubs"
+          }
+        ]
+      },
+      {
+        "name": "Alumni",
+        "path": "/alumni"
+      }
+    ]
+  }
 }
