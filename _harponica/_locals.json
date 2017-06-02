@@ -47,8 +47,6 @@
   },
   "academics": {
     "banner": "/assets/img/academics.jpg",
-    "name": "Education is everything",
-    "lead": "We seek to bring out the best in each of our students",
     "buttons": [
       {
         "name": "Departments",
@@ -56,51 +54,167 @@
       }
     ],
     "departments": {
-      "name": "Departments",
-      "lead": "What we have to offer",
-      "nav": "departments",
       "departments": [
         {
-          "name": "Mathematics",
-          "lead": "Taylor Bacon",
-          "description": "STEM Mathematics is a study of mathematical methods that are typically used in science, engineering, business, and industry with a review of essential concepts from Algebra 2 and Pre-Calculus.  Students will work on application problems which include trigonometry, systems of linear equations, quadratic, exponential, and logarithmic function basics to mathematically model problems and derive solutions with emphasis on the use of technology and other tools.",
           "courses": [
             {
-              "name": "Algebra 2",
-              "teacher": "Kate Grayeb",
-              "teacherWebsite": "https://www.google.com",
-              "email": "idk@aol.com",
-              "moreInformation": "http://www.uconn.edu",
-              "syllabus": "http://google.com/search?q=learn+math",
               "assignments": "http://drive.google.com",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
-              "isECE": true,
+              "email": "idk@aol.com",
               "isAP": false,
-              "isHonors": false
+              "isECE": true,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "Algebra 2",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Kate Grayeb",
+              "teacherWebsite": "https://www.google.com"
             }
-          ]
+          ],
+          "description": "",
+          "lead": "Kate Grayeb",
+          "name": "Mathematics"
         },
         {
-          "name": "Science",
-          "lead": "Aaron Brown",
-          "description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
           "courses": [
             {
-              "name": "General Chemistry",
-              "teacher": "Michael Fromerth",
-              "teacherWebsite": "https://www.google.com",
-              "email": "idk@aol.com",
-              "moreInformation": "http://www.uconn.edu",
-              "syllabus": "http://google.com/search?q=learn+math",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
               "isAP": true,
               "isECE": false,
-              "isHonors": false
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
             }
-          ]
+          ],
+          "description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
+          "lead": "Dr. Michael Fromerth",
+          "name": "Science"
+        },
+        {
+          "courses": [
+            {
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
+            }
+          ],
+          "description": "As a result of the rapid expansion of scientific knowledge during the second half of the twentieth century and the concurrent advances in a wide array of new technologies, there is an ever-increasing demand for skilled professionals in the engineering and technological fields. At UHSSE, students are given the opportunity to learn about career opportunities in engineering and to develop the skills needed to successfully pursue engineering at the college level.\n \nGoals\nStudents will obtain the basic theoretical knowledge and skills to successfully pursue many engineering disciplines at the college level.\nStudents will be introduced to: the design process, teamwork, project management, 3D solid modeling, prototyping, testing and evaluation, technical communication, programming, materials, methods of fabrication, control systems, statics, kinematics, and thermodynamics.\nStudents will understand engineering principles and methodologies to demonstrate solutions to real world problems.\nStudents will demonstrate their engineering knowledge in a senior capstone course.",
+          "lead": "Dennis Obie",
+          "name": "Engineering "
+        },
+        {
+          "courses": [
+            {
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
+            }
+          ],
+          "description": "English Learning Outcomes\nTo increase students’ powers of expression, both in written and oral communication, in all subject areas of the curriculum and in a variety of styles and situations.\nTo develop students’ abilities to engage tin critical examination of written works.\nTo introduce students to w wide range of literary works and literary genres, styles and context through the study of the major classics of worlds and American literature as well as range of contemporary literature.\nTo provide students with an understanding of and experience in using a variety of techniques for engaging in literary study and criticism, and to recognize the relationship between different literary works and literary styles.\nTo develop an appreciation of the rich diversity of literature from around the world and during historical time periods.\nTo engender in students a personal appreciation of literature as the basis for a life long enjoyment of reading and an interest in current literary developments.\nSocial Studies\nSpecific courses within the American Studies strands are designed to meet the graduation requirements for U.S. History and Civics",
+          "lead": "Jennifer Todisco",
+          "name": "English"
+        },
+        {
+          "courses": [
+            {
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
+            }
+          ],
+          "description": "A global perspective has become an essential component of effectively preparing students to become life-long learners, to pursue their personal and professional development, and to contribute to our technological society. Knowledge of and the ability to use other languages is a basic tool for engaging with the expanding global arena that effects the daily life of Americans and all people around the world. University High School requires students take at least three years of Spanish. Spanish is rapidly becoming a second-language throughout the United States and is particularly significant in Hartford since at least one-third of Hartford residents are native Spanish speakers or children of native Spanish speakers. Admission to most colleges and universities requires that students study at least two years of a foreign language, but three years is preferred. For this reason, it is required that all University High School students take at least three years of Spanish.\n \nWorld Language Learning Outcomes\nStudents will engage in conversation, provide and obtain information, express feelings and exchange opinions using the Spanish language.\nStudents will understand and interpret spoken and written Spanish on a variety of topics and will communicate information, concepts and ideas on a variety of topics both in oral and written Spanish.\nStudents will demonstrate an understanding of the concept of culture through comparisons of the range of Spanish cultures in Europe, Latin America and the United States.\nStudents will reinforce and expand the knowledge acquired in the Global Studies curricula through their study of Spanish language.\n \nSince many schools in the Greater Hartford area require language study prior to high school, it is expected the many students will begin their Spanish classes at the intermediate level. Advance Spanish classes will be offered for students with demonstrated proficiency in both written and oral Spanish. These classes are particularly recommended for native Spanish speakers. The focus of the advance Spanish classed is the study and interpretation of Spanish literature and the development of critical analysis using the Spanish language. Students who qualify have the option of taking courses in Spanish literature at the University of Hartford.",
+          "lead": "Elizabeth Benfield",
+          "name": "Spanish"
+        },
+        {
+          "courses": [
+            {
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
+            }
+          ],
+          "description": "Social studies is the integrated study of history and the social sciences to promote civic competence. \n \nOur social studies program is dedicated to providing a course of study that encourages our students to become informed and active citizens.  We are committed to providing meaningful and challenging learning experiences for our students that are connected to important social studies content and themes.  In addition, we are committed to making meaningful connections with the magnet theme of science and engineering.  Our aim is to provide students with opportunities to think and communicate in ways that will enable them to develop a working knowledge of social studies content, and to identify, understand and work to solve problems in their lives and their world.  Our goal is to prepare our students to be college ready as well as to be active citizens in a culturally diverse, rapidly changing, and interdependent world.  \n\nDepartment Goals\nStudents will gain knowledge of United States history, world history, civics and government, and geography. \nStudents will apply geographic knowledge, skill and concepts to understanding human behavior in relations to the physical and cultural environment.  \nStudents will acquire an understanding of how ideals, principles and practices of citizenship have emerged over time and across cultures.\nStudents will develop skills in chronological organization of events, the ability to read and interpret primary and secondary historical documents, and to compare and contrast trends across time and place. \nStudents will analyze the historical roots of current world problems including the complexity of relations and conflicts among nations in our increasingly interdependent world.\nStudents will employ the concepts learned in social studies to better understand the development and advancement of scientific and technological discoveries and innovations.\nStudents will demonstrate knowledge of how laws are made and how they regulate the relationship between individual rights and societal needs. ",
+          "lead": "Jon Bevans",
+          "name": "Social Studies"
+        },
+        {
+          "courses": [
+            {
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
+            }
+          ],
+          "description": "The philosophy of the UHSSE Visual Art Department is to teach students the ability to see and know the world around them through personal artistic expression.  Our commitment is not only to make connections between visual art and science and engineering, but to also create a visual dialogue between students and their environment.  The arts inspire us to create and gives us ownership of our own perspectives.  The curriculum emphasizes the artistic process allowing the product to be a visual expression propelling us forward. Students are presented with challenges to nurture abstract problem solving.  We seek to cultivate creativity in all of our students.  We promote an environment focused on community and self-reflection. We allow students to explore by giving them the skills necessary to express their own thoughts and ideas through an experience based learning process.\nGoals\nStudents will learn to define art using The Critical Method process to evaluate the quality of their works\nStudents will explore the use of Elements of Art and Principles of Design to organize their works\nStudents will demonstrate the use of various art media\nStudents will explore and discuss the context of art throughout history\nStudents will understand how the artistic process can be applied to all other academic disciplines\n",
+          "lead": "Guy Richters",
+          "name": "Art"
+        },
+        {
+          "courses": [
+            {
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra odio vel dolor volutpat, id faucibus diam commodo. Suspendisse malesuada velit in ornare aliquam. Quisque mauris turpis, aliquam id molestie viverra, ultrices vel nisl. Etiam ligula sem, aliquam ac elit vitae, ultrices ornare orci. Morbi rutrum pellentesque rhoncus.",
+              "email": "idk@aol.com",
+              "isAP": true,
+              "isECE": false,
+              "isHonors": false,
+              "moreInformation": "http://www.uconn.edu",
+              "name": "General Chemistry",
+              "syllabus": "http://google.com/search?q=learn+math",
+              "teacher": "Michael Fromerth",
+              "teacherWebsite": "https://www.google.com"
+            }
+          ],
+          "description": "",
+          "lead": "",
+          "name": "Physical Education/Health"
         }
-      ]
-    }
+      ],
+      "lead": "",
+      "name": "Departments",
+      "nav": "departments"
+    },
+    "lead": "We seek to bring out the best in each of our students",
+    "name": "Education is everything"
   },
   "counseling": {
     "banner": "/assets/img/guidance.jpg",
