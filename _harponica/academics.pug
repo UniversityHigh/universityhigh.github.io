@@ -19,7 +19,7 @@ mixin course(name, teacher, email, teacherWebsite, moreInformation, syllabus, as
 								li
 									a(href=teacherWebsite target="_blank") #[span.glyphicon.glyphicon-apple] Teacher Website
 							li
-								a(href = "mailto://" + teacherEmail target="_blank") #[span.glyphicon.glyphicon-envelope] Email Teacher
+								a(href = "mailto:" + email target="_blank") #[span.glyphicon.glyphicon-envelope] Email Teacher
 							li
 								a(href = syllabus target="_blank") #[span.glyphicon.glyphicon-file] View Syllabus
 							if assignments
@@ -55,6 +55,15 @@ block body
 
 	.container
 		+section(departments.name, departments.lead, departments.nav)
+			if departments.assignments.length !== 0
+				h4.title Summer Assignments
+				.list-group
+					each file in departments.assignments
+						a.list-group-item(href=file.url target="_blank")
+							h5.list-group-item-heading= file.subject
+							if file.information
+								p.list-group-item-text= file.information
+			
 			each department in departments.departments
 				.department(id=camelize(department.name))
 					h4.title #{department.name} #[small Led by #[b #{department.lead}]]
