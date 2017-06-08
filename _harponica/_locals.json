@@ -53,14 +53,18 @@
 				"nav": "#departments"
 			}
 		],
-		"departments": {
-			"assignments": [
+		"assignments": {
+			"name": "Summer Assignments",
+			"nav": "#assignments",
+			"files": [
 				{
 					"subject": "Test",
 					"information": "Yo yo yo",
-					"url": "https://google.com"
+					"url": "google.com"
 				}
-			],
+			]
+		},
+		"departments": {
 			"departments": [
 				{
 					"courses": [

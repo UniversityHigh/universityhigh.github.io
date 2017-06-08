@@ -45,6 +45,10 @@
         "path": "/academics",
         "subLinks": [
           {
+            "name": "Summer Assignments",
+            "nav": "assignments"
+          },
+          {
             "name": "Mathematics",
             "nav": "mathematics"
           },
