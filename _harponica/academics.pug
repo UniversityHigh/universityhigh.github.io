@@ -54,16 +54,21 @@ block body
 		}
 
 	.container
-		+section(departments.name, departments.lead, departments.nav)
-			if departments.assignments.length !== 0
-				h4.title Summer Assignments
+		+section(assignments.name, assignments.lead, assignments.nav)
+			if assignments.files.length !== 0
 				.list-group
-					each file in departments.assignments
+					each file in assignments.files
 						a.list-group-item(href=file.url target="_blank")
 							h5.list-group-item-heading= file.subject
 							if file.information
 								p.list-group-item-text= file.information
+
+			else
+				h4(style="font-weight: lighter;")= "No assignments currently available."
 			
+		hr
+
+		+section(departments.name, departments.lead, departments.nav)
 			each department in departments.departments
 				.department(id=camelize(department.name))
 					h4.title #{department.name} #[small Led by #[b #{department.lead}]]
