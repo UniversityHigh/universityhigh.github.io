@@ -3,7 +3,14 @@ if (announcements.length === 1) {
 	$("nav").append($(".announcements"));
 
 	announcements.on("click", function () {
-		alert(announcements.text());
+		let announcementsLink = announcements.text().match(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig);
+		if(announcementsLink) {
+			if(confirm(announcements.text() + "\n\nClick \"OK\" to proceed to the link.")) {
+				window.open(announcementsLink[0], "_blank");
+			}
+		} else {
+			alert(announcements.text());
+		}
 	});
 
 	let data = announcements.data("announcements");
@@ -22,7 +29,7 @@ if (announcements.length === 1) {
 				announcements.text(data[dataIndex]);
 				announcements.animateCss("slideInRight");
 			});
-		}, 10000);
+		}, 5000);
 	});
 }
 

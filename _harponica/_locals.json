@@ -1,7 +1,8 @@
 {
 	"index": {
 		"announcements": [
-			"We are almost ready to launch!"
+			"We are almost ready to launch!",
+			"Test link functionality: http://google.com"
 		],
 		"banners": "/assets/img/home.jpg",
 		"gallery": [
