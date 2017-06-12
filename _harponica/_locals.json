@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"index": {
 		"announcements": [
 			"We are almost ready to launch!",
@@ -55,14 +54,18 @@
 				"nav": "#departments"
 			}
 		],
-		"departments": {
-			"assignments": [
+		"assignments": {
+			"name": "Summer Assignments",
+			"nav": "assignments",
+			"files": [
 				{
 					"subject": "Test",
 					"information": "Yo yo yo",
 					"url": "https://google.com"
 				}
-			],
+			]
+		},
+		"departments": {
 			"departments": [
 				{
 					"courses": [
