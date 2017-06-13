@@ -63,8 +63,11 @@ block body
 		hr
 
 		+section(lunchMenu.name, lunchMenu.lead, lunchMenu.nav)
-			.embed-responsive.embed-responsive-16by9
-				iframe#pdf.embed-responsive.item(frameborder="0" src="https://docs.google.com/gview?url=" + lunchMenu.url + "&embedded=true")
+			if !lunchMenu.url
+				h5(style="font-weight: lighter;")= "The lunch menu is currently unavailable."
+			else
+				.embed-responsive.embed-responsive-16by9
+					iframe#pdf.embed-responsive.item(frameborder="0" src="https://docs.google.com/gview?url=" + lunchMenu.url + "&embedded=true")
 
 		hr
 
@@ -155,10 +158,13 @@ block body
 
 		+section(resources.name, resources.lead, resources.nav)
 			.list-group
-				each resource in resources.resources
-					a.list-group-item(href=resource.url target="_blank")
-						h5.list-group-item-heading= resource.name
-						p.list-group-item-text= resource.description
+				if resources.resources.length === 0
+					h5(style="font-weight: lighter;")= "No resources currently available."
+				else
+					each resource in resources.resources
+						a.list-group-item(href=resource.url target="_blank")
+							h5.list-group-item-heading= resource.name
+							p.list-group-item-text= resource.description
 			
 			+innerSection("Student Council")
 			ul.nav.nav-tabs(role="tablist")
@@ -170,8 +176,11 @@ block body
 				each grade, index in resources.studentCouncil.grades
 					- let active = index === 0 ? "active" : null;
 					.tab-pane.list-group(class=active role="tab-pane" id=grade.name.toLowerCase())
-						each resource in grade.resources
-							a.list-group-item(href=resource.url target="_blank")
-								h5.list-group-item-heading= resource.name
-								if resource.description
-									p.list-group-item-text= resource.description
+						if grade.resources.length === 0
+							h5(style="font-weight: lighter;")= "No resources currently available."
+						else
+							each resource in grade.resources
+								a.list-group-item(href=resource.url target="_blank")
+									h5.list-group-item-heading= resource.name
+									if resource.description
+										p.list-group-item-text= resource.description

@@ -18,10 +18,12 @@ mixin course(name, teacher, email, teacherWebsite, moreInformation, syllabus, as
 							if teacherWebsite
 								li
 									a(href=teacherWebsite target="_blank") #[span.glyphicon.glyphicon-apple] Teacher Website
-							li
-								a(href = "mailto:" + email target="_blank") #[span.glyphicon.glyphicon-envelope] Email Teacher
-							li
-								a(href = syllabus target="_blank") #[span.glyphicon.glyphicon-file] View Syllabus
+							if email
+								li
+									a(href = "mailto:" + email target="_blank") #[span.glyphicon.glyphicon-envelope] Email Teacher
+							if syllabus
+								li
+									a(href = syllabus target="_blank") #[span.glyphicon.glyphicon-file] View Syllabus
 							if assignments
 								li
 									a(href=assignments target="_blank") #[span.glyphicon.glyphicon-folder-open] View Assignments

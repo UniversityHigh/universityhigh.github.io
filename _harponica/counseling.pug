@@ -34,12 +34,15 @@ block body
 		hr
 
 		+section(links.name, links.lead, links.nav)
-			.list-group
-				each link in links.links
-					a.list-group-item(href=link.link target="_blank")
-						h5.list-group-item-heading= link.name
-						if link.description
-							p.list-group-item-text= link.description
+			if links.links.length === 0
+				h5(style="font-weight: lighter;")= "No quick links currently available."
+			else
+				.list-group
+					each link in links.links
+						a.list-group-item(href=link.link target="_blank")
+							h5.list-group-item-heading= link.name
+							if link.description
+								p.list-group-item-text= link.description
 
 			each grade in links.grades
 				a.btn.btn-danger.grade(href=grade.link target="_blank")= grade.name

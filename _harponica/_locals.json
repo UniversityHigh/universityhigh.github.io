@@ -1,23 +1,23 @@
 {
   "index": {
     "announcements": [
-      "Summer Assignments: https://universityhigh.github.io/academics#assignments",
-      "Test link functionality: http://google.com"
+      "Click here for summer assignments: https://universityhigh.github.io/academics#assignments",
+      "Welcome to the new UHSSE website!"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
       {
-        "caption": "This is some info about the image.",
+        "caption": "This is a placeholder image and will be updated shortly.",
         "link": "about:blank",
         "src": "assets/img/about.jpg"
       },
       {
-        "caption": "This is some info about the image.",
+        "caption": "This is a placeholder image and will be updated shortly.",
         "link": "about:blank",
         "src": "assets/img/home.jpg"
       },
       {
-        "caption": "This is some info about the image.",
+        "caption": "This is a placeholder image and will be updated shortly.",
         "link": "about:blank",
         "src": "assets/img/prospective.jpg"
       }
@@ -40,9 +40,9 @@
       },
       {
         "backgroundColor": "#6E1515",
-        "description": "Find your summer assignments here to keep your brain active this summer!",
+        "description": "From popcorn club to robotics to track and field, there is something for everyone!",
         "glyph": "glyphicon-sunglasses",
-        "name": "Summer Assignments"
+        "name": "Extracurricular Excellence"
       }
     ]
   },
@@ -130,95 +130,95 @@
         {
           "courses": [
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "The hands-on Math Lab covers strategies, techniques, and technologies necessary to solve and\ncommunicate solutions to real life situations. Problem solving strategies such as modeling and simulation\nare developed. The Math Lab incorporates current computer and calculator technologies, and other\ncreative methods to communicate results. Connections between math and engineering are emphasized\nthroughout the course.",
               "email": "grayk001@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Integrated Algebra Lab",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Kate Grayeb",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "This course includes an understanding of real numbers using symbolic, graphic, and numeric\nrepresentations and the use of scatter plot and functions to model data. Tables, graphs, verbal rules, and\nsymbolic rules to describe linear, quadratic, rational, and exponential functions are covered extensively.\nThe use of algebra to develop formulas for geometric relationships using slope, midpoint, and distance\nformula is introduced. Connections between math and engineering are emphasized throughout the course.",
               "email": "james.dinello@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Algebra 1",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "James DiNello",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "This course includes the use of multiple representations in studying polynomial, rational, radical and\nlogarithmic functions. Matrices and complex numbers are introduced. A function of two variables in the\nconcrete context of linear programming is introduced. Geometric models for trigonometric relationships\nare also utilized. Connections between math and engineering are emphasized throughout the course.\n",
               "email": "grayk001@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Algebra 2",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "James DiNello/Kate Grayeb",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "This course develops an understanding of the structure and concepts of the Euclidean Plane Geometry and\nestablishes the tools of geometry – methods of reasoning, proof construction, the coordinate plane, and\ntypes of measurement. It also focuses on properties and application of lines, triangles, quadrilaterals,\nsimilarity, right triangle trigonometry, and circles. Connections between math and engineering are\nemphasized throughout the course.\n",
               "email": "nicole.silenok@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Geometry",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Nicole Silenok",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "The course topics include college algebra, advanced trigonometry, and analytic geometry of two and three\ndimensions. Students experience a thorough analysis of all elementary functions and curve sketching.\nSelected discrete mathematics topics including normal probability distributions, non-linear regression,\nand hypothesis testing are explored. Practices with proofs such as mathematical induction are included.\nExperience with graphing calculators is incorporated. Connections between math and engineering are\nemphasized throughout the course.\n\n",
               "email": "taylor.bacon@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Pre-Calculus",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Taylor Bacon",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "This course employs a combination of classroom instruction and projects, and topics include limits and\ncontinuity, derivatives, applications of derivatives, the definite integral, differential equations and\nmathematical modeling\n\n",
               "email": "taylor.bacon@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Calculus",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Taylor Bacon",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
-              "assignments": "http://drive.google.com",
+              "assignments": "",
               "description": "This is a study of mathematical methods that are typically used in science, engineering, business, and\nindustry with a review of essential concepts from Algebra 2 and Pre-Calculus. Students will work on\napplication problems which include trigonometry, systems of linear equations, quadratic, exponential, and\nlogarithmic function basics to mathematically model problems and derive solutions with emphasis on the\nuse of technology and other tools.\n",
               "email": "nicole.silenok@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "STEM Mathematics",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Nicole Silenok",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "",
@@ -233,11 +233,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Conceptual Physics",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Kathy Lai-Hipp/Kelly Merlo",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This is an introductory course designed to present principles that govern living things and to better equip\nstudents to make logical decisions about biological problems of everyday life. Students are expected to\nuse mathematics and science to demonstrate comprehension of concepts through the use of oral, written,\nlab, and computer skills. An in depth and rigorous treatment of the following topics is presented:\nscientific method and use of technology, chemical basis of life, organization of living things, diversity of\nlife, genetics, ecology, population dynamics and evolution. \n\n",
@@ -245,11 +245,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Biology",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Stephen Harbanuk",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course follows the curriculum studied at the University of Connecticut. The course is divided into\ntwo parts: Cells and Their Molecules and Animal Structure and Function. In order to fulfill CAPT\nrequirements, our course will also include a brief study of population. Extensive laboratory work is\nrequired. Topics include: the chemistry of cells, foundations of organic chemistry, macromolecules,\nenergy transformations and enzymes, eukaryotic cell organization, cell communication, chromosomes,\nDNA and the genetic code, genetic engineering, genetics of viruses and bacteria, vertebrate anatomy and\nbody systems. \n\n",
@@ -257,11 +257,11 @@
               "isAP": true,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "AP Biology",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Stephen Harbanuk",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course presents a rigorous treatment of the principles of chemistry with an intense application of\nmathematics. A combination of inquiry laboratory investigations, class discussion, and application of\ntheory is employed to present the following topics: scientific method, measurement, atomic structure,\nperiodic table, formulas, stoichiometry, bonding, molecular geometry, phases of matter, gas laws,\nsolutions, chemical equilibrium, acids and bases, oxidation-reduction, chemical kinetics, and\nthermodynamics. \n\n",
@@ -269,11 +269,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Chemistry",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Kelly Merlo/Dr. Michael Fromerth",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This is a college-level introductory chemistry course. The material presented in this course includes the\nfollowing topics: structure of matter, states of matter, reaction types, equations and stoichiometry,\nequilibrium, kinetics, thermodynamics, descriptive chemistry, and experimental chemistry. This course\nincludes laboratory sessions in addition to classes.\n\n",
@@ -281,11 +281,11 @@
               "isAP": false,
               "isECE": true,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "UCONN ECE Chemistry 1127/1128",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Dr. Michael Fromerth",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course is a study of mechanics, thermodynamics, wave motion (sound and light), electricity and\nmagnetism, and quantum mechanics to prepare students for the pursuit of a science program at the college\nlevel. Students should take Pre-Calculus prior to or concurrent with Physics.\n\n",
@@ -293,11 +293,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Physics",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Aaron Brown",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
@@ -305,11 +305,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "UCONN ECE Introduction to Oceanography",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Sharol Wilcoxen",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "The University High School science curriculum prepares students for success in college programs and careers in the sciences and engineering. In addition to our honors curriculum, students have the opportunity to earn college credits through AP course offerings, as well as our partnerships with the University of Hartford and the University of Connecticut. Students can design and perform independent research while satisfying their capstone graduation requirement.",
@@ -324,11 +324,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "PLTW Introduction to Engineering (IED)",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Susan Pedrick",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This survey course of engineering exposes students to major concepts they’ll encounter in college\nengineering courses. Students employ engineering and scientific concepts in the solution of engineering\ndesign problems. They develop problem-solving skills and apply their knowledge of research and design\nto create solutions to various challenges, documenting their work and communicating solutions to peers\nand members of the professional community. (Prerequisite: PLTW Introduction to Engineering Design)\n",
@@ -336,11 +336,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "PLTW Principles of Engineering (POE)",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Dennis Obie",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "The major focus of this course is to expose students to the diverse fields of biotechnology including\nbiomedical engineering, molecular genetics, bioprocess engineering, and agricultural and environmental\nengineering. Lessons engage students in engineering design problems related to biomechanics,\ncardiovascular engineering, genetic engineering, agricultural biotechnology, tissue engineering,\nbiomedical devices, forensics and bioethics. Students, usually at the 11th- and 12th-grade level, apply\nbiological and engineering concepts to design materials and processes that directly measure, repair,\nimprove and extend living systems. (Prerequisite: Principles of Engineering and Biology, or permission\nof instructor)\n",
@@ -348,11 +348,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Biotechnical Engineering",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Sharol Wilcoxen",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This is a semester-long course investigating historically significant architects and buildings and exploring\nvarious theories of the design process. Students apply knowledge within the scope of numerous design\nvignettes where they create a schematic design and proceed through design development. Students will\nemploy model building and rendering skills to express and support their designs. Completed designs will\nbe presented to professional architects for review. Students may take the fall (Principles of Architecture\n1) and/or spring (Principles of Architecture 2) courses for credit. (Prerequisite: Geometry or Instructor\nconsent)\n\n",
@@ -360,11 +360,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Architecture",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Aaron Brown",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "As a result of the rapid expansion of scientific knowledge during the second half of the twentieth century and the concurrent advances in a wide array of new technologies, there is an ever-increasing demand for skilled professionals in the engineering and technological fields. At UHSSE, students are given the opportunity to learn about career opportunities in engineering and to develop the skills needed to successfully pursue engineering at the college level.\n \nGoals\nStudents will obtain the basic theoretical knowledge and skills to successfully pursue many engineering disciplines at the college level.\nStudents will be introduced to: the design process, teamwork, project management, 3D solid modeling, prototyping, testing and evaluation, technical communication, programming, materials, methods of fabrication, control systems, statics, kinematics, and thermodynamics.\nStudents will understand engineering principles and methodologies to demonstrate solutions to real world problems.\nStudents will demonstrate their engineering knowledge in a senior capstone course.",
@@ -382,9 +382,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "English 1 ",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "assignments": "",
@@ -395,9 +395,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "English 2 ",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "assignments": "",
@@ -408,9 +408,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "AP Language and Composition ",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jennifer Todisco",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "assignments": "",
@@ -421,9 +421,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "Literature & Composition 1 ",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jennifer Todisco",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "assignments": "",
@@ -434,9 +434,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "UCONN ECE American Studies ",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jennifer Todisco",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "assignments": "",
@@ -447,9 +447,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "Literature & Composition 2 ",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Phillip Allard",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "assignments": "",
@@ -460,9 +460,9 @@
               "isHonors": false,
               "moreInformation": "",
               "name": "UCONN ECE English 1011: Seminar in Writing Through Literature",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Phillip Allard",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "English Learning Outcomes\nTo increase students’ powers of expression, both in written and oral communication, in all subject areas of the curriculum and in a variety of styles and situations.\nTo develop students’ abilities to engage tin critical examination of written works.\nTo introduce students to w wide range of literary works and literary genres, styles and context through the study of the major classics of worlds and American literature as well as range of contemporary literature.\nTo provide students with an understanding of and experience in using a variety of techniques for engaging in literary study and criticism, and to recognize the relationship between different literary works and literary styles.\nTo develop an appreciation of the rich diversity of literature from around the world and during historical time periods.\nTo engender in students a personal appreciation of literature as the basis for a life long enjoyment of reading and an interest in current literary developments.\nSocial Studies\nSpecific courses within the American Studies strands are designed to meet the graduation requirements for U.S. History and Civics",
@@ -477,11 +477,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Spanish 1",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course builds on concepts studied in Level I and continues to develop skills they need to create\nlanguage for communication, to gain knowledge of other cultures, connect with other disciplines, make\ncomparisons with their own language and culture, and understand multicultural communities at home and\naround the world. Through the continued study of a variety of topics, functions, and grammatical\nstructures, students will develop further proficiency in the target language.",
@@ -489,11 +489,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Spanish 2",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Elizabeth Benfield",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course builds on concepts studied in Level II and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to develop mastery in the target language. ",
@@ -501,11 +501,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Spanish 3",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jessica Serrano",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course builds on concepts studied in Level III and advances the skills needed to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the advanced study of a variety of topics, functions, and grammatical structures, students\nwill gain the essential tools to reach mastery in the target language. ",
@@ -513,11 +513,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Spanish 4",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jessica Serrano",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "A global perspective has become an essential component of effectively preparing students to become life-long learners, to pursue their personal and professional development, and to contribute to our technological society. Knowledge of and the ability to use other languages is a basic tool for engaging with the expanding global arena that effects the daily life of Americans and all people around the world. University High School requires students take at least three years of Spanish. Spanish is rapidly becoming a second-language throughout the United States and is particularly significant in Hartford since at least one-third of Hartford residents are native Spanish speakers or children of native Spanish speakers. Admission to most colleges and universities requires that students study at least two years of a foreign language, but three years is preferred. For this reason, it is required that all University High School students take at least three years of Spanish.\n \nWorld Language Learning Outcomes\nStudents will engage in conversation, provide and obtain information, express feelings and exchange opinions using the Spanish language.\nStudents will understand and interpret spoken and written Spanish on a variety of topics and will communicate information, concepts and ideas on a variety of topics both in oral and written Spanish.\nStudents will demonstrate an understanding of the concept of culture through comparisons of the range of Spanish cultures in Europe, Latin America and the United States.\nStudents will reinforce and expand the knowledge acquired in the Global Studies curricula through their study of Spanish language.\n \nSince many schools in the Greater Hartford area require language study prior to high school, it is expected the many students will begin their Spanish classes at the intermediate level. Advance Spanish classes will be offered for students with demonstrated proficiency in both written and oral Spanish. These classes are particularly recommended for native Spanish speakers. The focus of the advance Spanish classed is the study and interpretation of Spanish literature and the development of critical analysis using the Spanish language. Students who qualify have the option of taking courses in Spanish literature at the University of Hartford.",
@@ -532,11 +532,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Civics",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Heidi Scanlon/Jon Bevans",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
@@ -544,11 +544,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Geography",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Heidi Scanlon/Jon Bevans",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "American History investigates the forces that shape the political, social and economic institutions of\nmodern America. An in-depth exploration of the United States from the late 19th century to today,\nincluding contemporary issues and the place of the United States in the global world, will provide the\nframework for study. Like historians, students will engage in critical readings of a variety of sources,\nlearn to consider multiple perspectives, decide which facts matter and why, and ask thoughtful questions\nto spark further historical investigation. \n",
@@ -556,11 +556,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "United States History",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Joseph Miller",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "\n",
@@ -568,11 +568,11 @@
               "isAP": false,
               "isECE": true,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "UCONN ECE United States History",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jon Bevans",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "International Studies emphasizes in-depth examination of growth of global interconnections. Students\nstudy the traditional cultures and societies of peoples in a range of world areas including Africa, the\nMiddle East, Europe, and South and East Asia; the impact of European colonialism on changing the\nsocial, economic and belief structures of traditional societies; and the emergence of regional technology\nand the advancement of engineering across cultures.\n",
@@ -580,11 +580,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "International Studies",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jon Bevans",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "Social studies is the integrated study of history and the social sciences to promote civic competence. \n \nOur social studies program is dedicated to providing a course of study that encourages our students to become informed and active citizens.  We are committed to providing meaningful and challenging learning experiences for our students that are connected to important social studies content and themes.  In addition, we are committed to making meaningful connections with the magnet theme of science and engineering.  Our aim is to provide students with opportunities to think and communicate in ways that will enable them to develop a working knowledge of social studies content, and to identify, understand and work to solve problems in their lives and their world.  Our goal is to prepare our students to be college ready as well as to be active citizens in a culturally diverse, rapidly changing, and interdependent world.  \n\nDepartment Goals\nStudents will gain knowledge of United States history, world history, civics and government, and geography. \nStudents will apply geographic knowledge, skill and concepts to understanding human behavior in relations to the physical and cultural environment.  \nStudents will acquire an understanding of how ideals, principles and practices of citizenship have emerged over time and across cultures.\nStudents will develop skills in chronological organization of events, the ability to read and interpret primary and secondary historical documents, and to compare and contrast trends across time and place. \nStudents will analyze the historical roots of current world problems including the complexity of relations and conflicts among nations in our increasingly interdependent world.\nStudents will employ the concepts learned in social studies to better understand the development and advancement of scientific and technological discoveries and innovations.\nStudents will demonstrate knowledge of how laws are made and how they regulate the relationship between individual rights and societal needs. ",
@@ -599,11 +599,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Foundations of Art",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Guy Richters",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "Graphic Design: Is an introductory art course focusing on the study of the Elements of Art (line,\nshape/form, color, texture/pattern, space) and the Principles of Design (balance, rhythm, unity, contrast,\nemphasis). The course will challenge students to understand how these ideas relate to one another within\na successful design. Graphic Design is the applied art of arranging images and text to communicate\nmeaning. Graphic Design is also considered visual arts which are linear in character, such as drawing,\nengraving, and other forms of printmaking. This course will focus on the studio application of these\nElements of Art and Principles of Design though various lessons. These hands on activities will help\nstudents to understand different ways of expressing meaning through visual design.\n \n",
@@ -611,11 +611,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Graphic Design",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Guy Richters",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "The philosophy of the UHSSE Visual Art Department is to teach students the ability to see and know the world around them through personal artistic expression.  Our commitment is not only to make connections between visual art and science and engineering, but to also create a visual dialogue between students and their environment.  The arts inspire us to create and gives us ownership of our own perspectives.  The curriculum emphasizes the artistic process allowing the product to be a visual expression propelling us forward. Students are presented with challenges to nurture abstract problem solving.  We seek to cultivate creativity in all of our students.  We promote an environment focused on community and self-reflection. We allow students to explore by giving them the skills necessary to express their own thoughts and ideas through an experience based learning process.\nGoals\nStudents will learn to define art using The Critical Method process to evaluate the quality of their works\nStudents will explore the use of Elements of Art and Principles of Design to organize their works\nStudents will demonstrate the use of various art media\nStudents will explore and discuss the context of art throughout history\nStudents will understand how the artistic process can be applied to all other academic disciplines\n",
@@ -630,11 +630,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Physical Education",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Matt Shea",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             },
             {
               "description": "Health Education provides students with an opportunity to understand and develop attitudes and skills for\ndecision making that will benefit them and improve their wellness. Students will study in depth ways to\nimprove social, emotional, mental, and physical health. This course covers topics in mental health,\nsubstance abuse, HIV infection, sexually transmitted diseases, violence prevention, personal safety, and\nconflict resolution.\n\n",
@@ -642,11 +642,11 @@
               "isAP": false,
               "isECE": false,
               "isHonors": false,
-              "moreInformation": "http://www.uconn.edu",
+              "moreInformation": "",
               "name": "Health",
-              "syllabus": "http://google.com/search?q=learn+math",
+              "syllabus": "",
               "teacher": "Jason Riccitelli",
-              "teacherWebsite": "https://www.google.com"
+              "teacherWebsite": ""
             }
           ],
           "description": "",
@@ -716,13 +716,7 @@
           "name": "Seniors"
         }
       ],
-      "links": [
-        {
-          "name": "Scholarships",
-          "description": "Make sure you are applying!",
-          "link": "https://google.com"
-        }
-      ]
+      "links": []
     },
     "dates": {
       "name": "SAT and ACT Test Dates",
@@ -996,19 +990,19 @@
       "afterGrad": {
         "aids": [
           {
-            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "description": "This is placeholder text and will be updated shortly.",
             "name": "Attend a meeting"
           },
           {
-            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "description": "This is placeholder text and will be updated shortly.",
             "name": "Attend a fundraiser"
           },
           {
-            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "description": "This is placeholder text and will be updated shortly.",
             "name": "Donate to the party"
           },
           {
-            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "description": "This is placeholder text and will be updated shortly.",
             "name": "Volunteer at the party"
           }
         ],
@@ -1043,11 +1037,11 @@
         },
         "updates": [
           {
-            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "description": "This is placeholder text and will be updated shortly.",
             "name": "Emailed updates and reminders"
           },
           {
-            "description": "This is a test description. It's gonna be really long to test what this can do. I don't even know if this will work. Let's give it a shot!",
+            "description": "This is placeholder text and will be updated shortly.",
             "name": "Facebook"
           }
         ]
@@ -1184,59 +1178,24 @@
     "resources": {
       "name": "Resources",
       "nav": "resources",
-      "resources": [
-        {
-          "description": "",
-          "name": "Student Handbook",
-          "url": "https://google.com"
-        },
-        {
-          "description": "",
-          "name": "Health Form #1",
-          "url": "https://google.com"
-        }
-      ],
+      "resources": [],
       "studentCouncil": {
         "grades": [
           {
             "name": "Freshmen",
-            "resources": [
-              {
-                "description": "",
-                "name": "Our Website",
-                "url": "https://yoyo.com"
-              }
-            ]
+            "resources": []
           },
           {
             "name": "Sophomores",
-            "resources": [
-              {
-                "description": "",
-                "name": "Our Website",
-                "url": "https://yoyo.com"
-              }
-            ]
+            "resources": []
           },
           {
             "name": "Juniors",
-            "resources": [
-              {
-                "description": "",
-                "name": "Our Website",
-                "url": "https://yoyo.com"
-              }
-            ]
+            "resources": []
           },
           {
             "name": "Seniors",
-            "resources": [
-              {
-                "description": "",
-                "name": "Our Website",
-                "url": "https://yoyo.com"
-              }
-            ]
+            "resources": []
           }
         ]
       }
@@ -1371,31 +1330,9 @@
     "banner": "/assets/img/alumni.jpg",
     "name": "Our best and brightest",
     "lead": "Where are they now?",
-    "avatars": [
-      {
-        "image": "http://theredlist.com/media/database/films/cinema/2000/avatar-/027-avatar-theredlist.jpg",
-        "name": "Blue Person",
-        "information": "Graduate of University of Blue"
-      },
-      {
-        "image": "https://ak6.picdn.net/shutterstock/videos/2704991/thumb/10.jpg",
-        "name": "Green Person",
-        "information": "Graduate of University of Green"
-      },
-      {
-        "image": "https://s-media-cache-ak0.pinimg.com/236x/59/6d/7a/596d7a8ea32657aea1a578f8942ea20a.jpg",
-        "name": "Red Person",
-        "information": "Graduate of University of Red"
-      }
-    ],
-    "alumnis": [
-      {
-        "name": "Andi Duro",
-        "college": "UCONN",
-        "contact": "8605555555"
-      }
-    ],
-    "apply": "https://google.com"
+    "avatars": [],
+    "alumnis": [],
+    "apply": ""
   },
   "prospective": {
     "applications": {

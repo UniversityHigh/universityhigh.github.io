@@ -17,24 +17,30 @@ block body
 	.container
 		.row
 			.col-md-7
-				each avatar in avatars
-					+avatar(avatar.image, avatar.name, avatar.information)
+				if avatars.length === 0
+					h5(style="font-weight: lighter;")= "No highlighted alumni currently available."
+				else
+					each avatar in avatars
+						+avatar(avatar.image, avatar.name, avatar.information)
 			.col-md-5
 				br.hidden-md.hidden-lg
 				br.hidden-md.hidden-lg
-				input.search(type="text" placeholder="Type here to filter..." data-table="alumni")
-				.table-scroll
-					table#alumni.table.table-striped.table-hover.table-condensed.table-responsive
-						thead
-							tr
-								th Name
-								th College
-								th Contact
-						tbody
-							each alumni in alumnis
+				if alumnis.length === 0
+					h5(style="font-weight: lighter;")= "No alumni currently available."
+				else
+					input.search(type="text" placeholder="Type here to filter..." data-table="alumni")
+					.table-scroll
+						table#alumni.table.table-striped.table-hover.table-condensed.table-responsive
+							thead
 								tr
-									td= alumni.name
-									td= alumni.college
-									td= alumni.contact
+									th Name
+									th College
+									th Contact
+							tbody
+								each alumni in alumnis
+									tr
+										td= alumni.name
+										td= alumni.college
+										td= alumni.contact
 
 		a.btn.btn-danger.pull-right(href=apply target="_blank") Apply to be listed
