@@ -71,7 +71,9 @@ block body
 		+section(departments.name, departments.lead, departments.nav)
 			each department in departments.departments
 				.department(id=camelize(department.name))
-					h4.title #{department.name} #[small Led by #[b #{department.lead}]]
+					h4.title #{department.name} 
+						if department.lead
+							small Led by #[b #{department.lead}]
 					p= department.description
 					.row
 						each course in department.courses
