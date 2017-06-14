@@ -76,7 +76,7 @@ block body
 					h4.title #{department.name} 
 						if department.lead
 							small Led by #[b #{department.lead}]
-					p= department.description
+					p(style="max-height: 15em; overflow: auto;")= department.description
 					.row
 						each course in department.courses
 							+course(course.name, course.teacher, course.email, course.teacherWebsite, course.moreInformation, course.syllabus, course.assignments, course.description, course.isHonors, course.isECE, course.isAP)
