@@ -6,14 +6,14 @@ mixin card(name, size)
 			.panel.panel-default
 				.panel-heading
 					h5 #{name}
-				.panel-body
+				.panel-body.table-scroll
 					block
 	else
 		div(class="col-md-" + size)
 			.panel.panel-default
 				.panel-heading
 					h5 #{name}
-				.panel-body
+				.panel-body.table-scroll
 					block
 
 block head
@@ -129,19 +129,18 @@ block body
 			p=sgc.description
 			.row
 				+card("Members", 4)
-					.table-scroll
-						table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
-							thead
+					table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
+						thead
+							tr
+								th Name
+								th Position
+								th Email
+						tbody
+							each member in sgc.members
 								tr
-									th Name
-									th Position
-									th Email
-							tbody
-								each member in sgc.members
-									tr
-										td= member.name
-										td= member.position
-										td #[a(href="mailto:" + member.email target="_blank")=member.email]
+									td= member.name
+									td= member.position
+									td #[a(href="mailto:" + member.email target="_blank")=member.email]
 				
 				+card("Meeting Dates", 4)
 					p= sgc.meetingDates.description
