@@ -2,7 +2,7 @@
   "index": {
     "announcements": [
       "Click here for summer assignments: https://universityhigh.github.io/academics#assignments",
-      "Welcome to the new UHSSE website!"
+      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website."
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -663,41 +663,112 @@
   },
   "counseling": {
     "banner": "/assets/img/guidance.jpg",
-    "name": "School Counseling",
-    "lead": "For all your guidance needs.",
-    "overview": "Students with last names starting with A-K have <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> as a guidance counselor. <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> is the counselor for students with last names starting with L-Z.",
-    "mission": {
-      "name": "Mission Statement",
-      "nav": "missionStatement",
-      "lead": "What we strive for",
-      "statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
-    },
-    "philosophy": {
-      "text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success.",
-      "principles": [
-        "The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
-        "The program is a collaborative effort among school counselors, administration, teachers, home and community.",
-        "The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
-        "The program uses data to drive the program development and evaluation, and monitor student results.",
-        "School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
-      ]
+    "dates": {
+      "act": {
+        "link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
+        "registrationDates": [
+          "August 14, 2017",
+          "September 22, 2017",
+          "November 3, 2017",
+          "January 12, 2018",
+          "March 9, 2018",
+          "May 4, 2018",
+          "June 15, 2018"
+        ],
+        "testDates": [
+          "September 9, 2017",
+          "October 28, 2017",
+          "December 9, 2017",
+          "February 10, 2018",
+          "April 14, 2018",
+          "June 9, 2018",
+          "July 14, 2018"
+        ]
+      },
+      "lead": "Testing, testing, testing",
+      "name": "SAT and ACT Test Dates",
+      "nav": "dates",
+      "sat": {
+        "link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
+        "registrationDates": [
+          "July 28, 2017",
+          "September 8, 2017",
+          "October 5, 2017",
+          "November 2, 2017",
+          "February 9, 2018",
+          "April 6, 2018",
+          "May 3, 2018"
+        ],
+        "testDates": [
+          "August 26, 2017 ",
+          "October 7, 2017",
+          "November 4, 2017",
+          "December 2, 2017",
+          "March 10, 2018",
+          "May5, 2018",
+          "June 2, 2018"
+        ]
+      }
     },
     "graduationRequirements": {
+      "lead": "Credits and all",
       "name": "Graduation Requirements",
       "nav": "graduationRequirements",
-      "lead": "Credits and all",
       "requirements": [
         {
+          "credits": 4,
           "department": "English",
-          "description": "(Must include English 1 & English 2)",
-          "credits": 4
+          "description": "(Must include English 1 & English 2)"
+        },
+        {
+          "credits": "4",
+          "department": "Mathematics",
+          "description": "(Must include Algebra 1, Algebra 2 & Geometry)"
+        },
+        {
+          "credits": "3",
+          "department": "Social Studies",
+          "description": "(Must include Civics, US History & International Studies)"
+        },
+        {
+          "credits": "3",
+          "department": "Science",
+          "description": "(Must include Biology and Chemistry)"
+        },
+        {
+          "credits": "3",
+          "department": "Foreign Language ",
+          "description": ""
+        },
+        {
+          "credits": "4",
+          "department": "STEM",
+          "description": "(2 engineering)"
+        },
+        {
+          "credits": "1.5",
+          "department": "Physical Education"
+        },
+        {
+          "credits": ".5",
+          "department": "Health"
+        },
+        {
+          "credits": "2",
+          "department": "Visual & Performing Arts"
+        },
+        {
+          "credits": "1",
+          "department": "Capstone"
+        },
+        {
+          "credits": "1",
+          "department": "Advisory"
         }
       ]
     },
+    "lead": "For all your guidance needs.",
     "links": {
-      "name": "Quick Links",
-      "nav": "links",
-      "lead": "In a flash",
       "grades": [
         {
           "link": "http://www.collegeboard.com/student/plan/action/freshmen.html",
@@ -716,30 +787,28 @@
           "name": "Seniors"
         }
       ],
-      "links": []
+      "lead": "In a flash",
+      "links": [],
+      "name": "Quick Links",
+      "nav": "links"
     },
-    "dates": {
-      "name": "SAT and ACT Test Dates",
-      "lead": "Testing, testing, testing",
-      "nav": "dates",
-      "sat": {
-        "link": "https://www.google.com",
-        "testDates": [
-          "September 6, 2016"
-        ],
-        "registrationDates": [
-          "September 6, 2016"
-        ]
-      },
-      "act": {
-        "link": "https://www.google.com",
-        "testDates": [
-          "September 6, 2016"
-        ],
-        "registrationDates": [
-          "September 6, 2016"
-        ]
-      }
+    "mission": {
+      "lead": "What we strive for",
+      "name": "Mission Statement",
+      "nav": "missionStatement",
+      "statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
+    },
+    "name": "School Counseling",
+    "overview": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> as a guidance counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the counselor for students with last names starting with L-Z.",
+    "philosophy": {
+      "principles": [
+        "The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
+        "The program is a collaborative effort among school counselors, administration, teachers, home and community.",
+        "The program provides opportunities for all students to develop their own insights, competencies and goals so that they can use this awareness in decision making and post secondary choices.",
+        "The program uses data to drive the program development and evaluation, and monitor student results.",
+        "School counselors adhere to the professional school counseling ethics advocated by the American School Counselor Association and the Connecticut School Counseling Association."
+      ],
+      "text": "All students will have the opportunity to participate in a comprehensive school counseling program designed to support student success."
     }
   },
   "information": {
@@ -1168,9 +1237,53 @@
         ],
         "members": [
           {
-            "email": "email@email.email",
-            "name": "Mr. Mister",
-            "position": "Mister"
+            "email": "",
+            "name": "Matt Folan",
+            "position": "Principal"
+          },
+          {
+            "name": "Lisa Dunnery",
+            "position": "Chairman"
+          },
+          {
+            "name": "Alan Hadad",
+            "position": "University of Hartford, Dean of Magnet Schools"
+          },
+          {
+            "name": "Michael Fromerth",
+            "position": "UHSSE Faculty"
+          },
+          {
+            "name": "Sharol Wilcoxen",
+            "position": "UHSSE Faculty"
+          },
+          {
+            "name": "Samuel Shagan",
+            "position": "UHSSE Student Representative"
+          },
+          {
+            "name": "Kevin Lindstrom",
+            "position": "UHSSE Student Representative"
+          },
+          {
+            "name": "Terri Clark",
+            "position": "Community Member"
+          },
+          {
+            "name": "Danielle Hollister",
+            "position": "UHSSE Parent Member"
+          },
+          {
+            "name": "Elizabeth Ehrlich",
+            "position": "UHSSE Parent Member"
+          },
+          {
+            "name": "Joe Prokop",
+            "position": "UHSSE Parent Member"
+          },
+          {
+            "name": "Dana Shagan",
+            "position": "UHSSE Parent Member"
           }
         ]
       }
@@ -1186,15 +1299,15 @@
             "resources": []
           },
           {
-            "name": "Sophomores",
+            "name": "Visionary Class (Sophomores)",
             "resources": []
           },
           {
-            "name": "Juniors",
+            "name": "Phoenix Class (Juniors)",
             "resources": []
           },
           {
-            "name": "Seniors",
+            "name": "Legendary Class (Seniors)",
             "resources": []
           }
         ]
@@ -1202,9 +1315,99 @@
     }
   },
   "extracurriculars": {
+    "athletics": {
+      "lead": "Get your game on",
+      "name": "Athletics",
+      "nav": "athletics",
+      "seasons": [
+        {
+          "name": "Spring",
+          "sports": [
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "Joe Miller"
+                }
+              ],
+              "name": "Baseball",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "John Lowney"
+                }
+              ],
+              "name": "Softball",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "John Lowney"
+                }
+              ],
+              "name": "Outdoor Track & Field",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "John Lowney"
+                }
+              ],
+              "name": "Golf",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Summer",
+          "sports": [
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "banner": "/assets/img/extracurriculars.jpg",
-    "name": "Going above and beyond",
-    "lead": "Because there's more to school than just classes",
     "buttons": [
       {
         "name": "Athletics",
@@ -1215,116 +1418,25 @@
         "nav": "#clubs"
       }
     ],
-    "athletics": {
-      "name": "Athletics",
-      "lead": "Get your game on",
-      "nav": "athletics",
-      "seasons": [
-        {
-          "name": "Spring",
-          "sports": [
-            {
-              "name": "Men's Basketball",
-              "coaches": [
-                {
-                  "name": "Jay Riccitelli",
-                  "league": "Varsity"
-                },
-                {
-                  "name": "Alfredo Cardona",
-                  "league": "Junior Varsity/Freshman"
-                }
-              ],
-              "schedules": [
-                {
-                  "nav": "//",
-                  "name": "Varsity"
-                }
-              ]
-            },
-            {
-              "name": "Men's Basketball",
-              "coaches": [
-                {
-                  "name": "Jay Riccitelli",
-                  "league": "Varsity"
-                },
-                {
-                  "name": "Alfredo Cardona",
-                  "league": "Junior Varsity/Freshman"
-                }
-              ],
-              "schedules": [
-                {
-                  "nav": "//",
-                  "name": "Varsity"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Summer",
-          "sports": [
-            {
-              "name": "Men's Basketball",
-              "coaches": [
-                {
-                  "name": "Jay Riccitelli",
-                  "league": "Varsity"
-                },
-                {
-                  "name": "Alfredo Cardona",
-                  "league": "Junior Varsity/Freshman"
-                }
-              ],
-              "schedules": [
-                {
-                  "nav": "//",
-                  "name": "Varsity"
-                }
-              ]
-            },
-            {
-              "name": "Men's Basketball",
-              "coaches": [
-                {
-                  "name": "Jay Riccitelli",
-                  "league": "Varsity"
-                },
-                {
-                  "name": "Alfredo Cardona",
-                  "league": "Junior Varsity/Freshman"
-                }
-              ],
-              "schedules": [
-                {
-                  "nav": "//",
-                  "name": "Varsity"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     "clubs": {
-      "name": "Clubs",
-      "lead": "Not for cavemen",
-      "nav": "clubs",
       "clubs": [
         {
-          "name": "Intramural Basketball",
-          "link": "http://www.quickscores.com/uhsse",
           "leader": {
+            "email": "carda002@hartfordschools.org",
             "name": "Alfredo Cardona",
-            "position": "Intramural Director",
             "phone": "860-695-9019",
-            "email": "carda002@hartfordschools.org"
-          }
+            "position": "Intramural Director"
+          },
+          "link": "http://www.quickscores.com/uhsse",
+          "name": "Intramural Basketball"
         }
-      ]
-    }
+      ],
+      "lead": "Not for cavemen",
+      "name": "Clubs",
+      "nav": "clubs"
+    },
+    "lead": "Because there's more to school than just classes",
+    "name": "Going above and beyond"
   },
   "alumni": {
     "banner": "/assets/img/alumni.jpg",
@@ -1339,7 +1451,7 @@
       "application": {
         "buttonText": "Online Application Deadline",
         "day": "28",
-        "link": "about:blank",
+        "link": "http://www.choiceeducation.org/",
         "month": "Feb"
       },
       "lead": "Applying is easy",
@@ -1360,6 +1472,16 @@
           "backgroundColor": "#006570",
           "subtitle": "If not selected, you will be notified of your position on the waiting list.",
           "title": "If selected, you will have three weeks to accept the placement."
+        },
+        {
+          "backgroundColor": "#8000ff",
+          "subtitle": "Registration paperwork must be received by deadline",
+          "title": "Complete registration"
+        },
+        {
+          "backgroundColor": "#8080c0",
+          "subtitle": "Please arrive between hours of 8:30 am and 1pm to begin testing. Testing generally takes about one hour per assessment: 1. math placement (all students) 2. Spanish placement (any student with prior language experience/native speakers)",
+          "title": "New, incoming freshmen placement testing any Tuesday, Wednesday or Thursday during the month of July "
         }
       ]
     },
