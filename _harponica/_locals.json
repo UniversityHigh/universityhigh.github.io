@@ -1421,14 +1421,9 @@
     "clubs": {
       "clubs": [
         {
-          "leader": {
-            "email": "carda002@hartfordschools.org",
-            "name": "Alfredo Cardona",
-            "phone": "860-695-9019",
-            "position": "Intramural Director"
-          },
           "link": "http://www.quickscores.com/uhsse",
-          "name": "Intramural Basketball"
+          "name": "Intramural Basketball",
+          "description": "This is a description."
         }
       ],
       "lead": "Not for cavemen",

@@ -60,6 +60,11 @@ block body
 
 	.container
 		+section(clubs.name, clubs.lead, clubs.nav)
-			.row
-				each club in clubs.clubs
-					+club(club.name, club.leader, club.phone, club.email, club.link)
+			.list-group
+				if clubs.clubs.length === 0
+					h5(style="font-weight: lighter;")= "No clubs currently available."
+				else
+					each club in clubs.clubs
+						a.list-group-item(href=club.link target="_blank")
+							h5.list-group-item-heading= club.name
+							p.list-group-item-text= club.description
