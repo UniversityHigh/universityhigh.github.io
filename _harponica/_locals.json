@@ -7,19 +7,24 @@
     "banners": "/assets/img/home.jpg",
     "gallery": [
       {
-        "caption": "This is a placeholder image and will be updated shortly.",
+        "caption": "",
         "link": "about:blank",
         "src": "assets/img/about.jpg"
       },
       {
-        "caption": "This is a placeholder image and will be updated shortly.",
+        "caption": "",
         "link": "about:blank",
         "src": "assets/img/home.jpg"
       },
       {
         "caption": "This is a placeholder image and will be updated shortly.",
         "link": "about:blank",
-        "src": "assets/img/prospective.jpg"
+        "src": ""
+      },
+      {
+        "caption": "This is a placeholder image and will be updated shortly.",
+        "link": "about:blank",
+        "src": "https://drive.google.com/open?id=0B9ryMf4-VSDSaGZUUVlDcHRSRUU"
       }
     ],
     "lead": "Early college high school located on the campus of University of Hartford",
@@ -303,7 +308,7 @@
               "description": "Introduction to Marine Science covers the processes governing the geology, circulation, chemistry, and\nbiological productivity of the world’s oceans. Emphasis is placed on the interactions and\ninterrelationships between physical, chemical, biological, and geological processes that contribute to both\nthe stability and the variability of the marine environment. The influence of humans on the stability and\nvariability of the oceans is given particular attention.\n\n",
               "email": "swilcoxen@hartfordschools.org",
               "isAP": false,
-              "isECE": false,
+              "isECE": true,
               "isHonors": false,
               "moreInformation": "",
               "name": "UCONN ECE Introduction to Oceanography",
