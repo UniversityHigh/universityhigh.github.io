@@ -129,18 +129,19 @@ block body
 			p=sgc.description
 			.row
 				+card("Members", 4)
-					table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
-						thead
-							tr
-								th Name
-								th Position
-								th Email
-						tbody
-							each member in sgc.members
+					.table-scroll
+						table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
+							thead
 								tr
-									td= member.name
-									td= member.position
-									td #[a(href="mailto:" + member.email target="_blank")=member.email]
+									th Name
+									th Position
+									th Email
+							tbody
+								each member in sgc.members
+									tr
+										td= member.name
+										td= member.position
+										td #[a(href="mailto:" + member.email target="_blank")=member.email]
 				
 				+card("Meeting Dates", 4)
 					p= sgc.meetingDates.description
@@ -170,12 +171,12 @@ block body
 			ul.nav.nav-tabs(role="tablist")
 				each grade, index in resources.studentCouncil.grades
 					- let active = index === 0 ? "active" : null;
-					li(class=active role="presentation") #[a(href="#" + grade.name.toLowerCase() aria-controls=grade.name.toLowerCase() role="tab" data-toggle="tab")= grade.name]
+					li(class=active role="presentation") #[a(href="#" + index aria-controls=index role="tab" data-toggle="tab")= grade.name]
 
 			.tab-content
 				each grade, index in resources.studentCouncil.grades
 					- let active = index === 0 ? "active" : null;
-					.tab-pane.list-group(class=active role="tab-pane" id=grade.name.toLowerCase())
+					.tab-pane.list-group(class=active role="tab-pane" id=index)
 						if grade.resources.length === 0
 							h5(style="font-weight: lighter;")= "No resources currently available."
 						else

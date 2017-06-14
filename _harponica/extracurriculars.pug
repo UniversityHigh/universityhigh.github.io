@@ -12,11 +12,12 @@ mixin sport(name, coaches, schedules)
 					each coach in coaches
 						li.coachingStaff #{coach.name} #[p.league #{coach.league}]
 				
-				h6.gameScheduleTitle
-					strong Game Schedule
-				ul.list-unstyled
-					each schedule in schedules
-						li.gameSchedule #[a(href=schedule.nav target="_blank") #{schedule.name}]
+				if schedules
+					h6.gameScheduleTitle
+						strong Game Schedule
+					ul.list-unstyled
+						each schedule in schedules
+							li.gameSchedule #[a(href=schedule.nav target="_blank") #{schedule.name}]
 
 mixin club(name, leader, phone, email, link)
 	.col-md-3
