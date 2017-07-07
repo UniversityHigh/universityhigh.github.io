@@ -1337,7 +1337,7 @@
               "coaches": [
                 {
                   "league": "Varsity",
-                  "name": "John Lowney"
+                  "name": "Kate Grayeb"
                 }
               ],
               "name": "Softball",
@@ -1352,7 +1352,7 @@
               "coaches": [
                 {
                   "league": "Varsity",
-                  "name": "John Lowney"
+                  "name": "Aaron Brown"
                 }
               ],
               "name": "Outdoor Track & Field",
@@ -1390,7 +1390,92 @@
                   "name": ""
                 }
               ],
-              "name": "",
+              "name": "Football",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Soccer",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fall",
+          "sports": [
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Football",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Soccer",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Winter",
+          "sports": [
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Football",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Soccer",
               "schedules": [
                 {
                   "name": "",
@@ -1416,9 +1501,9 @@
     "clubs": {
       "clubs": [
         {
+          "description": "This is a description.",
           "link": "http://www.quickscores.com/uhsse",
-          "name": "Intramural Basketball",
-          "description": "This is a description."
+          "name": "Intramural Basketball"
         }
       ],
       "lead": "Not for cavemen",
