@@ -1460,7 +1460,7 @@
                   "name": ""
                 }
               ],
-              "name": "Football",
+              "name": "Swimming",
               "schedules": [
                 {
                   "name": "",
@@ -1475,7 +1475,37 @@
                   "name": ""
                 }
               ],
-              "name": "Soccer",
+              "name": "Indoor Track",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Boys Basketball",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Girls Basketball",
               "schedules": [
                 {
                   "name": "",
