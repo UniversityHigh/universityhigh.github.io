@@ -2,7 +2,8 @@
   "index": {
     "announcements": [
       "Click here for summer assignments: https://universityhigh.github.io/academics#assignments",
-      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website."
+      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
+      "Sports Registration link: https://uhssehawks-ct.e-ppe.com/index.jspa"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -1467,7 +1468,7 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": "Aaron Brown"
+                  "name": ""
                 }
               ],
               "name": "Girls Volleyball",
