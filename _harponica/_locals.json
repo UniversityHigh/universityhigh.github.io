@@ -1437,10 +1437,40 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Aaron Brown"
                 }
               ],
               "name": "Soccer",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": "Aaron Brown"
+                }
+              ],
+              "name": "Cross Country",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": "Aaron Brown"
+                }
+              ],
+              "name": "Girls Volleyball",
               "schedules": [
                 {
                   "name": "",
