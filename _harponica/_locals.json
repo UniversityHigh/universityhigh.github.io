@@ -915,11 +915,6 @@
           "position": "Office Assistant"
         },
         {
-          "email": "michael.mccoy@hartfordschools.org",
-          "name": "McCoy, Michael",
-          "position": "English Teacher"
-        },
-        {
           "email": "hartk002@hartfordschools.org",
           "name": "Merlo, Kelly",
           "position": "Chemistry Teacher"
@@ -1021,13 +1016,13 @@
           "email": "anglc001@hartfordschools.org",
           "name": "Haydee Deleon-Vasquez",
           "phone": "860-695-9057",
-          "position": "Food"
+          "position": "Food Services"
         },
         {
           "email": "dkellerman@hartfordschools.org",
           "name": "Delores Kellerman",
           "phone": "860-695-9022",
-          "position": "Health"
+          "position": "School Nurse"
         },
         {
           "email": "noporto@hartfordschools.org",
@@ -1287,7 +1282,12 @@
     "resources": {
       "name": "Resources",
       "nav": "resources",
-      "resources": [],
+      "resources": [
+        {
+          "name": "School Supply List",
+          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSRDVLbk9xRG1pMkE"
+        }
+      ],
       "studentCouncil": {
         "grades": [
           {
@@ -1438,7 +1438,7 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": "Aaron Brown"
+                  "name": ""
                 }
               ],
               "name": "Soccer",
@@ -1503,7 +1503,7 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Matt Shea"
                 }
               ],
               "name": "Indoor Track",
