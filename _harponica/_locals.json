@@ -1135,7 +1135,7 @@
             "April 18, 2017",
             "May 16, 2017"
           ],
-          "description": "Meetings occur on the 3rd Tuesday each month at 6pm iun the UHSSE Commons."
+          "description": "Meetings occur on the 3rd Tuesday each month at 6pm in the UHSSE Commons."
         },
         "meetingMinutes": [
           {
@@ -1289,7 +1289,7 @@
         },
         {
           "name": "2017-18 School Calendar",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSRGtod0ozR0NEUTA"
+          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSUkk2SXFfZUlyeDQ"
         }
       ],
       "studentCouncil": {
@@ -1566,12 +1566,27 @@
     "clubs": {
       "clubs": [
         {
-          "description": "This is a description.",
-          "link": "http://www.quickscores.com/uhsse",
-          "name": "Intramural Basketball"
+          "description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
+          "link": "",
+          "name": "Science Bowl"
+        },
+        {
+          "description": "Socialize and enjoy a morning snack with Mr. Obie in Room 221",
+          "link": "",
+          "name": "Popcorn Club"
+        },
+        {
+          "description": "See your teachers or get extra help with National Honor Society tutors in the mornings during activity block",
+          "link": "",
+          "name": "Tutoring"
+        },
+        {
+          "description": "Vex and FIRST Robotics Teams",
+          "link": "",
+          "name": "Robotics"
         }
       ],
-      "lead": "Not for cavemen",
+      "lead": "Something for Everyone",
       "name": "Clubs",
       "nav": "clubs"
     },
