@@ -33,6 +33,7 @@ block body
 						th Name
 						th Position
 						th Email
+						th Website
 					tbody
 						each contact in contacts.staff
 							tr
@@ -40,6 +41,9 @@ block body
 								td= contact.position
 								td
 									a(href="mailto:" + contact.email)= contact.email
+								td
+									if contact.website
+										a(href=contact.website target="_blank")= contact.website
 			br
 			br
 			+innerSection("Support Services")
@@ -127,32 +131,34 @@ block body
 			- let sgc = parentOrganizations.sgc;
 			+innerSection("SGC")
 			p=sgc.description
+			
 			.row
-				+card("Members", 4)
-					table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
-						thead
-							tr
-								th Name
-								th Position
-								th Email
-						tbody
-							each member in sgc.members
-								tr
-									td= member.name
-									td= member.position
-									td #[a(href="mailto:" + member.email target="_blank")=member.email]
-				
-				+card("Meeting Dates", 4)
+				+card("Meeting Dates", 6)
 					p= sgc.meetingDates.description
 					strong Schedule
 					ul.list-unstyled
 						each date in sgc.meetingDates.dates
 							li= date
 				
-				+card("Meeting Minutes", 4)
+				+card("Meeting Minutes", 6)
 					ul.list-unstyled
 						each minute in pto.meetingMinutes
 							li #[a(href=minute.link target="_blank")= minute.text]
+
+			input.search(type="text" placeholder="Type here to filter..." data-table="sgcMembers")
+			.table-scroll
+				table#sgcMembers.table.table-striped.table-hover.table-condensed.table-responsive
+					thead
+						tr
+							th Name
+							th Position
+							th Email
+					tbody
+						each member in sgc.members
+							tr
+								td= member.name
+								td= member.position
+								td #[a(href="mailto:" + member.email target="_blank")=member.email]
 
 		hr
 
