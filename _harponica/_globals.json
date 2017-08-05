@@ -70,15 +70,15 @@
           },
           {
             "name": "Social Studies",
-            "nav": "socialstudies"
+            "nav": "socialStudies"
           },
           {
             "name": "Art",
             "nav": "art"
           },
           {
-            "name": "Physical Education/Health",
-            "nav": "physicaleducation/health"
+            "name": "Physical Education and Health",
+            "nav": "physicalEducationAndHealth"
           }
         ]
       },
@@ -87,12 +87,12 @@
         "path": "/counseling",
         "subLinks": [
           {
-            "name": "Mission Statement",
-            "nav": "missionStatement"
-          },
-          {
             "name": "Quick Links",
             "nav": "links"
+          },
+          {
+            "name": "Mission Statement",
+            "nav": "missionStatement"
           },
           {
             "name": "Graduation Requirements",
@@ -108,6 +108,10 @@
         "name": "Extracurriculars",
         "path": "/extracurriculars",
         "subLinks": [
+          {
+            "name": "Highlights",
+            "nav": "highlights"
+          },
           {
             "name": "Athletics",
             "nav": "athletics"

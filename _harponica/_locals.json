@@ -1,10 +1,9 @@
 {
   "index": {
     "announcements": [
-      "Click here for summer assignments: https://universityhigh.github.io/academics#assignments",
-      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
-      "Sports Registration link: https://uhssehawks-ct.e-ppe.com/index.jspa"
-    ],
+      "Click here for summer assignments: https://uhsse.org/academics#assignments",
+      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website."
+      ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
       {
@@ -647,7 +646,7 @@
           ],
           "description": "",
           "lead": "",
-          "name": "Physical Education/Health"
+          "name": "Physical Education and Health"
         }
       ],
       "lead": "",
@@ -1376,111 +1375,39 @@
     }
   },
   "extracurriculars": {
+    "highlights": {
+      "name": "Highlights",
+      "lead": "UHSSE at its best",
+      "nav": "highlights",
+      "gallery": [
+      {
+        "caption": "wooo!",
+        "link": "about:blank",
+        "src": "assets/img/about.jpg"
+      },
+      {
+        "caption": "",
+        "link": "about:blank",
+        "src": "assets/img/home.jpg"
+      },
+      {
+        "caption": "",
+        "link": "about:blank",
+        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
+      }
+    ]},
     "athletics": {
       "lead": "Get your game on",
       "name": "Athletics",
       "nav": "athletics",
+      "links": [
+        {
+          "name": "Privit",
+          "description": "You must sign up with Privit in order to be eligible to play any sports.",
+          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa" 
+        }
+      ],
       "seasons": [
-        {
-          "name": "Spring",
-          "sports": [
-            {
-              "coaches": [
-                {
-                  "league": "Varsity",
-                  "name": "Joe Miller"
-                }
-              ],
-              "name": "Baseball",
-              "schedules": [
-                {
-                  "name": "Varsity",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "Varsity",
-                  "name": "Kate Grayeb"
-                }
-              ],
-              "name": "Softball",
-              "schedules": [
-                {
-                  "name": "Varsity",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "Varsity",
-                  "name": "Aaron Brown"
-                }
-              ],
-              "name": "Outdoor Track & Field",
-              "schedules": [
-                {
-                  "name": "Varsity",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "Varsity",
-                  "name": "John Lowney"
-                }
-              ],
-              "name": "Golf",
-              "schedules": [
-                {
-                  "name": "Varsity",
-                  "nav": "//"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Summer",
-          "sports": [
-            {
-              "coaches": [
-                {
-                  "league": "",
-                  "name": ""
-                }
-              ],
-              "name": "Football",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "",
-                  "name": ""
-                }
-              ],
-              "name": "Soccer",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Fall",
           "sports": [
@@ -1610,20 +1537,110 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Spring",
+          "sports": [
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "Joe Miller"
+                }
+              ],
+              "name": "Baseball",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "Kate Grayeb"
+                }
+              ],
+              "name": "Softball",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "Aaron Brown"
+                }
+              ],
+              "name": "Outdoor Track & Field",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "Varsity",
+                  "name": "John Lowney"
+                }
+              ],
+              "name": "Golf",
+              "schedules": [
+                {
+                  "name": "Varsity",
+                  "nav": "//"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Summer",
+          "sports": [
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Football",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            },
+            {
+              "coaches": [
+                {
+                  "league": "",
+                  "name": ""
+                }
+              ],
+              "name": "Soccer",
+              "schedules": [
+                {
+                  "name": "",
+                  "nav": "//"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     "banner": "/assets/img/extracurriculars.jpg",
-    "buttons": [
-      {
-        "name": "Athletics",
-        "nav": "#sports"
-      },
-      {
-        "name": "Clubs",
-        "nav": "#clubs"
-      }
-    ],
     "clubs": {
       "clubs": [
         {

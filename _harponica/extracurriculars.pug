@@ -50,12 +50,30 @@ mixin club(name, leader, phone, email, link)
 block head
 	title Extracurriculars | UHSSE
 	link(rel = "stylesheet", href = "/assets/css/extracurriculars.css")
+	link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.css")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/slippry/1.4.0/slippry.min.js" defer)
+	script(src="assets/js/extracurriculars.js" defer)
 
 block body
 	+header(banner, name, lead)
 
 	.container
+		+section(highlights.name, highlights.lead, highlights.nav)
+			ul#gallery
+				each image in highlights.gallery
+					li
+						a(href=image.link || "javascript:void(0);" target="_blank")
+							img.img-responsive(src=image.src alt=image.caption)
+
+	.container
 		+section(athletics.name, athletics.lead, athletics.nav)
+			+innerSection("Resources")
+				.list-group
+					each link in athletics.links
+						a.list-group-item(href=link.link target="_blank")
+							h5.list-group-item-heading= link.name
+							if link.description
+								p.list-group-item-text= link.description
 			each season in athletics.seasons
 				.row
 					.col-md-12

@@ -36,3 +36,22 @@ h6 {
 .leaderInformation > span {
 	margin-right: .35em;
 }
+
+.sy-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-height: 416px !important;
+}
+
+.sy-pager li.sy-active a {
+	background-color: #e51c23;
+}
+
+.sy-controls li a:after {
+	background-image: url("/assets/img/arrows.svg") !important;
+}
+
+.sy-box.sy-loading {
+	background-image: url("/assets/img/sy-loader.gif") 50% 50% no-repeat !important;
+}

@@ -1,0 +1,3 @@
+$("#gallery").slippry({
+	adaptiveHeight: false
+});
