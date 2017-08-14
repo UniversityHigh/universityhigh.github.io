@@ -3,7 +3,7 @@
     "announcements": [
       "Click here for summer assignments: https://uhsse.org/academics#assignments",
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website."
-      ],
+    ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
       {
@@ -1350,6 +1350,10 @@
         {
           "name": "Service Learning Form",
           "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSY1BPV0RtMjdvRWc"
+        },
+        {
+          "name": "Uniform Vendors",
+          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSV0xLcENCTzYxZ0U"
         }
       ],
       "studentCouncil": {
@@ -1380,22 +1384,23 @@
       "lead": "UHSSE at its best",
       "nav": "highlights",
       "gallery": [
-      {
-        "caption": "wooo!",
-        "link": "about:blank",
-        "src": "assets/img/about.jpg"
-      },
-      {
-        "caption": "",
-        "link": "about:blank",
-        "src": "assets/img/home.jpg"
-      },
-      {
-        "caption": "",
-        "link": "about:blank",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-      }
-    ]},
+        {
+          "caption": "wooo!",
+          "link": "about:blank",
+          "src": "assets/img/about.jpg"
+        },
+        {
+          "caption": "",
+          "link": "about:blank",
+          "src": "assets/img/home.jpg"
+        },
+        {
+          "caption": "",
+          "link": "about:blank",
+          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
+        }
+      ]
+    },
     "athletics": {
       "lead": "Get your game on",
       "name": "Athletics",
@@ -1404,7 +1409,7 @@
         {
           "name": "Privit",
           "description": "You must sign up with Privit in order to be eligible to play any sports.",
-          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa" 
+          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa"
         }
       ],
       "seasons": [
