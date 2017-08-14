@@ -1,8 +1,8 @@
 {
   "index": {
     "announcements": [
-      "Click here for summer assignments: https://uhsse.org/academics#assignments",
-      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website."
+      "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
+      "Senior Pictures! www.prestigeportraits.com  To confirm/reschedule your appointment please call 800-426-9533."
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -1372,7 +1372,13 @@
           },
           {
             "name": "Legendary Class (Seniors)",
-            "resources": []
+            "resources": [
+              {
+                "description": "Confirm or reschedule your senior portraits- August 23rd & 24th",
+                "name": "Senior Portraits",
+                "url": "www.prestigeportraits.com"
+              }
+            ]
           }
         ]
       }
