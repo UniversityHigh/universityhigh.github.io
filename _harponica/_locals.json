@@ -1386,39 +1386,17 @@
     }
   },
   "extracurriculars": {
-    "highlights": {
-      "name": "Highlights",
-      "lead": "UHSSE at its best",
-      "nav": "highlights",
-      "gallery": [
-        {
-          "caption": "wooo!",
-          "link": "about:blank",
-          "src": "assets/img/about.jpg"
-        },
-        {
-          "caption": "",
-          "link": "about:blank",
-          "src": "assets/img/home.jpg"
-        },
-        {
-          "caption": "",
-          "link": "about:blank",
-          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-        }
-      ]
-    },
     "athletics": {
       "lead": "Get your game on",
-      "name": "Athletics",
-      "nav": "athletics",
       "links": [
         {
-          "name": "Privit",
           "description": "You must sign up with Privit in order to be eligible to play any sports.",
-          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa"
+          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
+          "name": "Privit"
         }
       ],
+      "name": "Athletics",
+      "nav": "athletics",
       "seasons": [
         {
           "name": "Fall",
@@ -1427,7 +1405,13 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Kevin Quinn"
+                },
+                {
+                  "name": "Email: Coachquinn@live.com "
+                },
+                {
+                  "name": "Tryouts 8/18 at 3 p.m. at SMSA "
                 }
               ],
               "name": "Football",
@@ -1442,7 +1426,13 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Matt Shea "
+                },
+                {
+                  "name": "Email: SheaM002@hartfordschools.org "
+                },
+                {
+                  "name": "Tryouts 8/24 12-2 p.m. and 8/25 9-11 a.m. at UHSSE "
                 }
               ],
               "name": "Soccer",
@@ -1458,6 +1448,12 @@
                 {
                   "league": "",
                   "name": "Aaron Brown"
+                },
+                {
+                  "name": "Email: BrowA002@hartfordschools.org "
+                },
+                {
+                  "name": "First Practice 8/28 3-5:15 p.m. at UHSSE "
                 }
               ],
               "name": "Cross Country",
@@ -1472,7 +1468,13 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "TBA"
+                },
+                {
+                  "name": "Email: "
+                },
+                {
+                  "name": "Tryouts: TBA"
                 }
               ],
               "name": "Girls Volleyball",
@@ -1508,6 +1510,9 @@
                 {
                   "league": "",
                   "name": "Matt Shea"
+                },
+                {
+                  "name": "Email: SheaM002@hartfordschools.org "
                 }
               ],
               "name": "Indoor Track",
@@ -1558,6 +1563,9 @@
                 {
                   "league": "Varsity",
                   "name": "Joe Miller"
+                },
+                {
+                  "name": "Email: Joe.Miller@hartfordschools.org"
                 }
               ],
               "name": "Baseball",
@@ -1573,6 +1581,9 @@
                 {
                   "league": "Varsity",
                   "name": "Kate Grayeb"
+                },
+                {
+                  "name": "Email: GrayK001@hartfordschools.org"
                 }
               ],
               "name": "Softball",
@@ -1588,6 +1599,9 @@
                 {
                   "league": "Varsity",
                   "name": "Aaron Brown"
+                },
+                {
+                  "name": "Email: BrowA002@hartfordschools.org "
                 }
               ],
               "name": "Outdoor Track & Field",
@@ -1603,6 +1617,9 @@
                 {
                   "league": "Varsity",
                   "name": "John Lowney"
+                },
+                {
+                  "name": "Email: Jlowneycolumbia@gmail.com"
                 }
               ],
               "name": "Golf",
@@ -1621,30 +1638,16 @@
             {
               "coaches": [
                 {
-                  "league": "",
-                  "name": ""
+                  "name": "Kevin Quinn"
+                },
+                {
+                  "name": "Email: Coachquinn@live.com "
                 }
               ],
-              "name": "Football",
+              "name": "Football ",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
-                }
-              ]
-            },
-            {
-              "coaches": [
-                {
-                  "league": "",
                   "name": ""
-                }
-              ],
-              "name": "Soccer",
-              "schedules": [
-                {
-                  "name": "",
-                  "nav": "//"
                 }
               ]
             }
@@ -1679,6 +1682,28 @@
       "lead": "Something for Everyone",
       "name": "Clubs",
       "nav": "clubs"
+    },
+    "highlights": {
+      "gallery": [
+        {
+          "caption": "wooo!",
+          "link": "about:blank",
+          "src": "assets/img/about.jpg"
+        },
+        {
+          "caption": "",
+          "link": "about:blank",
+          "src": "assets/img/home.jpg"
+        },
+        {
+          "caption": "",
+          "link": "about:blank",
+          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
+        }
+      ],
+      "lead": "UHSSE at its best",
+      "name": "Highlights",
+      "nav": "highlights"
     },
     "lead": "Because there's more to school than just classes",
     "name": "Going above and beyond"
