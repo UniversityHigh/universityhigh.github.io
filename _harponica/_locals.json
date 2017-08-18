@@ -1391,39 +1391,22 @@
     }
   },
   "extracurriculars": {
-    "highlights": {
-      "name": "Highlights",
-      "lead": "UHSSE at its best",
-      "nav": "highlights",
-      "gallery": [
-        {
-          "caption": "wooo!",
-          "link": "about:blank",
-          "src": "assets/img/about.jpg"
-        },
-        {
-          "caption": "",
-          "link": "about:blank",
-          "src": "assets/img/home.jpg"
-        },
-        {
-          "caption": "",
-          "link": "about:blank",
-          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-        }
-      ]
-    },
     "athletics": {
       "lead": "Get your game on",
-      "name": "Athletics",
-      "nav": "athletics",
       "links": [
         {
-          "name": "Privit",
           "description": "You must sign up with Privit in order to be eligible to play any sports.",
-          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa"
+          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
+          "name": "Privit"
+        },
+        {
+          "description": "Athletic Health Appraisal Form",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQXdSdmZ0Y0dpeWc",
+          "name": "Athletic Health Appraisal Form"
         }
       ],
+      "name": "Athletics",
+      "nav": "athletics",
       "seasons": [
         {
           "name": "Fall",
@@ -1684,6 +1667,28 @@
       "lead": "Something for Everyone",
       "name": "Clubs",
       "nav": "clubs"
+    },
+    "highlights": {
+      "gallery": [
+        {
+          "caption": "wooo!",
+          "link": "about:blank",
+          "src": "assets/img/about.jpg"
+        },
+        {
+          "caption": "",
+          "link": "about:blank",
+          "src": "assets/img/home.jpg"
+        },
+        {
+          "caption": "",
+          "link": "about:blank",
+          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
+        }
+      ],
+      "lead": "UHSSE at its best",
+      "name": "Highlights",
+      "nav": "highlights"
     },
     "lead": "Because there's more to school than just classes",
     "name": "Going above and beyond"
