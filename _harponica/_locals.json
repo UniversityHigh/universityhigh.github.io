@@ -1440,7 +1440,7 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Coach Shea"
                 }
               ],
               "name": "Soccer",
@@ -1455,7 +1455,7 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": "Aaron Brown"
+                  "name": "Coach Brown"
                 }
               ],
               "name": "Cross Country",
@@ -1505,7 +1505,7 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": "Matt Shea"
+                  "name": "Coach Shea"
                 }
               ],
               "name": "Indoor Track",
@@ -1555,7 +1555,7 @@
               "coaches": [
                 {
                   "league": "Varsity",
-                  "name": "Joe Miller"
+                  "name": "Coach Miller"
                 }
               ],
               "name": "Baseball",
@@ -1570,7 +1570,7 @@
               "coaches": [
                 {
                   "league": "Varsity",
-                  "name": "Kate Grayeb"
+                  "name": "Coach Grayeb"
                 }
               ],
               "name": "Softball",
@@ -1585,7 +1585,7 @@
               "coaches": [
                 {
                   "league": "Varsity",
-                  "name": "Aaron Brown"
+                  "name": "Coach Brown"
                 }
               ],
               "name": "Outdoor Track & Field",
