@@ -1445,7 +1445,10 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Kevin Quinn"
+                },
+                {
+                  "name": "Email: Coachquinn@live.com"
                 }
               ],
               "name": "Football",
@@ -1460,7 +1463,13 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": "Coach Shea"
+                  "name": "Matt Shea "
+                },
+                {
+                  "name": "Email: Sheam002@hartfordschools.org"
+                },
+                {
+                  "name": "Tryouts: 8/24 12-2pm & 8/25 9-11am"
                 }
               ],
               "name": "Soccer",
@@ -1475,7 +1484,13 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": "Coach Brown"
+                  "name": "Aaron Brown"
+                },
+                {
+                  "name": "Email: Browa002@hartfordschools.org"
+                },
+                {
+                  "name": "1st practice: 8/28 3-5:15pm "
                 }
               ],
               "name": "Cross Country",
@@ -1490,7 +1505,10 @@
               "coaches": [
                 {
                   "league": "",
-                  "name": ""
+                  "name": "Coach TBA"
+                },
+                {
+                  "name": "Tryouts: TBA "
                 }
               ],
               "name": "Girls Volleyball",
