@@ -1109,19 +1109,19 @@
       "afterGrad": {
         "aids": [
           {
-            "description": "This is placeholder text and will be updated shortly.",
+            "description": "",
             "name": "Attend a meeting"
           },
           {
-            "description": "This is placeholder text and will be updated shortly.",
+            "description": "",
             "name": "Attend a fundraiser"
           },
           {
-            "description": "This is placeholder text and will be updated shortly.",
+            "description": "",
             "name": "Donate to the party"
           },
           {
-            "description": "This is placeholder text and will be updated shortly.",
+            "description": "",
             "name": "Volunteer at the party"
           }
         ],
@@ -1141,22 +1141,13 @@
         ],
         "meetingDates": {
           "dates": [
-            "September 6, 2016",
-            "October 4, 2016",
-            "November 1, 2016",
-            "December 6, 2016",
-            "January 3, 2017",
-            "February 7, 2017 (Wed)",
-            "March 7, 2017",
-            "April 4, 2017",
-            "May 23, 2017",
-            "June 8, 2017"
+            "TBD"
           ],
           "description": "Meetings will be held in the UHSSE commons at 6:30pm."
         },
         "updates": [
           {
-            "description": "This is placeholder text and will be updated shortly.",
+            "description": "",
             "name": "Emailed updates and reminders"
           },
           {
@@ -1185,14 +1176,7 @@
         ],
         "meetingDates": {
           "dates": [
-            "September 20, 2016",
-            "October 18, 2016",
-            "November 15, 2016",
-            "January 17, 2017",
-            "February 22, 2017 (Wed)",
-            "March 28, 2017",
-            "April 18, 2017",
-            "May 16, 2017"
+            "September 12,2017"
           ],
           "description": "Meetings occur on the 3rd Tuesday each month at 6pm in the UHSSE Commons."
         },
