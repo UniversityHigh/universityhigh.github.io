@@ -1671,9 +1671,9 @@
     "clubs": {
       "clubs": [
         {
-          "description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
-          "link": "",
-          "name": "Science Bowl"
+          "description": "Semester 1 Activity Schedule",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSUktGMDAyY1FQcEU",
+          "name": "Semester 1 Activity Schedule"
         },
         {
           "description": "Socialize and enjoy a morning snack with Mr. Obie in Room 221",
@@ -1689,6 +1689,16 @@
           "description": "Vex and FIRST Robotics Teams",
           "link": "",
           "name": "Robotics"
+        },
+        {
+          "description": "Prepare to compete in the Science Bowl with Dr. Fromerth in Room 319",
+          "link": "",
+          "name": "Science Bowl"
+        },
+        {
+          "description": "Prepare to compete against other high school Math Teams with Ms. Bacon and Mr. Obie in Room 213",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDST2JELXFrcS1BalU",
+          "name": "Math Team"
         }
       ],
       "lead": "Something for Everyone",
