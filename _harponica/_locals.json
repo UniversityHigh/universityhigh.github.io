@@ -1711,11 +1711,6 @@
           "caption": "",
           "link": "about:blank",
           "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaGZUUVlDcHRSRUU=w1920-h950-iv1"
-        },
-        {
-          "caption": "",
-          "link": "about:blank",
-          "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSVE5TalNXTGRpanM=w1920-h950-iv1"
         }
       ],
       "lead": "UHSSE at its best",
@@ -1758,11 +1753,11 @@
         {
           "backgroundColor": "#006570",
           "subtitle": "If not selected, you will be notified of your position on the waiting list.",
-          "title": "If selected, you will have three weeks to accept the placement."
+          "title": "If selected, you will have a window in which to accept the placement."
         },
         {
           "backgroundColor": "#8000ff",
-          "subtitle": "Registration paperwork must be received by deadline",
+          "subtitle": "Registration paperwork for the school must be received at UHSSE by deadline",
           "title": "Complete registration"
         },
         {
