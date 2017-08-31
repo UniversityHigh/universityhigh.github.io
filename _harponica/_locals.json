@@ -815,7 +815,7 @@
       "statement": "The mission of the UHSSE school counseling program is to facilitate the personal/social, academic and career development of all students through the delivery of individual and group guidance programming by a state certified school counselor(s). The objective of the guidance department is to help students identify their personal and post secondary goals consistent with their interests, potential, and opportunities supported through the collaborative efforts between the home, school and community."
     },
     "name": "School Counseling",
-    "overview": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Raddigan</a> as a guidance counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the counselor for students with last names starting with L-Z.",
+    "overview": "Students with last names starting with A-K have <a href='mailto:radin001@hartfordschools.org'>Noel Radigan</a> as a guidance counselor. <a href='mailto:doffb001@hartfordschools.org'>Beth Doffek</a> is the counselor for students with last names starting with L-Z.",
     "philosophy": {
       "principles": [
         "The program is coordinated and delivered by a state-certified school counselor(s) and incorporates the academic, personal/social and career domains of school counseling.",
@@ -886,12 +886,6 @@
           "email": "deleh001@hartfordschools.org",
           "name": "Deleon-Vasquez, Haydee",
           "position": "Cook Manager",
-          "website": ""
-        },
-        {
-          "email": "wardc002@hartfordschools.org",
-          "name": "Dennis, Christina",
-          "position": "Science Teacher",
           "website": ""
         },
         {
@@ -1061,6 +1055,16 @@
           "name": "Wilcoxen, Sharol",
           "position": "Science/Engineering Teacher",
           "website": ""
+        },
+        {
+          "email": "fitzm001@hartfordschools.org",
+          "name": "Fitzgerald, Megan",
+          "position": "English Teacher"
+        },
+        {
+          "email": "courtney.petrucci@hartfordschools.org ",
+          "name": "Petrucci, Courtney",
+          "position": "English Teacher"
         }
       ],
       "supportServices": [
@@ -1077,8 +1081,8 @@
           "position": "Food Services"
         },
         {
-          "email": "dkellerman@hartfordschools.org",
-          "name": "Delores Kellerman",
+          "email": "thoma001@hartfordschools.org",
+          "name": "Alice Thomas",
           "phone": "860-695-9022",
           "position": "School Nurse"
         },
@@ -1093,6 +1097,12 @@
           "name": "Rob Bosco",
           "phone": "860-695-9030",
           "position": "Special Education"
+        },
+        {
+          "email": "brodm002@hartfordschools.org",
+          "name": "Martin Brodeur",
+          "phone": "860-695-9036",
+          "position": "Technology Support"
         }
       ]
     },
@@ -1101,7 +1111,7 @@
       "lead": "What's on the menu?",
       "name": "Lunch Menu",
       "nav": "lunchMenu",
-      "url": "www.hartfordschools.org/wp-content/uploads/2016/01/Lunch-Menu-6-12-May2017.pdf"
+      "url": "https://www.hartfordschools.org/wp-content/uploads/2016/01/Aug_Sept-2017-Lunch-Menu-Gr-6-12.pdf"
     },
     "name": "A school where smart is cool",
     "parentOrganizations": {
