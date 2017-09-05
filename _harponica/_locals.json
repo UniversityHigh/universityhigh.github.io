@@ -804,7 +804,13 @@
         }
       ],
       "lead": "In a flash",
-      "links": [],
+      "links": [
+        {
+          "description": "SAT Prep- begins September 16th! You must attend orientation on 9/16 at 10am to participate",
+          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQy1RSHZPTHpIU2c",
+          "name": "College Aptitude Test Preparation Program"
+        }
+      ],
       "name": "Quick Links",
       "nav": "links"
     },
