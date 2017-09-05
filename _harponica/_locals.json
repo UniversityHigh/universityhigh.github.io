@@ -1171,8 +1171,8 @@
       "pto": {
         "fundraisers": [
           {
-            "link": "http://www.shopwithscrip.com/",
-            "name": "Scrip"
+            "link": "",
+            "name": "Yankee Candle"
           },
           {
             "link": "http://www.stopandshop.com/aplus",
@@ -1181,11 +1181,21 @@
           {
             "link": "http://www.shopriteforeducation.com/",
             "name": "ShopRite"
+          },
+          {
+            "name": "Taste Books"
           }
         ],
         "meetingDates": {
           "dates": [
-            "September 12,2017"
+            "September 12,2017",
+            "October 17, 2017",
+            "November 21, 2017",
+            "January 16, 2017",
+            "February 20, 2017",
+            "March 27, 2017",
+            "April 17, 2017",
+            "May 15, 2017"
           ],
           "description": "Meetings occur on the 3rd Tuesday each month at 6pm in the UHSSE Commons."
         },
@@ -1195,24 +1205,12 @@
             "text": "March 2017"
           },
           {
-            "link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
-            "text": "February 2017"
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMHZ1QUZuSnFQTzg",
+            "text": "April 2017"
           },
           {
-            "link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
-            "text": "November 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
-            "text": "October 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
-            "text": "September 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
-            "text": "May 2016"
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSODFqT1N6Unc5bFU",
+            "text": "May 2017"
           }
         ],
         "officers": [
@@ -1223,8 +1221,8 @@
             "website": ""
           },
           {
-            "email": "jay.kean@comcast.net",
-            "name": "Jay Kean",
+            "email": "coryforan@gmail.com",
+            "name": "Cory Foan",
             "position": "Vice President",
             "website": ""
           },
