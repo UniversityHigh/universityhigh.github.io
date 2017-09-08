@@ -1445,60 +1445,60 @@
             {
               "coaches": [
                 {
-                  "league": "",
-                  "name": ""
+                  "league": "coachquinn@live.com",
+                  "name": "Kevin Quinn"
                 }
               ],
               "name": "Football",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
+                  "name": "Varsity and Junior Varsity Football",
+                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=SportsSciencesAcademy&fonts=&heads=&sport=boys-football&combine_time_results=1&show_bus_info=1"
                 }
               ]
             },
             {
               "coaches": [
                 {
-                  "league": "",
+                  "league": "sheam002@hartfordschools.org",
                   "name": "Coach Shea"
                 }
               ],
               "name": "Soccer",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
+                  "name": "Varsity Boys Soccer",
+                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=AIPrinceRVT&fonts=&heads=&sport=boys-soccer&combine_time_results=1&show_bus_info=1"
                 }
               ]
             },
             {
               "coaches": [
                 {
-                  "league": "",
+                  "league": "browa002@hartfordchools.org",
                   "name": "Coach Brown"
                 }
               ],
               "name": "Cross Country",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
+                  "name": "Boys and Girls",
+                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=University&fonts=&heads=&sport=boys-crosscountry&combine_time_results=1&show_bus_info=1"
                 }
               ]
             },
             {
               "coaches": [
                 {
-                  "league": "",
-                  "name": ""
+                  "league": "grayk001@hartfordschools.org",
+                  "name": "Kate Grayeb"
                 }
               ],
               "name": "Girls Volleyball",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
+                  "name": "Varsity",
+                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=University&fonts=&heads=&sport=girls-volleyball&combine_time_results=1&show_bus_info=1"
                 }
               ]
             }
@@ -1510,8 +1510,8 @@
             {
               "coaches": [
                 {
-                  "league": "",
-                  "name": ""
+                  "league": "gallb001@hartfordschools.org",
+                  "name": "Brian Gallegher"
                 }
               ],
               "name": "Swimming",
@@ -1525,7 +1525,7 @@
             {
               "coaches": [
                 {
-                  "league": "",
+                  "league": "sheam002@hartfordschools.org",
                   "name": "Coach Shea"
                 }
               ],
@@ -1540,8 +1540,8 @@
             {
               "coaches": [
                 {
-                  "league": "",
-                  "name": ""
+                  "league": "riccj002@hartfordschools.org",
+                  "name": "Jay Ricciteli"
                 }
               ],
               "name": "Boys Basketball",
@@ -1555,8 +1555,8 @@
             {
               "coaches": [
                 {
-                  "league": "",
-                  "name": ""
+                  "league": "jlowneycolumbia@gmail.com",
+                  "name": "John Lowney"
                 }
               ],
               "name": "Girls Basketball",
@@ -1575,7 +1575,7 @@
             {
               "coaches": [
                 {
-                  "league": "Varsity",
+                  "league": "joe.miller@hartfordschools.org",
                   "name": "Coach Miller"
                 }
               ],
@@ -1590,7 +1590,7 @@
             {
               "coaches": [
                 {
-                  "league": "Varsity",
+                  "league": "grayk001@hartfordschools.org",
                   "name": "Coach Grayeb"
                 }
               ],
@@ -1605,7 +1605,7 @@
             {
               "coaches": [
                 {
-                  "league": "Varsity",
+                  "league": "browa002@hartfordchools.org",
                   "name": "Coach Brown"
                 }
               ],
@@ -1620,7 +1620,7 @@
             {
               "coaches": [
                 {
-                  "league": "Varsity",
+                  "league": "jlowneycolumbia@gmail.com",
                   "name": "John Lowney"
                 }
               ],
