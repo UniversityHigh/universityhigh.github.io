@@ -40,6 +40,11 @@
         "caption": "",
         "link": "",
         "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSTjhZWDRPMjZ3Rms=w1920-h950-iv1"
+      },
+      {
+        "caption": "UHSSE Student presenting authentic research",
+        "link": "",
+        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSMGljU3Y1N1k3YXc=w1920-h950-iv1"
       }
     ],
     "lead": "Early college high school located on the campus of University of Hartford",
@@ -1137,11 +1142,15 @@
           {
             "description": "",
             "name": "Volunteer at the party"
+          },
+          {
+            "description": "https://drive.google.com/open?id=0B9ryMf4-VSDSZmU0aGxSQXRVems",
+            "name": "Clothing and Can/Bottle Drive"
           }
         ],
         "donationForms": [
           {
-            "link": "http://api.ning.com/files/C*P8XcSSeqfN6L0LO82IFBRhMVjzOGfCFY69caHISYrecen*rK5L7aIqO7eAtffGTTSV3dd6ry61eImofiSAM9xCUZMEnloN/AGPDonationLetter.pdf",
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSNXFZUlNkVDB0Ums",
             "name": "Donation Letter"
           },
           {
@@ -1155,7 +1164,15 @@
         ],
         "meetingDates": {
           "dates": [
-            "TBD"
+            "October 12, 2017",
+            "November 16, 2017",
+            "December 14, 2017 (tentative)",
+            "January 11, 2018",
+            "February 15, 2018",
+            "March 15, 2018",
+            "April 12, 2018",
+            "May 17, 2018",
+            "May 31, 2018"
           ],
           "description": "Meetings will be held in the UHSSE commons at 6:30pm."
         },
@@ -1176,7 +1193,7 @@
       "pto": {
         "fundraisers": [
           {
-            "link": "",
+            "link": "https://www.yankeecandlefundraising.com/store.htm",
             "name": "Yankee Candle"
           },
           {
