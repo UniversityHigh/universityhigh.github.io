@@ -1806,16 +1806,16 @@
     "openHouse": {
       "dates": [
         {
-          "date": "TBD",
-          "link": "about:blank",
+          "date": "Saturday December 16th",
+          "link": "http://www.choiceeducation.org/",
           "name": "UHSSE Open House ",
-          "time": "TBD"
+          "time": "10 a.m."
         },
         {
-          "date": "TBD",
-          "link": "about:blank",
+          "date": "Saturday February 3rd ",
+          "link": "http://www.choiceeducation.org/",
           "name": "UHSSE Open House ",
-          "time": "TBD"
+          "time": "10 a.m."
         }
       ],
       "lead": "See what we're about",
