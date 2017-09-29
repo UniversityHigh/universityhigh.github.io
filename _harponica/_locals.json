@@ -2,7 +2,8 @@
   "index": {
     "announcements": [
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
-      "Student Council Elections will be held September 29th! See you class advisor by September 19th if you are interested in running for office."
+      "10th and 11th Grade students will be taking the PSAT on Wednesday October 11th ",
+      "Wenesday October 4th is a 1/2 Day (Professional Development)"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -45,6 +46,11 @@
         "caption": "UHSSE Student presenting authentic research",
         "link": "",
         "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSMGljU3Y1N1k3YXc=w1920-h950-iv1"
+      },
+      {
+        "caption": "",
+        "link": "",
+        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaS04a3JqUGFhaUk=w1920-h950-iv1"
       }
     ],
     "lead": "Early college high school located on the campus of University of Hartford",
