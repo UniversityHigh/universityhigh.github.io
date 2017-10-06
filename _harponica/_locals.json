@@ -2,8 +2,7 @@
   "index": {
     "announcements": [
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
-      "10th and 11th Grade students will be taking the PSAT on Wednesday October 11th ",
-      "Wenesday October 4th is a 1/2 Day (Professional Development)"
+      "10th and 11th Grade students will be taking the PSAT on Wednesday October 11th "
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -1813,13 +1812,13 @@
       "dates": [
         {
           "date": "Saturday December 16th",
-          "link": "http://www.choiceeducation.org/",
+          "link": "",
           "name": "UHSSE Open House ",
           "time": "10 a.m."
         },
         {
           "date": "Saturday February 3rd ",
-          "link": "http://www.choiceeducation.org/",
+          "link": "",
           "name": "UHSSE Open House ",
           "time": "10 a.m."
         }
