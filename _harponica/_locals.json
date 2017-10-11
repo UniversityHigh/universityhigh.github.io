@@ -1280,42 +1280,28 @@
       "sgc": {
         "meetingDates": {
           "dates": [
-            "September 20, 2016",
-            "October 18, 2016",
-            "November 15, 2016",
-            "January 17, 2017",
-            "February 22, 2017 (Wed)",
-            "March 28, 2017",
-            "April 18, 2017",
-            "May 16, 2017"
+            "September 19, 2017",
+            "October 10, 2017",
+            "November 14, 2017",
+            "December TBD",
+            "January 9, 2018",
+            "February 13, 2018",
+            "March 13, 2018",
+            "April 10, 2018",
+            "May 8, 2018"
           ],
-          "description": "Meetings will be held in the UHSSE commons at 6:30pm."
+          "description": "Meetings will be held in the UHSSEmedia center at 6:30pm."
         },
         "meetingMinutes": [
           {
-            "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-            "text": "March 2017"
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdjZ2bGJkQ0FQQUE",
+            "text": "June 2017"
           },
           {
-            "link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
-            "text": "February 2017"
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY05NNjJUWDBBRDQ",
+            "text": "September 2017"
           },
-          {
-            "link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
-            "text": "November 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
-            "text": "October 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
-            "text": "September 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
-            "text": "May 2016"
-          }
+          {}
         ],
         "members": [
           {
