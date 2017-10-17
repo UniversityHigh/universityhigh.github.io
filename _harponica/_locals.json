@@ -1215,7 +1215,12 @@
             "name": "ShopRite"
           },
           {
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU",
             "name": "Taste Books"
+          },
+          {
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U",
+            "name": "Taste Book Participating Merchants"
           }
         ],
         "meetingDates": {
@@ -1421,9 +1426,9 @@
             "name": "Legendary Class (Seniors)",
             "resources": [
               {
-                "description": "",
-                "name": "",
-                "url": ""
+                "description": "Show your school pride!",
+                "name": "October Hawk Store",
+                "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSWVh1aWZhTFdmRlk"
               }
             ]
           }
