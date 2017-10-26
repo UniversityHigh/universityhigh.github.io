@@ -2,7 +2,8 @@
   "index": {
     "announcements": [
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
-      "Support UHSSE through Stop & Shop A+ Rewards https://drive.google.com/open?id=0B9ryMf4-VSDSTjU0RDF4OWNMQUE "
+      "Support UHSSE through Stop & Shop A+ Rewards https://drive.google.com/open?id=0B9ryMf4-VSDSTjU0RDF4OWNMQUE ",
+      "Sign Up For Parent Teacher Conferences Here!  http://www.SignUpGenius.com/go/20F0E4FA8AF2EA1F85-university2"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -57,22 +58,28 @@
     "phoneNumber": "(860) 695-9020",
     "qualities": [
       {
-        "backgroundColor": "#ED4646",
+        "backgroundColor": "#ff8080",
+        "description": "Sign up for parent teacher conferences <a href=http://www.SignUpGenius.com/go/20F0E4FA8AF2EA1F85-university2>here</a>.",
+        "glyph": "glyphicon-list-alt",
+        "name": "Sign Up for Parent Teacher Conferences!"
+      },
+      {
+        "backgroundColor": "#ed4646",
         "description": "Students are presented with a wide variety of high level courses throughout their four years.",
         "glyph": "glyphicon-blackboard",
         "name": "Unparalleled Education"
       },
       {
-        "backgroundColor": "#B72626",
+        "backgroundColor": "#b72626",
         "description": "A partnership with UHart allows our students to get a full taste of the college world.",
         "glyph": "glyphicon-education",
-        "name": "College Collaboration"
+        "name": " College Collaboration"
       },
       {
         "backgroundColor": "#6E1515",
         "description": "From popcorn club to robotics to track and field, there is something for everyone!",
         "glyph": "glyphicon-sunglasses",
-        "name": "Extracurricular Excellence"
+        "name": " Extracurricular Excellence"
       }
     ]
   },
@@ -1252,6 +1259,10 @@
           {
             "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0",
             "text": "September 2017"
+          },
+          {
+            "link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
+            "text": "October 2017"
           }
         ],
         "officers": [
