@@ -3,7 +3,6 @@
     "announcements": [
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
       "Support UHSSE through Stop & Shop A+ Rewards https://drive.google.com/open?id=0B9ryMf4-VSDSTjU0RDF4OWNMQUE ",
-      "Sign Up For Parent Teacher Conferences Here!  http://www.SignUpGenius.com/go/20F0E4FA8AF2EA1F85-university2",
       "Tuesday 11/14 at 6:00 pm is Fall Athletic Awards Night!"
     ],
     "banners": "/assets/img/home.jpg",
@@ -58,12 +57,6 @@
     "name": "University High School of Science and Engineering",
     "phoneNumber": "(860) 695-9020",
     "qualities": [
-      {
-        "backgroundColor": "#ff8080",
-        "description": "Sign up for parent teacher conferences <a href=http://www.SignUpGenius.com/go/20F0E4FA8AF2EA1F85-university2>here</a>.",
-        "glyph": "glyphicon-list-alt",
-        "name": "Sign Up for Parent Teacher Conferences!"
-      },
       {
         "backgroundColor": "#ed4646",
         "description": "Students are presented with a wide variety of high level courses throughout their four years.",
@@ -1159,7 +1152,7 @@
             "name": "Attend a fundraiser"
           },
           {
-            "description": "",
+            "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
             "name": "Donate to the party"
           },
           {
@@ -1169,11 +1162,15 @@
           {
             "description": "https://drive.google.com/open?id=0B9ryMf4-VSDSZmU0aGxSQXRVems",
             "name": "Clothing and Can/Bottle Drive"
+          },
+          {
+            "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
+            "name": "Shop with Script"
           }
         ],
         "donationForms": [
           {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSNXFZUlNkVDB0Ums",
+            "link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
             "name": "Donation Letter"
           },
           {
@@ -1240,7 +1237,7 @@
           "dates": [
             "September 12,2017",
             "October 17, 2017",
-            "November 21, 2017",
+            "November 28, 2017",
             "January 16, 2017",
             "February 20, 2017",
             "March 27, 2017",
