@@ -1,4 +1,4 @@
-p.text-center#footer © {{year}} University High School of Science and Engineering Deca Class. #[br] Originally developed by #[a(href="http://berenson.me" target="_blank") Spencer Berenson] and #[a(href="http://duro.me" target="_blank") Andi Duro]. Initial design by #[a(href="https://github.com/tpatel1781" target="_blank") Tej Patel].
+p.text-center#footer © {{year}} University High School of Science and Engineering Deca Class. #[br] Originally developed by #[a(href="http://berenson.me" target="_blank") Spencer Berenson] and #[a(href="http://duro.me" target="_blank") Andi Duro]. Initial design by #[a(href="https://github.com/tpatel1781" target="_blank") Tej Patel]. #[br] Maintained and updated by #[a(href="https://github.com/LeoPiGuy") Leo Gold].
 script.
 	let footer=document.getElementById("footer");
 	footer.innerHTML=footer.innerHTML.replace(/{{year}}/i, new Date().getFullYear());
