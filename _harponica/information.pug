@@ -16,6 +16,18 @@ mixin card(name, size)
 				.panel-body.table-scroll
 					block
 
+mixin spacingCard(name, topmargin)
+	div(class="col-md-3" style="margin-top:"+ topmargin + "em;")
+			.panel.panel-default
+				.panel-heading
+					h5 #{name}
+				.panel-body.table-scroll
+					block
+
+mixin customMargin(margintype, size)
+	div(style=margintype + ":" + size + "em;")
+	
+
 block head
 	title Information | UHSSE
 	link(rel="stylesheet" href="/assets/css/information.css" defer)
@@ -127,6 +139,18 @@ block body
 					ul.list-unstyled
 						each update in afterGrad.updates
 							li.update #[a(href="javascript:void(0);" data-description=update.description)= update.name]
+
+				+card("Officers")
+					ul.list-unstyled
+						each officer in afterGrad.officers
+							li #{officer.position}: #[a(href=`mailto:${officer.email}` target="_blank") #{officer.name}]
+
+				+spacingCard("Meeting Minutes",-10)
+					ul.list-unstyled
+						each minute in afterGrad.meetingMinutes
+							li #[a(href=minute.link target="_blank")= minute.text]
+
+
 
 			- let sgc = parentOrganizations.sgc;
 			+innerSection("SGC")

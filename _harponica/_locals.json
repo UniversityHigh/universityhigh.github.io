@@ -1196,6 +1196,20 @@
           ],
           "description": "Meetings will be held in the UHSSE commons at 6:30pm."
         },
+        "meetingMinutes": [
+          {
+            "link": "",
+            "text": ""
+          }
+        ],
+        "officers": [
+          {
+            "email": "",
+            "name": "",
+            "position": "",
+            "website": ""
+          }
+        ],
         "updates": [
           {
             "description": "",
