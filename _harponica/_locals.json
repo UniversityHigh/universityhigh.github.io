@@ -2,8 +2,8 @@
   "index": {
     "announcements": [
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
-      "10th and 11th Grade students will be taking the PSAT on Wednesday October 11th ",
-      "Wenesday October 4th is a 1/2 Day (Professional Development)"
+      "Support UHSSE through Stop & Shop A+ Rewards https://drive.google.com/open?id=0B9ryMf4-VSDSTjU0RDF4OWNMQUE ",
+      "Tuesday 11/14 at 6:00 pm is Fall Athletic Awards Night!"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -58,22 +58,22 @@
     "phoneNumber": "(860) 695-9020",
     "qualities": [
       {
-        "backgroundColor": "#ED4646",
+        "backgroundColor": "#ed4646",
         "description": "Students are presented with a wide variety of high level courses throughout their four years.",
         "glyph": "glyphicon-blackboard",
         "name": "Unparalleled Education"
       },
       {
-        "backgroundColor": "#B72626",
+        "backgroundColor": "#b72626",
         "description": "A partnership with UHart allows our students to get a full taste of the college world.",
         "glyph": "glyphicon-education",
-        "name": "College Collaboration"
+        "name": " College Collaboration"
       },
       {
         "backgroundColor": "#6E1515",
         "description": "From popcorn club to robotics to track and field, there is something for everyone!",
         "glyph": "glyphicon-sunglasses",
-        "name": "Extracurricular Excellence"
+        "name": " Extracurricular Excellence"
       }
     ]
   },
@@ -819,6 +819,11 @@
           "description": "SAT Prep- begins September 16th! You must attend orientation on 9/16 at 10am to participate",
           "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQy1RSHZPTHpIU2c",
           "name": "College Aptitude Test Preparation Program"
+        },
+        {
+          "description": "The 2017-18 School Profile",
+          "link": "https://drive.google.com/file/d/0B8cdND1MV7fWN3NfVEFGWFZTVXgxR3NTM1B3V3ZkLW1udkdN/view?usp=sharing",
+          "name": "2017-18 School Profile"
         }
       ],
       "name": "Quick Links",
@@ -1132,7 +1137,7 @@
       "lead": "What's on the menu?",
       "name": "Lunch Menu",
       "nav": "lunchMenu",
-      "url": "https://www.hartfordschools.org/wp-content/uploads/2016/01/Aug_Sept-2017-Lunch-Menu-Gr-6-12.pdf"
+      "url": "https://www.hartfordschools.org/wp-content/uploads/2016/02/November-2017-Lunch-Menu-6-12.pdf"
     },
     "name": "A school where smart is cool",
     "parentOrganizations": {
@@ -1147,7 +1152,7 @@
             "name": "Attend a fundraiser"
           },
           {
-            "description": "",
+            "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
             "name": "Donate to the party"
           },
           {
@@ -1157,11 +1162,15 @@
           {
             "description": "https://drive.google.com/open?id=0B9ryMf4-VSDSZmU0aGxSQXRVems",
             "name": "Clothing and Can/Bottle Drive"
+          },
+          {
+            "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
+            "name": "Shop with Script"
           }
         ],
         "donationForms": [
           {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSNXFZUlNkVDB0Ums",
+            "link": "https://drive.google.com/open?id=0B8cdND1MV7fWMl9UcmxwdVBZYTBWQ25FcHcwWkFxLWNhb3lr",
             "name": "Donation Letter"
           },
           {
@@ -1216,14 +1225,19 @@
             "name": "ShopRite"
           },
           {
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSVklIY1dJMWY1TUU",
             "name": "Taste Books"
+          },
+          {
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSeWdlVHZ5Wktna1U",
+            "name": "Taste Book Participating Merchants"
           }
         ],
         "meetingDates": {
           "dates": [
             "September 12,2017",
             "October 17, 2017",
-            "November 21, 2017",
+            "November 28, 2017",
             "January 16, 2017",
             "February 20, 2017",
             "March 27, 2017",
@@ -1248,6 +1262,10 @@
           {
             "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSYTVObW5tNGVSVU0",
             "text": "September 2017"
+          },
+          {
+            "link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
+            "text": "October 2017"
           }
         ],
         "officers": [
@@ -1280,42 +1298,28 @@
       "sgc": {
         "meetingDates": {
           "dates": [
-            "September 20, 2016",
-            "October 18, 2016",
-            "November 15, 2016",
-            "January 17, 2017",
-            "February 22, 2017 (Wed)",
-            "March 28, 2017",
-            "April 18, 2017",
-            "May 16, 2017"
+            "September 19, 2017",
+            "October 10, 2017",
+            "November 14, 2017",
+            "December TBD",
+            "January 9, 2018",
+            "February 13, 2018",
+            "March 13, 2018",
+            "April 10, 2018",
+            "May 8, 2018"
           ],
-          "description": "Meetings will be held in the UHSSE commons at 6:30pm."
+          "description": "Meetings will be held in the UHSSEmedia center at 6:30pm."
         },
         "meetingMinutes": [
           {
-            "link": "http://api.ning.com/files/ejmzhbINZhzYkFl*Yx4SoZdrkUza*6ukm6UQSVMsVNnd3zuBPYmIf4QgFSdBv02xZkr2K45VXO2-xIFqflpYxcnN71iR12Il/UHSSEPTOMinutes32817.pdf",
-            "text": "March 2017"
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdjZ2bGJkQ0FQQUE",
+            "text": "June 2017"
           },
           {
-            "link": "http://api.ning.com/files/170NrfwF1H6ELRRgA7DiQmtttR*vmPlNKnQn29zSBMbbLLqFieHOXNGh7tbm1gTcdc0HQpM1FeU0mJ6XaEwEgrHf2AmbF8qZ/UHSSEPTOMinutes22217.pdf",
-            "text": "February 2017"
+            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY05NNjJUWDBBRDQ",
+            "text": "September 2017"
           },
-          {
-            "link": "http://api.ning.com/files/3QCA0XbBBMxGpIA9PJ0*Lc-88J*SOvZOwUfpgFRZvY2*QxYysroH9Zh0Uhnq7eYwWnS2k-SPI*yzz42rYcGql9EAOpcwIdJG/UHSSEPTOMinutes111516.docx",
-            "text": "November 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/7j71GRa9aZIqyDo5G6vJh54qmnVQZMfFaYsMd*BDG5TQdw9m3ZIjChvg8HDRx4Nrt4YUgcTKCrUjfkLure63hoa3HrGEPUWD/UHSSEPTOMinutes101816.docx",
-            "text": "October 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/EVCxEhQ6bj0gahIGofEICjAlTPHNKz6ia3qvD6vjTpeZmXB4kUa8Xewf9RAuUp3sn74v*19UhDGFMs6E9p7Sde4AHLpBrY8k/PTOmeetingminutes92016.pdf",
-            "text": "September 2016"
-          },
-          {
-            "link": "http://api.ning.com/files/2MYPqfpvPU2m0u2RzH7STLn57kHGWv6NI2zeNkpM7pOJU*TYrv-phRJnnPWNvgHcLMm7xF97v9KEz65NkLjVm06jzUfZTCKw/UHSSEPTOMay2016.doc",
-            "text": "May 2016"
-          }
+          {}
         ],
         "members": [
           {
@@ -1416,6 +1420,10 @@
         {
           "name": "UHSSE Accredited by New England Association of Schools and Colleges",
           "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSMTBBUHNyNEQwQWM"
+        },
+        {
+          "name": "Non-discrimination/Title IX",
+          "url": "https://drive.google.com/file/d/0B8cdND1MV7fWRHJjbkk0ZWhLNDNQaXhLWmhxY3g4aGdHTWVF/view?usp=sharing"
         }
       ],
       "studentCouncil": {
@@ -1436,9 +1444,9 @@
             "name": "Legendary Class (Seniors)",
             "resources": [
               {
-                "description": "",
-                "name": "",
-                "url": ""
+                "description": "Show your school pride!",
+                "name": "October Hawk Store",
+                "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSWVh1aWZhTFdmRlk"
               }
             ]
           }
@@ -1813,13 +1821,13 @@
       "dates": [
         {
           "date": "Saturday December 16th",
-          "link": "http://www.choiceeducation.org/",
+          "link": "",
           "name": "UHSSE Open House ",
           "time": "10 a.m."
         },
         {
           "date": "Saturday February 3rd ",
-          "link": "http://www.choiceeducation.org/",
+          "link": "",
           "name": "UHSSE Open House ",
           "time": "10 a.m."
         }
