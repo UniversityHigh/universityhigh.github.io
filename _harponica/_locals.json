@@ -3,7 +3,7 @@
     "announcements": [
       "Welcome to the new UHSSE website!  Thank you for your patience as we continue to improve our website.",
       "Support UHSSE through Stop & Shop A+ Rewards https://drive.google.com/open?id=0B9ryMf4-VSDSTjU0RDF4OWNMQUE ",
-      "Tuesday 11/14 at 6:00 pm is Fall Athletic Awards Night!"
+      "Parent Teacher Conferences Thursday January 25th 1-3pm and 5-7pm http://www.signupgenius.com/go/20f0e4fa8af2ea1f85-university3"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -46,11 +46,6 @@
         "caption": "UHSSE Student presenting authentic research",
         "link": "",
         "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSMGljU3Y1N1k3YXc=w1920-h950-iv1"
-      },
-      {
-        "caption": "",
-        "link": "",
-        "src": "https://lh3.google.com/u/0/d/0B9ryMf4-VSDSaS04a3JqUGFhaUk=w1920-h950-iv1"
       }
     ],
     "lead": "Early college high school located on the campus of University of Hartford",
@@ -865,7 +860,12 @@
           "email": "Taylor.Bacon@hartfordschools.org",
           "name": "Bacon, Taylor",
           "position": "Math Teacher",
-          "website": ""
+          "website": "https://sites.google.com/site/baconuhssecalcandprecalc/home"
+        },
+        {
+          "email": "balta001@hartfordschools.org",
+          "name": "Baltimore, Autumn",
+          "position": "Acting Assistant Principal"
         },
         {
           "email": "basec001@hartfordschools.org",
@@ -886,27 +886,15 @@
           "website": ""
         },
         {
-          "email": "boscr001@hartfordschools.org",
-          "name": "Bosco, Robert",
-          "position": "Special Education",
-          "website": ""
-        },
-        {
           "email": "browa002@hartfordschools.org",
           "name": "Brown, Aaron",
           "position": "Physics/Engineering Teacher",
-          "website": ""
+          "website": "uhssephysics.weebly.com"
         },
         {
           "email": "cazzc001@hartfordschools.org",
           "name": "Cazzetta-Finn, Colleen",
           "position": "Special Education",
-          "website": ""
-        },
-        {
-          "email": "deleh001@hartfordschools.org",
-          "name": "Deleon-Vasquez, Haydee",
-          "position": "Cook Manager",
           "website": ""
         },
         {
@@ -928,16 +916,20 @@
           "website": ""
         },
         {
-          "email": "folam001@hartfordschools.org",
-          "name": "Folan, Martin",
-          "position": "Principal",
-          "website": ""
+          "email": "fitzm001@hartfordschools.org",
+          "name": "Fitzgerald, Megan",
+          "position": "English Teacher"
         },
         {
           "email": "fromm001@hartfordschools.org",
           "name": "Fromerth, Michael",
           "position": "Chemistry Teacher",
           "website": ""
+        },
+        {
+          "email": "louis.gillen@hartfordschools.org",
+          "name": "Gillen, Louis",
+          "position": "Social Studies Teacher"
         },
         {
           "email": "grayk001@hartfordschools.org",
@@ -964,12 +956,6 @@
           "website": ""
         },
         {
-          "email": "manok001@hartfordschools.org",
-          "name": "Manocchio, Kara",
-          "position": "Office Assistant",
-          "website": ""
-        },
-        {
           "email": "hartk002@hartfordschools.org",
           "name": "Merlo, Kelly",
           "position": "Chemistry Teacher",
@@ -979,7 +965,7 @@
           "email": "joe.miller@hartfordschools.org",
           "name": "Miller, Joseph",
           "position": "Social Studies",
-          "website": ""
+          "website": "http://mr-miller.weebly.com/"
         },
         {
           "email": "morrr001@hartfordschools.org",
@@ -1006,6 +992,11 @@
           "website": ""
         },
         {
+          "email": "courtney.petrucci@hartfordschools.org ",
+          "name": "Petrucci, Courtney",
+          "position": "English Teacher"
+        },
+        {
           "email": "radin001@hartfordschools.org",
           "name": "Radigan, Noel",
           "position": "Guidance Counselor",
@@ -1021,12 +1012,6 @@
           "email": "richg001@hartfordschools.org",
           "name": "Richters, Guy",
           "position": "Art Teacher",
-          "website": ""
-        },
-        {
-          "email": "scanh001@hartfordschools.org",
-          "name": "Scanlon, Heidi",
-          "position": "Social Studies Teacher",
           "website": ""
         },
         {
@@ -1062,8 +1047,13 @@
         {
           "email": "tomas001@hartfordschools.org",
           "name": "Tomany, Sean",
-          "position": "Assistant Principal",
+          "position": "Acting Principal",
           "website": ""
+        },
+        {
+          "email": "steve.troche@hartfordschools.org",
+          "name": "Troche, Steven",
+          "position": "Spanish Teacher"
         },
         {
           "email": "wayne.waite@hartfordschools.org",
@@ -1076,57 +1066,36 @@
           "name": "Wilcoxen, Sharol",
           "position": "Science/Engineering Teacher",
           "website": ""
-        },
-        {
-          "email": "fitzm001@hartfordschools.org",
-          "name": "Fitzgerald, Megan",
-          "position": "English Teacher"
-        },
-        {
-          "email": "courtney.petrucci@hartfordschools.org ",
-          "name": "Petrucci, Courtney",
-          "position": "English Teacher"
-        },
-        {
-          "email": "steve.troche@hartfordschools.org",
-          "name": "Troche, Steven",
-          "position": "Spanish Teacher"
         }
       ],
       "supportServices": [
         {
           "email": "manok001@hartfordschools.org",
-          "name": "Kara Manocchio",
+          "name": "Manocchio, Kara",
           "phone": "860-695-9020",
           "position": "Attendance"
         },
         {
           "email": "anglc001@hartfordschools.org",
-          "name": "Haydee Deleon-Vasquez",
+          "name": "Deleon-Vasquez, Haydee",
           "phone": "860-695-9057",
           "position": "Food Services"
         },
         {
           "email": "thoma001@hartfordschools.org",
-          "name": "Alice Thomas",
+          "name": "Thomas, Alice",
           "phone": "860-695-9022",
           "position": "School Nurse"
         },
         {
           "email": "noporto@hartfordschools.org",
-          "name": "Nancy Oporto-Brown",
+          "name": "Oporto-Brown, Nancy",
           "phone": "860-695-9023",
           "position": "Social Work"
         },
         {
-          "email": "boscr001@hartfordschools.org",
-          "name": "Rob Bosco",
-          "phone": "860-695-9030",
-          "position": "Special Education"
-        },
-        {
           "email": "brodm002@hartfordschools.org",
-          "name": "Martin Brodeur",
+          "name": "Brodeur, Martin",
           "phone": "860-695-9036",
           "position": "Technology Support"
         }
