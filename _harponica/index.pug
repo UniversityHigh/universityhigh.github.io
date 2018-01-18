@@ -8,6 +8,18 @@ mixin quality(backgroundColor, glyph, name, description)
 			h4= name
 			p= description
 
+mixin ptconferences
+	.quality
+		.icon(style=`background-color: #f06a6a;`)
+			span.glyphicon(class="glyphicon-th-list")
+		.body
+			h4="Parent Teacher Conferences"
+			p.
+				Thursday January 25th 1-3pm and 5-7pm		
+			p(style="margin-top: -1em;").
+				Sign Up <a href="http://www.signupgenius.com/go/20f0e4fa8af2ea1f85-university3" target="_blank">Here</a>.
+
+
 block head
 	title UHSSE
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" defer)
@@ -46,6 +58,7 @@ block body
 							a(href=image.link || "javascript:void(0);" target="_blank")
 								img.img-responsive(src=image.src alt=image.caption)
 			.col-md-5.col-md-offset-1
+				+ptconferences
 				each quality in qualities
 					+quality(quality.backgroundColor, quality.glyph, quality.name, quality.description)
 
