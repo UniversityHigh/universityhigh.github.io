@@ -1296,20 +1296,17 @@
         },
         "meetingMinutes": [
           {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSdjZ2bGJkQ0FQQUE",
-            "text": "June 2017"
-          },
-          {
             "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY05NNjJUWDBBRDQ",
             "text": "September 2017"
           },
+          {},
           {}
         ],
         "members": [
           {
-            "email": "folam001@hartfordschools.org",
-            "name": "Matt Folan",
-            "position": "Principal",
+            "email": "tomas001@hartfordschools.org",
+            "name": "Sean Tomany",
+            "position": "Acting Principal",
             "website": ""
           },
           {
@@ -1341,7 +1338,7 @@
             "website": ""
           },
           {
-            "name": "Kevin Lindstrom",
+            "name": "Noah Ehrlich",
             "position": "UHSSE Student Representative",
             "website": ""
           },
@@ -1369,6 +1366,30 @@
             "name": "Dana Shagan",
             "position": "UHSSE Parent Member",
             "website": ""
+          },
+          {
+            "name": "Andrew Prokop",
+            "position": "UHSSE Student Representative"
+          },
+          {
+            "name": "Guy Richters",
+            "position": "UHSSE Faculty"
+          },
+          {
+            "name": "Jon Bevans",
+            "position": "UHSSE Faculty"
+          },
+          {
+            "name": "Noel Radigan",
+            "position": "UHSSE Faculty"
+          },
+          {
+            "name": "Joan Nicoll-Senft",
+            "position": "UHSSE Parent Member"
+          },
+          {
+            "name": "Paula Belekewicz",
+            "position": "UHSSE Parent Member"
           }
         ]
       }
