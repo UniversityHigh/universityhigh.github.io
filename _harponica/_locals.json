@@ -1107,7 +1107,7 @@
       "lead": "What's on the menu?",
       "name": "Lunch Menu",
       "nav": "lunchMenu",
-      "url": "https://www.hartfordschools.org/wp-content/uploads/2016/02/November-2017-Lunch-Menu-6-12.pdf"
+      "url": "https://www.hartfordschools.org/wp-content/uploads/2016/01/February-2018-Lunch-Menu-6-12.pdf"
     },
     "name": "A school where smart is cool",
     "parentOrganizations": {
@@ -1128,10 +1128,6 @@
           {
             "description": "",
             "name": "Volunteer at the party"
-          },
-          {
-            "description": "https://drive.google.com/open?id=0B9ryMf4-VSDSZmU0aGxSQXRVems",
-            "name": "Clothing and Can/Bottle Drive"
           },
           {
             "description": "https://drive.google.com/open?id=0B8cdND1MV7fWMmRaRjE4WVo2R0JmdFJXNFM4YWFNYlgtN09B",
@@ -1250,6 +1246,14 @@
           {
             "link": "https://drive.google.com/file/d/0B8cdND1MV7fWSzVCSW9KRkFXeGt4dXppSE5VVHlhUHRHcEhv/view?usp=sharing",
             "text": "October 2017"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1ANRLSGMfSB5ygDWe2GUZKslaynEKn2HG",
+            "text": "November 2017"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1KNQU95lQMBay6wKRyZqhvsU65YJAKb0T",
+            "text": "January 2018"
           }
         ],
         "officers": [
@@ -1296,11 +1300,21 @@
         },
         "meetingMinutes": [
           {
-            "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSY05NNjJUWDBBRDQ",
+            "link": "https://drive.google.com/open?id=1ztHF0gVdt1lXk2T9SneVSHQkSiYJDXDX",
             "text": "September 2017"
           },
-          {},
-          {}
+          {
+            "link": "https://drive.google.com/open?id=19yF3VKylM2vjzHwVrOefhe-CIG_J9MnO",
+            "text": "October 2017"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1HbFapnHHPe1aNTHBLCt3hS-BMmueMODu",
+            "text": "November 2017"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1pzaih1eynEY975MTjSeotx3gFe5dsim0",
+            "text": "December 2017"
+          }
         ],
         "members": [
           {
