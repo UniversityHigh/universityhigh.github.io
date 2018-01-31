@@ -174,7 +174,7 @@
               "moreInformation": "",
               "name": "Algebra 1",
               "syllabus": "",
-              "teacher": "James DiNello",
+              "teacher": "James DiNello/Nicole Silenok",
               "teacherWebsite": ""
             },
             {
@@ -200,7 +200,7 @@
               "moreInformation": "",
               "name": "Geometry",
               "syllabus": "",
-              "teacher": "Nicole Silenok",
+              "teacher": "Nicole Silenok/Sharol Wilcoxen",
               "teacherWebsite": ""
             },
             {
@@ -258,7 +258,7 @@
               "moreInformation": "",
               "name": "Conceptual Physics",
               "syllabus": "",
-              "teacher": "Kathy Lai-Hipp/Kelly Merlo",
+              "teacher": "Kathy Lai-Hipp/Kelly Merlo/Aaron Brown",
               "teacherWebsite": ""
             },
             {
@@ -270,7 +270,7 @@
               "moreInformation": "",
               "name": "Biology",
               "syllabus": "",
-              "teacher": "Stephen Harbanuk",
+              "teacher": "Stephen Harbanuk/.Kathy Lai-Hipp",
               "teacherWebsite": ""
             },
             {
@@ -398,27 +398,27 @@
             {
               "assignments": "",
               "description": "The framework for the English curriculum is based on a series of instructional goals and expected student\noutcomes in composition, reading, and speaking/listening skills. The course employs an interdisciplinary\napproach related to the school’s themes of science and engineering. This approach allows students to\nrecognize that the skills learned in English class can be applied to all other disciplines. This course is designed to maximize vocabulary acquisition,\nreading comprehension and proofreading skills in preparation for the PSAT and other standardized tests.\n",
-              "email": "",
+              "email": "courtney.petrucci@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
               "moreInformation": "",
               "name": "English 1 ",
               "syllabus": "",
-              "teacher": "",
+              "teacher": "Courtney Petrucci/Megan Fitzgerald",
               "teacherWebsite": ""
             },
             {
               "assignments": "",
               "description": "Students will read and respond to a combination of contemporary, classic, and self-selected titles. The\ncourse employs an interdisciplinary approach related to the school’s themes of science and engineering.\nStudents will write persuasive essays, expository essays, including descriptive and explanatory, as well as\na narrative or short story. Students will support ideas, opinions, and points of view with information from\nat least three sources, primary and secondary, which are credited accurately and ethically. Students will\nalso study elements of fiction and non-fiction as well as the conventions of spelling, grammar, and usage.\nThis course is designed to build on the skills of Honors Freshman English to maximize vocabulary acquisition, reading comprehension and proofreading\nskills in preparation for the PSAT and other standardized tests.\n\n",
-              "email": "",
+              "email": "fitzm001@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
               "moreInformation": "",
               "name": "English 2 ",
               "syllabus": "",
-              "teacher": "",
+              "teacher": "Courtney Petrucci/Megan Fitzgerald",
               "teacherWebsite": ""
             },
             {
@@ -495,14 +495,14 @@
           "courses": [
             {
               "description": "This is an introductory course in which students will focus on the skills they need to create language for\ncommunication, to gain knowledge of other cultures, connect with other disciplines, make comparisons\nwith their own language and culture, and understand multicultural communities at home and around the\nworld. Through the introduction of a variety of topics, functions, and grammatical structures, students\nwill develop emerging proficiency in the target language",
-              "email": "",
+              "email": "Steve.troche@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
               "moreInformation": "",
               "name": "Spanish 1",
               "syllabus": "",
-              "teacher": "",
+              "teacher": "Steven Troche",
               "teacherWebsite": ""
             },
             {
@@ -550,26 +550,26 @@
           "courses": [
             {
               "description": "Civics provides the foundation for students’ active and informed participation in our society, and for an\nunderstanding of the interaction between ideals, principles, and practices of citizenship. This course\nexamines the historical roots of American democracy, the U.S. Constitution, how our government\nfunctions, the political process, and civic rights and responsibilities.",
-              "email": "bevaj001@hartfordschools.org",
+              "email": "louis.gillen@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
               "moreInformation": "",
               "name": "Civics",
               "syllabus": "",
-              "teacher": "Heidi Scanlon/Jon Bevans",
+              "teacher": "Louis Gillen",
               "teacherWebsite": ""
             },
             {
               "description": "This course will study the five themes of geography and apply them to regions of the earth. The regions\nstudied include Canada and the United States, Latin America, Africa, Europe and Russia, Monsoon Asia,\nCentral and Southwest Asia, and Oceania. Students will be challenged to make connections between\nphysical and human characteristics of geography, regions and cultures, and to develop critical thinking\nskills (i.e. compare, contrast, analyze, or synthesize). In addition, students will explore current issues\nwhich may affect the world as a whole.",
-              "email": "bevaj001@hartfordschools.org",
+              "email": "louis.gillen@hartfordschools.org",
               "isAP": false,
               "isECE": false,
               "isHonors": false,
               "moreInformation": "",
               "name": "Geography",
               "syllabus": "",
-              "teacher": "Heidi Scanlon/Jon Bevans",
+              "teacher": "Louis Gillen",
               "teacherWebsite": ""
             },
             {
@@ -1602,8 +1602,8 @@
             {
               "coaches": [
                 {
-                  "league": "riccj002@hartfordschools.org",
-                  "name": "Jay Ricciteli"
+                  "league": "carda002@hartfordschools.org",
+                  "name": "Alfredo Cardona"
                 }
               ],
               "name": "Boys Basketball",
@@ -1799,7 +1799,7 @@
       "application": {
         "buttonText": "Online Application Deadline",
         "day": "28",
-        "link": "http://www.choiceeducation.org/",
+        "link": "http://www.sde.ct.gov/sde/cwp/view.asp?a=2774&q=336804",
         "month": "Feb"
       },
       "lead": "Applying is easy",
