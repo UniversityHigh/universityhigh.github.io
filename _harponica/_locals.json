@@ -1448,24 +1448,24 @@
       "studentCouncil": {
         "grades": [
           {
-            "name": "Freshmen",
+            "name": "Alpha Class (Freshmen)- Advisor Mr. Troche Room 215",
             "resources": []
           },
           {
-            "name": "Visionary Class (Sophomores)",
+            "name": "Visionary Class (Sophomores) - Advisor Mr. DiNello Room 311",
             "resources": []
           },
           {
-            "name": "Phoenix Class (Juniors)",
+            "name": "Phoenix Class (Juniors) - Advisor Mr. Miller Room 302",
             "resources": []
           },
           {
-            "name": "Legendary Class (Seniors)",
+            "name": "Legendary Class (Seniors)- Advisor Ms. Todisco Room 327",
             "resources": [
               {
-                "description": "Show your school pride!",
-                "name": "October Hawk Store",
-                "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSWVh1aWZhTFdmRlk"
+                "description": "",
+                "name": "",
+                "url": ""
               }
             ]
           }
