@@ -58,7 +58,7 @@ block body
 							a(href=image.link || "javascript:void(0);" target="_blank")
 								img.img-responsive(src=image.src alt=image.caption)
 			.col-md-5.col-md-offset-1
-				+ptconferences
+				//-+ptconferences
 				each quality in qualities
 					+quality(quality.backgroundColor, quality.glyph, quality.name, quality.description)
 
