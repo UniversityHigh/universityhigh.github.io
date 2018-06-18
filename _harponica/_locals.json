@@ -1437,19 +1437,19 @@
       "studentCouncil": {
         "grades": [
           {
+            "name": "---- Class (Freshmen)- Advisor Ms. Fitzgerald Room 225",
+            "resources": []
+          },
+          {
             "name": "Alpha Class (Freshmen)- Advisor Mr. Troche Room 215",
             "resources": []
           },
           {
-            "name": "Visionary Class (Sophomores) - Advisor Mr. DiNello Room 311",
+            "name": "Visionary Class (Sophomores) - Advisor Ms.Serrano Room 325",
             "resources": []
           },
           {
             "name": "Phoenix Class (Juniors) - Advisor Mr. Miller Room 302",
-            "resources": []
-          },
-          {
-            "name": "Legendary Class (Seniors)- Advisor Ms. Todisco Room 327",
             "resources": [
               {
                 "description": "",
