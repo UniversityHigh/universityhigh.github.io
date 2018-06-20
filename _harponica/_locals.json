@@ -1,7 +1,8 @@
 {
   "index": {
     "announcements": [
-      "Freshman Placement Testing for Math & Spanish-Tuesday/Wednesday/Thursday's in July between 8am-2pm.  Call to make an appointment!"
+      "Freshman Placement Testing for Math & Spanish-Tuesday/Wednesday/Thursday's in July between 8am-2pm.  Call to make an appointment!",
+      "Freshmen Only First Day of School Tuesday August 28th/ All grades report Wednesday August 29th"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -840,12 +841,6 @@
           "website": ""
         },
         {
-          "email": "Taylor.Bacon@hartfordschools.org",
-          "name": "Bacon, Taylor",
-          "position": "Math Teacher",
-          "website": "https://sites.google.com/site/baconuhssecalcandprecalc/home"
-        },
-        {
           "email": "balta001@hartfordschools.org",
           "name": "Baltimore, Autumn",
           "position": "Acting Assistant Principal"
@@ -869,11 +864,6 @@
           "website": ""
         },
         {
-          "email": "fern.botwick@hartfordschools.org",
-          "name": "Botwick, Fern",
-          "position": "Special Education"
-        },
-        {
           "email": "browa002@hartfordschools.org",
           "name": "Brown, Aaron",
           "position": "Physics/Engineering Teacher",
@@ -892,12 +882,6 @@
           "website": ""
         },
         {
-          "email": "james.dinello@hartfordschools.org",
-          "name": "DiNello, James",
-          "position": "Math Teacher",
-          "website": ""
-        },
-        {
           "email": "doffb001@hartfordschools.org",
           "name": "Doffek, Beth",
           "position": "Guidance Counselor",
@@ -913,11 +897,6 @@
           "name": "Fromerth, Michael",
           "position": "Chemistry Teacher",
           "website": ""
-        },
-        {
-          "email": "louis.gillen@hartfordschools.org",
-          "name": "Gillen, Louis",
-          "position": "Social Studies Teacher"
         },
         {
           "email": "grayk001@hartfordschools.org",
@@ -1245,6 +1224,14 @@
           {
             "link": "https://drive.google.com/open?id=0B8cdND1MV7fWV0FUR3AtUnNLTVlwQllTMXBDYUVCOHJ3Sk5r",
             "text": "February 2018"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1KanurYAiiIBZoLrEKVWjFBAdIvObkYaj",
+            "text": "March 2018"
+          },
+          {
+            "link": "https://drive.google.com/open?id=1ZGI2NJ9Hb6fNTT9J5SbUAvuEh51s4EA0",
+            "text": "May 2018"
           }
         ],
         "officers": [
@@ -1323,7 +1310,7 @@
             "website": ""
           },
           {
-            "name": "Lisa Dunnery",
+            "name": "Elizabeth Ehrlich",
             "position": "Chairman",
             "website": ""
           },
@@ -1346,12 +1333,12 @@
             "website": ""
           },
           {
-            "name": "Samuel Shagan",
+            "name": "Deniz Camli-Saunders",
             "position": "UHSSE Student Representative",
             "website": ""
           },
           {
-            "name": "Noah Ehrlich",
+            "name": "Dylan Errico",
             "position": "UHSSE Student Representative",
             "website": ""
           },
@@ -1366,11 +1353,6 @@
             "website": ""
           },
           {
-            "name": "Elizabeth Ehrlich",
-            "position": "UHSSE Parent Member",
-            "website": ""
-          },
-          {
             "name": "Joe Prokop",
             "position": "UHSSE Parent Member",
             "website": ""
@@ -1381,18 +1363,17 @@
             "website": ""
           },
           {
-            "name": "Andrew Prokop",
-            "position": "UHSSE Student Representative"
-          },
-          {
+            "email": "richg001@hartfordschools.org",
             "name": "Guy Richters",
             "position": "UHSSE Faculty"
           },
           {
+            "email": "bevaj001@hartfordschools.org",
             "name": "Jon Bevans",
             "position": "UHSSE Faculty"
           },
           {
+            "email": "radin001@hartfordschools.org",
             "name": "Noel Radigan",
             "position": "UHSSE Faculty"
           },
