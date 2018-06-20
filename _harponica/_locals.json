@@ -1,7 +1,7 @@
 {
   "index": {
     "announcements": [
-      "UHSSE Graduation June 18th @ 5:00pm"
+      "Freshman Placement Testing for Math & Spanish-Tuesday/Wednesday/Thursday's in July between 8am-2pm.  Call to make an appointment!"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -107,6 +107,16 @@
           "information": "Grade 11/12",
           "subject": "ECE Marine Science Summer Assignment ",
           "url": "https://drive.google.com/open?id=1P6Nby9WrjJpdUeqmzoiec7-ZHTwvNTfZ"
+        },
+        {
+          "information": "Grade 10/11/12",
+          "subject": "Pre-Calculus Items for Review/Summer Assignment ",
+          "url": "https://drive.google.com/open?id=12A_40C1W-yXk-SZSKWDjNf7aS22g5uGh"
+        },
+        {
+          "information": "Grade 11/12",
+          "subject": "Calculus Readiness/Summer Assignment ",
+          "url": "https://drive.google.com/open?id=1UHVntafBRDlLc9FnfQIqkD_xyxOZk1Md"
         }
       ],
       "name": "Summer Assignments",
@@ -1402,8 +1412,8 @@
       "nav": "resources",
       "resources": [
         {
-          "name": "2017-18 School Calendar",
-          "url": "https://drive.google.com/open?id=0B9ryMf4-VSDSc1RuSVBxbWtOVEU"
+          "name": "2018-19 School Calendar",
+          "url": "https://drive.google.com/open?id=1oml-IeFHbyjrzo7rYPDR2Y2sFI5wFG8T"
         },
         {
           "name": "Service Learning Form",
