@@ -672,22 +672,22 @@
       "act": {
         "link": "http://www.act.org/content/act/en/products-and-services/the-act/registration.html",
         "registrationDates": [
-          "August 14, 2017",
-          "September 22, 2017",
-          "November 3, 2017",
-          "January 12, 2018",
-          "March 9, 2018",
-          "May 4, 2018",
-          "June 15, 2018"
+          "August 10, 2018",
+          "September 28, 2018",
+          "November 2, 2018",
+          "January 11, 2019",
+          "March 8, 2019",
+          "May 3, 2019",
+          "June 14, 2019"
         ],
         "testDates": [
-          "September 9, 2017",
-          "October 28, 2017",
-          "December 9, 2017",
-          "February 10, 2018",
-          "April 14, 2018",
-          "June 9, 2018",
-          "July 14, 2018"
+          "September 8, 2018",
+          "October 27, 2018",
+          "December 8, 2018",
+          "February 9, 2019",
+          "April 13, 2019",
+          "June 8, 2019",
+          "July 13, 2019"
         ]
       },
       "lead": "Testing, testing, testing",
@@ -696,22 +696,23 @@
       "sat": {
         "link": "https://collegereadiness.collegeboard.org/sat/register/dates-deadlines",
         "registrationDates": [
-          "July 28, 2017",
-          "September 8, 2017",
-          "October 5, 2017",
-          "November 2, 2017",
-          "February 9, 2018",
-          "April 6, 2018",
-          "May 3, 2018"
+          "July 27, 2018",
+          "September 7, 2018",
+          "October 5, 2018",
+          "November 2, 2018",
+          "February 8, 2019",
+          "April 5, 2019",
+          "May 3, 2019"
         ],
         "testDates": [
           "School Code 070326",
-          "October 7, 2017",
-          "November 4, 2017",
-          "December 2, 2017",
-          "March 10, 2018",
-          "May5, 2018",
-          "June 2, 2018"
+          "August 25, 2018",
+          "October 6, 2018",
+          "November 3, 2018",
+          "December 1, 2018",
+          "March 9, 2019",
+          "May 4, 2019",
+          "June 1, 2019"
         ]
       }
     },
@@ -795,9 +796,9 @@
       "lead": "In a flash",
       "links": [
         {
-          "description": "SAT Prep- begins September 16th! You must attend orientation on 9/16 at 10am to participate",
-          "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSQy1RSHZPTHpIU2c",
-          "name": "College Aptitude Test Preparation Program"
+          "description": "",
+          "link": "",
+          "name": ""
         },
         {
           "description": "The 2017-18 School Profile",
