@@ -855,20 +855,9 @@
           "website": ""
         },
         {
-          "email": "balta001@hartfordschools.org",
-          "name": "Baltimore, Autumn",
-          "position": "Acting Assistant Principal"
-        },
-        {
           "email": "basec001@hartfordschools.org",
           "name": "Baseler, Caryn",
-          "position": "Magnet Instructional Coach",
-          "website": ""
-        },
-        {
-          "email": "benfe001@hartfordschools.org",
-          "name": "Benfield, Elizabeth",
-          "position": "Athletic Director/Spanish Teacher",
+          "position": "Magnet Coordinator/Science Teacher",
           "website": ""
         },
         {
@@ -878,15 +867,20 @@
           "website": ""
         },
         {
+          "email": "sicad001@hartfordschools.org ",
+          "name": "Bordeau, Deb",
+          "position": "Special Education"
+        },
+        {
           "email": "browa002@hartfordschools.org",
           "name": "Brown, Aaron",
           "position": "Physics/Engineering Teacher",
           "website": "uhssephysics.weebly.com"
         },
         {
-          "email": "cazzc001@hartfordschools.org",
-          "name": "Cazzetta-Finn, Colleen",
-          "position": "Special Education",
+          "email": "elizabeth.devaney@hartfordschools.org",
+          "name": "Devaney, Elizabeth",
+          "position": "Athletic Director/Spanish Teacher",
           "website": ""
         },
         {
@@ -900,6 +894,16 @@
           "name": "Doffek, Beth",
           "position": "Guidance Counselor",
           "website": ""
+        },
+        {
+          "email": "carson.dunn@hartfordschools.org ",
+          "name": "Dunn, Carson",
+          "position": "Math Teacher"
+        },
+        {
+          "email": "amanda.faria@hartfordschools.org",
+          "name": "Faria, Amanda",
+          "position": "Spanish Teacher"
         },
         {
           "email": "fitzm001@hartfordschools.org",
@@ -925,6 +929,11 @@
           "website": ""
         },
         {
+          "email": "jonen001@hartfordschools.org",
+          "name": "Jones, Nicole",
+          "position": "Assistant Principal"
+        },
+        {
           "email": "laihk001@hartfordschools.org",
           "name": "Lai-Hipp, Kathleen",
           "position": "Biology Teacher",
@@ -935,6 +944,11 @@
           "name": "Lowney, John",
           "position": "Athletics Staff",
           "website": ""
+        },
+        {
+          "email": "kelly.macri@hartfordschools.org ",
+          "name": "Macri, Kelly",
+          "position": "Math Teacher"
         },
         {
           "email": "hartk002@hartfordschools.org",
@@ -1030,11 +1044,6 @@
           "name": "Tomany, Sean",
           "position": "Acting Principal",
           "website": ""
-        },
-        {
-          "email": "steve.troche@hartfordschools.org",
-          "name": "Troche, Steven",
-          "position": "Spanish Teacher"
         },
         {
           "email": "wayne.waite@hartfordschools.org",
