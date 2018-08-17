@@ -1209,16 +1209,15 @@
         ],
         "meetingDates": {
           "dates": [
-            "September 12,2017",
-            "October 17, 2017",
-            "November 28, 2017",
-            "January 16, 2017",
-            "February 20, 2017",
-            "March 27, 2017",
-            "April 17, 2017",
-            "May 15, 2017"
+            "October 15, 2018",
+            "November 20, 2018",
+            "January 21, 2019",
+            "February 18, 2019",
+            "March 18, 2019",
+            "April 22, 2019",
+            "May 20, 2019"
           ],
-          "description": "Meetings occur on the 3rd Tuesday each month at 6pm in the UHSSE Commons."
+          "description": "Meetings occur from 6:30 pm to 7:30 pm in the UHSSE Commons."
         },
         "meetingMinutes": [
           {
@@ -1264,7 +1263,7 @@
         ],
         "officers": [
           {
-            "email": "",
+            "email": "tfraylon26@gmail.com",
             "name": "Timothy Fraylon",
             "position": "President",
             "website": ""
@@ -1276,13 +1275,13 @@
             "website": ""
           },
           {
-            "email": "",
+            "email": "pwez03@gmail.com",
             "name": "Patty Zemsta",
             "position": "Treasurer",
             "website": ""
           },
           {
-            "email": "",
+            "email": "susanwoodwardlcsw@gmail.com",
             "name": "Susan Woodward",
             "position": "Secretary",
             "website": ""
