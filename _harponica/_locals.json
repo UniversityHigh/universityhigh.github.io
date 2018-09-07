@@ -1513,9 +1513,9 @@
       "lead": "Get your game on",
       "links": [
         {
-          "description": "You must sign up with Privit in order to be eligible to play any sports.",
-          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
-          "name": "Privit"
+          "description": "2018-19 Athletics Calendar",
+          "link": "<iframe src=\"https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=qbiaf9s526hjrps7jjrbfpnasp16t056%40import.calendar.google.com&amp;color=%23853104&amp;ctz=America%2FNew_York\" style=\"border-width:0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+          "name": "2018-19 Athletics Calendar"
         },
         {
           "description": "Athletic Health Appraisal Form",
@@ -1531,6 +1531,11 @@
           "description": "Privit How To (New Athletes)",
           "link": "https://drive.google.com/open?id=0B9ryMf4-VSDSMU1pWE5tZThHRWs",
           "name": "Privit How To (New Athletes)"
+        },
+        {
+          "description": "You must sign up with Privit in order to be eligible to play any sports.",
+          "link": "https://uhssehawks-ct.e-ppe.com/index.jspa",
+          "name": "Privit"
         }
       ],
       "name": "Athletics",
