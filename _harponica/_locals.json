@@ -1552,12 +1552,8 @@
               "name": "Football",
               "schedules": [
                 {
-                  "name": "Football Tryouts- SMSA- August 17th 3-6PM",
-                  "nav": ""
-                },
-                {
                   "name": "Varsity and Junior Varsity Football",
-                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=SportsSciencesAcademy&fonts=&heads=&sport=boys-football&combine_time_results=1&show_bus_info=1"
+                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1819.cgi?school=SportsSciencesAcademy&sport=boys-football&levels=&combine_time_results=1&show_bus_info=1&site=&starttoday=&today=&startmonth=&startday=&startyear=&endmonth=&endday=&endyear=&type=Game^Scrimmage^Postseason"
                 }
               ]
             },
@@ -1571,12 +1567,8 @@
               "name": "Soccer",
               "schedules": [
                 {
-                  "name": "Soccer Tryouts- August 23rd University Turf Field 3-6PM",
-                  "nav": ""
-                },
-                {
                   "name": "Varsity Soccer",
-                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=AIPrinceRVT&fonts=&heads=&sport=boys-soccer&combine_time_results=1&show_bus_info=1"
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-soccer&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1590,12 +1582,8 @@
               "name": "Cross Country",
               "schedules": [
                 {
-                  "name": "Cross Country Practice starts August 23rd 3-5PM",
-                  "nav": ""
-                },
-                {
                   "name": "Boys and Girls Cross Country",
-                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=University&fonts=&heads=&sport=boys-crosscountry&combine_time_results=1&show_bus_info=1"
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-crosscountry&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1609,12 +1597,8 @@
               "name": "Girls Volleyball",
               "schedules": [
                 {
-                  "name": "Volleyball Tryouts- August 23rd, 24th and 27th 12-2:30PM @ Annie Fisher",
-                  "nav": ""
-                },
-                {
                   "name": "Varsity",
-                  "nav": "http://stats.ciacsports.com/cgi-bin/schedule-1718.cgi?school=University&fonts=&heads=&sport=girls-volleyball&combine_time_results=1&show_bus_info=1"
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-volleyball&site=&show_bus_info=1"
                 }
               ]
             }
@@ -1648,8 +1632,8 @@
               "name": "Indoor Track",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
+                  "name": "Indoor Track",
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-indoortrack&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1663,8 +1647,8 @@
               "name": "Boys Basketball",
               "schedules": [
                 {
-                  "name": "",
-                  "nav": "//"
+                  "name": "Boys Basketball",
+                  "nav": " https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-basketball&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1698,8 +1682,8 @@
               "name": "Baseball",
               "schedules": [
                 {
-                  "name": "Varsity",
-                  "nav": "//"
+                  "name": "Baseball",
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-baseball&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1713,8 +1697,8 @@
               "name": "Softball",
               "schedules": [
                 {
-                  "name": "Varsity",
-                  "nav": "//"
+                  "name": "Softball",
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=girls-softball&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1728,8 +1712,8 @@
               "name": "Outdoor Track & Field",
               "schedules": [
                 {
-                  "name": "Varsity",
-                  "nav": "//"
+                  "name": "Outdoor Track & Field",
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-outdoortrack&site=&show_bus_info=1"
                 }
               ]
             },
@@ -1743,8 +1727,8 @@
               "name": "Golf",
               "schedules": [
                 {
-                  "name": "Varsity",
-                  "nav": "//"
+                  "name": "Golf",
+                  "nav": "https://stats.ciacsports.com/schedule.cgi?school=University&sport=boys-golf&site=&show_bus_info=1"
                 }
               ]
             }
