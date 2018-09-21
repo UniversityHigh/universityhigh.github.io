@@ -1881,13 +1881,13 @@
     "openHouse": {
       "dates": [
         {
-          "date": "TBD",
+          "date": "Saturday December 1, 2018",
           "link": "",
           "name": "UHSSE Open House ",
           "time": "10 a.m."
         },
         {
-          "date": "TBD",
+          "date": "Saturday February 2, 2019",
           "link": "",
           "name": "UHSSE Open House ",
           "time": "10 a.m."
@@ -1896,7 +1896,7 @@
       "lead": "See what we're about",
       "name": "Open House Dates",
       "nav": "openHouse",
-      "text": "Feel free to contact <a href='mailto:basec001@hartfordschools.org' target='_blank'>Mrs. Baseler</a> with any questions!"
+      "text": ""
     }
   }
 }
