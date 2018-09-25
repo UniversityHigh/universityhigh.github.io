@@ -1851,7 +1851,7 @@
         {
           "backgroundColor": "#00def0",
           "subtitle": "before the application deadline and submit it to the Regional School Choice office.",
-          "title": "Complete an online or paper application"
+          "title": "Complete an online application"
         },
         {
           "backgroundColor": "#00aab9",
@@ -1896,7 +1896,7 @@
       "lead": "See what we're about",
       "name": "Open House Dates",
       "nav": "openHouse",
-      "text": ""
+      "text": "Open Houses will begin at 10am at UHSSE and allow you to tour the school, see our robotics team in action, and meet the teachers and students of UHSSE!"
     }
   }
 }
