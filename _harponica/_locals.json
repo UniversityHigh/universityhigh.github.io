@@ -1,9 +1,8 @@
 {
   "index": {
     "announcements": [
-      "Picture/ID Day Thursday October 4th ",
-      "First Robotics Meeting Friday October 5th!!",
-      "Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219"
+      "Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219",
+      "Admissions representatives from Swarthmore and Wellesley Colleges in Hartford  https://apply.swarthmore.edu/register/?id=ca1c56c5-a26e-468d-a5a8-d585bdf3a9ad"
     ],
     "banners": "/assets/img/home.jpg",
     "gallery": [
@@ -812,14 +811,13 @@
       "lead": "In a flash",
       "links": [
         {
-          "description": "",
-          "link": "",
-          "name": ""
+          "description": "The 2018-19 School Profile",
+          "link": "https://drive.google.com/open?id=1MrdYPgB8X9ZJzOhQmMqhORroIC5UazEB",
+          "name": "2018-19 School Profile"
         },
         {
-          "description": "The 2017-18 School Profile",
-          "link": "https://drive.google.com/file/d/0B8cdND1MV7fWN3NfVEFGWFZTVXgxR3NTM1B3V3ZkLW1udkdN/view?usp=sharing",
-          "name": "2017-18 School Profile"
+          "link": "https://apply.swarthmore.edu/register/?id=ca1c56c5-a26e-468d-a5a8-d585bdf3a9ad",
+          "name": "Admissions representatives from Swarthmore and Wellesley Colleges are hosting an evening information session in the greater Hartford, CT area"
         }
       ],
       "name": "Quick Links",
