@@ -1,7 +1,6 @@
 {
   "index": {
     "announcements": [
-      "Visionary/Alpha classes are looking for donations and volunteers for bake sale at Annie Fisher on Election Day! (For Service Hours) See Ms. Serrano/Todisco for more info.",
       "Yearbooks are on sale $40 at www.ybpay.lifetouch.com with school ID code 10555219",
       "Parent Teacher Conference Sign Up HERE https://www.signupgenius.com/go/20F0E4FA8AF2EA1F85-university5"
     ],
@@ -1657,8 +1656,12 @@
             {
               "coaches": [
                 {
-                  "league": "jlowneycolumbia@gmail.com",
-                  "name": "John Lowney"
+                  "league": "leavitjo@yahoo.com",
+                  "name": "John Leavitt- Head Coach"
+                },
+                {
+                  "league": "nicole.silenok@hartfordschools.org",
+                  "name": "Nicole Silenok- Asst. Coach"
                 }
               ],
               "name": "Girls Basketball",
